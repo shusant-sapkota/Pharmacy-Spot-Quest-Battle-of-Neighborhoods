@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_753e229d7d3a41f5aac0890a457ab647 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_753e229d7d3a41f5aac0890a457ab647" ></div>
+        
+</body>
+<script>    
+    
+            var map_753e229d7d3a41f5aac0890a457ab647 = L.map(
+                "map_753e229d7d3a41f5aac0890a457ab647",
+                {
+                    center: [43.6534817, -79.3839347],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d347ede6f1242faa83dfd971cf4f39d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+            var circle_marker_756de0586de24819a747951036179e69 = L.circleMarker(
+                [43.701264, -79.519705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_4cc68c0ea9154bb89cf078f3c423f00f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_740c0c1ca9244713a63742df9a228d6e = $(`<div id="html_740c0c1ca9244713a63742df9a228d6e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Humber Heights-Westmount</div>`)[0];
+            popup_4cc68c0ea9154bb89cf078f3c423f00f.setContent(html_740c0c1ca9244713a63742df9a228d6e);
+        
+
+        circle_marker_756de0586de24819a747951036179e69.bindPopup(popup_4cc68c0ea9154bb89cf078f3c423f00f)
+        ;
+
+        
+    
+    
+            var circle_marker_a5c3a7f6d44b4096873da15c3f009283 = L.circleMarker(
+                [43.661721, -79.518881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_ae19e2d3fceb4f379ad4baea4b9765dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8082ef2dda8d4315adfa2683abf0dcfa = $(`<div id="html_8082ef2dda8d4315adfa2683abf0dcfa" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Edenbridge-Humber Valley</div>`)[0];
+            popup_ae19e2d3fceb4f379ad4baea4b9765dd.setContent(html_8082ef2dda8d4315adfa2683abf0dcfa);
+        
+
+        circle_marker_a5c3a7f6d44b4096873da15c3f009283.bindPopup(popup_ae19e2d3fceb4f379ad4baea4b9765dd)
+        ;
+
+        
+    
+    
+            var circle_marker_f82e596655b943f5b25c13677be4043b = L.circleMarker(
+                [43.641312, -79.576924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_345aa8656a7a4510bdf5c31185d60d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed59a3b4fc64ead9d85774a0b37973a = $(`<div id="html_fed59a3b4fc64ead9d85774a0b37973a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Etobicoke West Mall</div>`)[0];
+            popup_345aa8656a7a4510bdf5c31185d60d9c.setContent(html_fed59a3b4fc64ead9d85774a0b37973a);
+        
+
+        circle_marker_f82e596655b943f5b25c13677be4043b.bindPopup(popup_345aa8656a7a4510bdf5c31185d60d9c)
+        ;
+
+        
+    
+    
+            var circle_marker_5ee9ff677ed949a4b2f99099226a0351 = L.circleMarker(
+                [43.663067, -79.531753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_f8ab0c4147d8474b9a9274527cb27719 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2afa24db8ee1473da759548b770911f6 = $(`<div id="html_2afa24db8ee1473da759548b770911f6" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Islington-City Centre West</div>`)[0];
+            popup_f8ab0c4147d8474b9a9274527cb27719.setContent(html_2afa24db8ee1473da759548b770911f6);
+        
+
+        circle_marker_5ee9ff677ed949a4b2f99099226a0351.bindPopup(popup_f8ab0c4147d8474b9a9274527cb27719)
+        ;
+
+        
+    
+    
+            var circle_marker_58ed5392665e4d0782cb75b1d656cece = L.circleMarker(
+                [43.66298764333833, -79.53181698355863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c216e950d8054fcca4829badf87cc86b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca70e80c80af47ffba0c4574c56c6c94 = $(`<div id="html_ca70e80c80af47ffba0c4574c56c6c94" style="width: 100.0%; height: 100.0%;">Thorncrest Drug Store, Islington-City Centre West</div>`)[0];
+            popup_c216e950d8054fcca4829badf87cc86b.setContent(html_ca70e80c80af47ffba0c4574c56c6c94);
+        
+
+        circle_marker_58ed5392665e4d0782cb75b1d656cece.bindPopup(popup_c216e950d8054fcca4829badf87cc86b)
+        ;
+
+        
+    
+    
+            var circle_marker_bc0e5d2313644510a1ccb1072a9af008 = L.circleMarker(
+                [43.647623, -79.51086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_6ab6c8821a0e44779306bc28df213209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_571e3a7003064e28abb08229ed1d238a = $(`<div id="html_571e3a7003064e28abb08229ed1d238a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Kingsway South</div>`)[0];
+            popup_6ab6c8821a0e44779306bc28df213209.setContent(html_571e3a7003064e28abb08229ed1d238a);
+        
+
+        circle_marker_bc0e5d2313644510a1ccb1072a9af008.bindPopup(popup_6ab6c8821a0e44779306bc28df213209)
+        ;
+
+        
+    
+    
+            var circle_marker_40bfbdf1184d423a88be676485526641 = L.circleMarker(
+                [43.601677, -79.502239],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b22e67fcc8fa4af9a64a0fb8ed027bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e4383258104d4f8ad31a7a0b0f0fa1 = $(`<div id="html_34e4383258104d4f8ad31a7a0b0f0fa1" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, New Toronto</div>`)[0];
+            popup_b22e67fcc8fa4af9a64a0fb8ed027bf1.setContent(html_34e4383258104d4f8ad31a7a0b0f0fa1);
+        
+
+        circle_marker_40bfbdf1184d423a88be676485526641.bindPopup(popup_b22e67fcc8fa4af9a64a0fb8ed027bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_b1f48e794ffd48fab32819c6d06a2cd0 = L.circleMarker(
+                [43.593111, -79.538327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_03b0e0a0dfce4db6be66fb3d6a170abe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fadde3b99efc4b059906a858a8eaf12c = $(`<div id="html_fadde3b99efc4b059906a858a8eaf12c" style="width: 100.0%; height: 100.0%;">Rexall, Long Branch</div>`)[0];
+            popup_03b0e0a0dfce4db6be66fb3d6a170abe.setContent(html_fadde3b99efc4b059906a858a8eaf12c);
+        
+
+        circle_marker_b1f48e794ffd48fab32819c6d06a2cd0.bindPopup(popup_03b0e0a0dfce4db6be66fb3d6a170abe)
+        ;
+
+        
+    
+    
+            var circle_marker_0c9c4b77eb424947a6997fe589baff75 = L.circleMarker(
+                [43.60989067411187, -79.54961756159075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_d9a4a9bb35c344a88739e55dd96f971e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_644a144407ac4f25ba49a054cc8996cd = $(`<div id="html_644a144407ac4f25ba49a054cc8996cd" style="width: 100.0%; height: 100.0%;">Sav-On Drug Mart, Alderwood</div>`)[0];
+            popup_d9a4a9bb35c344a88739e55dd96f971e.setContent(html_644a144407ac4f25ba49a054cc8996cd);
+        
+
+        circle_marker_0c9c4b77eb424947a6997fe589baff75.bindPopup(popup_d9a4a9bb35c344a88739e55dd96f971e)
+        ;
+
+        
+    
+    
+            var circle_marker_d010c91a292e460abd9a21e0b9bbcf0c = L.circleMarker(
+                [43.756147, -79.515843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_86cf3f2ce2544e9d9dd34d25176ec472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b6891da8cd54418bf4ce02f99f039b3 = $(`<div id="html_9b6891da8cd54418bf4ce02f99f039b3" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Glenfield-Jane Heights</div>`)[0];
+            popup_86cf3f2ce2544e9d9dd34d25176ec472.setContent(html_9b6891da8cd54418bf4ce02f99f039b3);
+        
+
+        circle_marker_d010c91a292e460abd9a21e0b9bbcf0c.bindPopup(popup_86cf3f2ce2544e9d9dd34d25176ec472)
+        ;
+
+        
+    
+    
+            var circle_marker_2a5893c367804688bf52f3a1a4fc185c = L.circleMarker(
+                [43.756147, -79.515843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_a800d5a64d504129a88f0885f4f54358 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90dcef183c1140cf807b8d1a6ce3cfe5 = $(`<div id="html_90dcef183c1140cf807b8d1a6ce3cfe5" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, York University Heights</div>`)[0];
+            popup_a800d5a64d504129a88f0885f4f54358.setContent(html_90dcef183c1140cf807b8d1a6ce3cfe5);
+        
+
+        circle_marker_2a5893c367804688bf52f3a1a4fc185c.bindPopup(popup_a800d5a64d504129a88f0885f4f54358)
+        ;
+
+        
+    
+    
+            var circle_marker_f64f0077480a4e8497a784da56bf1b6a = L.circleMarker(
+                [43.76659, -79.519852],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_a0cf55f9b0944c2d823b0ba2e18d3cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5293c87e684042b3b036d4ce3436b0f6 = $(`<div id="html_5293c87e684042b3b036d4ce3436b0f6" style="width: 100.0%; height: 100.0%;">Rexall, York University Heights</div>`)[0];
+            popup_a0cf55f9b0944c2d823b0ba2e18d3cb0.setContent(html_5293c87e684042b3b036d4ce3436b0f6);
+        
+
+        circle_marker_f64f0077480a4e8497a784da56bf1b6a.bindPopup(popup_a0cf55f9b0944c2d823b0ba2e18d3cb0)
+        ;
+
+        
+    
+    
+            var circle_marker_8e1d7c7ab84a4e08b911b9408ecc6de4 = L.circleMarker(
+                [43.719742, -79.510549],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_33a9b18be7fa4387b40647f1f9504786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_711848b7b4f7480e8d539e3132420b96 = $(`<div id="html_711848b7b4f7480e8d539e3132420b96" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Rustic</div>`)[0];
+            popup_33a9b18be7fa4387b40647f1f9504786.setContent(html_711848b7b4f7480e8d539e3132420b96);
+        
+
+        circle_marker_8e1d7c7ab84a4e08b911b9408ecc6de4.bindPopup(popup_33a9b18be7fa4387b40647f1f9504786)
+        ;
+
+        
+    
+    
+            var circle_marker_db885bae037342f9a8f67483f361167e = L.circleMarker(
+                [43.695714, -79.450789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_5432bdbb563244f1b8f6f0cec4a65dac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f566deb04146e7b13b34bc98c2b3c6 = $(`<div id="html_31f566deb04146e7b13b34bc98c2b3c6" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Yorkdale-Glen Park</div>`)[0];
+            popup_5432bdbb563244f1b8f6f0cec4a65dac.setContent(html_31f566deb04146e7b13b34bc98c2b3c6);
+        
+
+        circle_marker_db885bae037342f9a8f67483f361167e.bindPopup(popup_5432bdbb563244f1b8f6f0cec4a65dac)
+        ;
+
+        
+    
+    
+            var circle_marker_ff7c5265f8bf4128ad03b336891eb1e1 = L.circleMarker(
+                [43.720349, -79.430194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_225820c072424accad159626f7c314e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106eddca76d94e09a3a08c2b697990a0 = $(`<div id="html_106eddca76d94e09a3a08c2b697990a0" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Englemount-Lawrence</div>`)[0];
+            popup_225820c072424accad159626f7c314e2.setContent(html_106eddca76d94e09a3a08c2b697990a0);
+        
+
+        circle_marker_ff7c5265f8bf4128ad03b336891eb1e1.bindPopup(popup_225820c072424accad159626f7c314e2)
+        ;
+
+        
+    
+    
+            var circle_marker_129c7012310c48ea87cfe7bdae2feee8 = L.circleMarker(
+                [43.71265154175745, -79.42803977796558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_40b0b553c6f54029b0d0fb459369c436 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc48346aecf74fe194b2c9694377ef03 = $(`<div id="html_dc48346aecf74fe194b2c9694377ef03" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Englemount-Lawrence</div>`)[0];
+            popup_40b0b553c6f54029b0d0fb459369c436.setContent(html_dc48346aecf74fe194b2c9694377ef03);
+        
+
+        circle_marker_129c7012310c48ea87cfe7bdae2feee8.bindPopup(popup_40b0b553c6f54029b0d0fb459369c436)
+        ;
+
+        
+    
+    
+            var circle_marker_7a6effb5d802452495babc91f0a5b302 = L.circleMarker(
+                [43.759235, -79.466466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_66b7fa78717a4896b492a858e59e9926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca948b89eb9d43c291b9f6a9fd62cef1 = $(`<div id="html_ca948b89eb9d43c291b9f6a9fd62cef1" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bathurst Manor</div>`)[0];
+            popup_66b7fa78717a4896b492a858e59e9926.setContent(html_ca948b89eb9d43c291b9f6a9fd62cef1);
+        
+
+        circle_marker_7a6effb5d802452495babc91f0a5b302.bindPopup(popup_66b7fa78717a4896b492a858e59e9926)
+        ;
+
+        
+    
+    
+            var circle_marker_5137cd28f6484c9eb1d59d407873b4b8 = L.circleMarker(
+                [43.796197, -79.42219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_20ce10d9527540a5a0b66869cf46e6e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4958e5baa3c045a193fc05c89a0256cb = $(`<div id="html_4958e5baa3c045a193fc05c89a0256cb" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Newtonbrook West</div>`)[0];
+            popup_20ce10d9527540a5a0b66869cf46e6e4.setContent(html_4958e5baa3c045a193fc05c89a0256cb);
+        
+
+        circle_marker_5137cd28f6484c9eb1d59d407873b4b8.bindPopup(popup_20ce10d9527540a5a0b66869cf46e6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_67f705ec79984e5f99e7533301a600e9 = L.circleMarker(
+                [43.762587, -79.410924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2152c8f4717641e5bb96cd7ec8ee6564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b5397a3c12e4676af484e1a3ccaa1fc = $(`<div id="html_7b5397a3c12e4676af484e1a3ccaa1fc" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale West</div>`)[0];
+            popup_2152c8f4717641e5bb96cd7ec8ee6564.setContent(html_7b5397a3c12e4676af484e1a3ccaa1fc);
+        
+
+        circle_marker_67f705ec79984e5f99e7533301a600e9.bindPopup(popup_2152c8f4717641e5bb96cd7ec8ee6564)
+        ;
+
+        
+    
+    
+            var circle_marker_3dd6265a05bc4a5cbe13ad3110f7ee64 = L.circleMarker(
+                [43.765829, -79.412338],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_350a54895e1542198cd04b93ab17947d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b958b2d4e2de4f079f65750c8bec667c = $(`<div id="html_b958b2d4e2de4f079f65750c8bec667c" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale West</div>`)[0];
+            popup_350a54895e1542198cd04b93ab17947d.setContent(html_b958b2d4e2de4f079f65750c8bec667c);
+        
+
+        circle_marker_3dd6265a05bc4a5cbe13ad3110f7ee64.bindPopup(popup_350a54895e1542198cd04b93ab17947d)
+        ;
+
+        
+    
+    
+            var circle_marker_2872d3133dc74c0abc4c318b33c7ae85 = L.circleMarker(
+                [43.754171, -79.358057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_185173078ba44a9f963ea214099a66cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01de5fa83ee54d179deeaee9dbccf401 = $(`<div id="html_01de5fa83ee54d179deeaee9dbccf401" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Banbury-Don Mills</div>`)[0];
+            popup_185173078ba44a9f963ea214099a66cd.setContent(html_01de5fa83ee54d179deeaee9dbccf401);
+        
+
+        circle_marker_2872d3133dc74c0abc4c318b33c7ae85.bindPopup(popup_185173078ba44a9f963ea214099a66cd)
+        ;
+
+        
+    
+    
+            var circle_marker_461d20f7977c4a6294f9ef466a0b596d = L.circleMarker(
+                [43.714038, -79.334223],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_a3e116ec4f2e47bba29fed4a2afb4071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b39f158ecad44e79d6db1c088afde50 = $(`<div id="html_1b39f158ecad44e79d6db1c088afde50" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Flemingdon Park</div>`)[0];
+            popup_a3e116ec4f2e47bba29fed4a2afb4071.setContent(html_1b39f158ecad44e79d6db1c088afde50);
+        
+
+        circle_marker_461d20f7977c4a6294f9ef466a0b596d.bindPopup(popup_a3e116ec4f2e47bba29fed4a2afb4071)
+        ;
+
+        
+    
+    
+            var circle_marker_c3c8950941fb4aab90dd81ecef396594 = L.circleMarker(
+                [43.788167, -79.330268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_eceec6ee0ed84b9f8c2ca9b41c985569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2545f78659e34a518ee825c4f5a7112a = $(`<div id="html_2545f78659e34a518ee825c4f5a7112a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Pleasant View</div>`)[0];
+            popup_eceec6ee0ed84b9f8c2ca9b41c985569.setContent(html_2545f78659e34a518ee825c4f5a7112a);
+        
+
+        circle_marker_c3c8950941fb4aab90dd81ecef396594.bindPopup(popup_eceec6ee0ed84b9f8c2ca9b41c985569)
+        ;
+
+        
+    
+    
+            var circle_marker_b2cf23ec340641f8b530cbfc944e5172 = L.circleMarker(
+                [43.79396236392167, -79.35323999236898],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b997aacf3bef4e7b88824318c3060e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c56afc051f17409391d95a2f084a7c1a = $(`<div id="html_c56afc051f17409391d95a2f084a7c1a" style="width: 100.0%; height: 100.0%;">Rexall Pharma Plus, Don Valley Village</div>`)[0];
+            popup_b997aacf3bef4e7b88824318c3060e40.setContent(html_c56afc051f17409391d95a2f084a7c1a);
+        
+
+        circle_marker_b2cf23ec340641f8b530cbfc944e5172.bindPopup(popup_b997aacf3bef4e7b88824318c3060e40)
+        ;
+
+        
+    
+    
+            var circle_marker_21ab7ea09c3c4a4180e4849490d9d295 = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_1bd14d239160460589928e58d3c73b92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01e15bc919d640998e264b1ee5e3d94d = $(`<div id="html_01e15bc919d640998e264b1ee5e3d94d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Hillcrest Village</div>`)[0];
+            popup_1bd14d239160460589928e58d3c73b92.setContent(html_01e15bc919d640998e264b1ee5e3d94d);
+        
+
+        circle_marker_21ab7ea09c3c4a4180e4849490d9d295.bindPopup(popup_1bd14d239160460589928e58d3c73b92)
+        ;
+
+        
+    
+    
+            var circle_marker_81230abe6b5a4ae19f358ced1ea8aecb = L.circleMarker(
+                [43.806058, -79.384766],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_f0a4da41e34444949c2ad0c553e5ac7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81bfc4e167e84c08b4be635f6c59a897 = $(`<div id="html_81bfc4e167e84c08b4be635f6c59a897" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bayview Woods-Steeles</div>`)[0];
+            popup_f0a4da41e34444949c2ad0c553e5ac7a.setContent(html_81bfc4e167e84c08b4be635f6c59a897);
+        
+
+        circle_marker_81230abe6b5a4ae19f358ced1ea8aecb.bindPopup(popup_f0a4da41e34444949c2ad0c553e5ac7a)
+        ;
+
+        
+    
+    
+            var circle_marker_55ed1e66fad54a12b667646baf8189fe = L.circleMarker(
+                [43.796197, -79.42219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_10da3862a8a94de19169bdc6be7c1e5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bc0c982e1d8456dad8133614f5e01e3 = $(`<div id="html_3bc0c982e1d8456dad8133614f5e01e3" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Newtonbrook East</div>`)[0];
+            popup_10da3862a8a94de19169bdc6be7c1e5d.setContent(html_3bc0c982e1d8456dad8133614f5e01e3);
+        
+
+        circle_marker_55ed1e66fad54a12b667646baf8189fe.bindPopup(popup_10da3862a8a94de19169bdc6be7c1e5d)
+        ;
+
+        
+    
+    
+            var circle_marker_64b10d3d05824b37bb293d4516e44937 = L.circleMarker(
+                [43.762587, -79.410924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_09e4b33d5dd14e7bb288be8511374961 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ef7d0daa1c0491089003cc8f8bc8630 = $(`<div id="html_5ef7d0daa1c0491089003cc8f8bc8630" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale East</div>`)[0];
+            popup_09e4b33d5dd14e7bb288be8511374961.setContent(html_5ef7d0daa1c0491089003cc8f8bc8630);
+        
+
+        circle_marker_64b10d3d05824b37bb293d4516e44937.bindPopup(popup_09e4b33d5dd14e7bb288be8511374961)
+        ;
+
+        
+    
+    
+            var circle_marker_b5a0396db10e4fc094123d17972a442e = L.circleMarker(
+                [43.765829, -79.412338],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_5446338b9cae4ba7b30dc18e001a0699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4594a123aa5a464180e19207c5524d43 = $(`<div id="html_4594a123aa5a464180e19207c5524d43" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale East</div>`)[0];
+            popup_5446338b9cae4ba7b30dc18e001a0699.setContent(html_4594a123aa5a464180e19207c5524d43);
+        
+
+        circle_marker_b5a0396db10e4fc094123d17972a442e.bindPopup(popup_5446338b9cae4ba7b30dc18e001a0699)
+        ;
+
+        
+    
+    
+            var circle_marker_c2a957ac135f4cf0856facd5aead57db = L.circleMarker(
+                [43.768819, -79.385788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9ee78c283e2e4776a057b5f670bb36dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dcc3d71033f4b83b5980b7dbc1f2a2a = $(`<div id="html_9dcc3d71033f4b83b5980b7dbc1f2a2a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bayview Village</div>`)[0];
+            popup_9ee78c283e2e4776a057b5f670bb36dd.setContent(html_9dcc3d71033f4b83b5980b7dbc1f2a2a);
+        
+
+        circle_marker_c2a957ac135f4cf0856facd5aead57db.bindPopup(popup_9ee78c283e2e4776a057b5f670bb36dd)
+        ;
+
+        
+    
+    
+            var circle_marker_e4ea8eb1e18347ed86bfd2a916e42589 = L.circleMarker(
+                [43.705933, -79.312825],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_33fc994069274a8f858941c5b684f0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d071df19cef746f9bf531a9950de0bb9 = $(`<div id="html_d071df19cef746f9bf531a9950de0bb9" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, O&#39;Connor-Parkview</div>`)[0];
+            popup_33fc994069274a8f858941c5b684f0ad.setContent(html_d071df19cef746f9bf531a9950de0bb9);
+        
+
+        circle_marker_e4ea8eb1e18347ed86bfd2a916e42589.bindPopup(popup_33fc994069274a8f858941c5b684f0ad)
+        ;
+
+        
+    
+    
+            var circle_marker_8f77c4c6b65949168ae59050a9e7c3b1 = L.circleMarker(
+                [43.70581, -79.347044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_abaa9b22dfc84cebb83981b207fbb97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f587bdc8e3d414ea620aa7c9f203fc0 = $(`<div id="html_6f587bdc8e3d414ea620aa7c9f203fc0" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Thorncliffe Park</div>`)[0];
+            popup_abaa9b22dfc84cebb83981b207fbb97c.setContent(html_6f587bdc8e3d414ea620aa7c9f203fc0);
+        
+
+        circle_marker_8f77c4c6b65949168ae59050a9e7c3b1.bindPopup(popup_abaa9b22dfc84cebb83981b207fbb97c)
+        ;
+
+        
+    
+    
+            var circle_marker_e98a08728d9d4fb09fdf084da3f45e54 = L.circleMarker(
+                [43.704748, -79.374647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_23a0dffb30fb4692b8a77980cd27044c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d765a19b49e4dd992890163245ceb24 = $(`<div id="html_8d765a19b49e4dd992890163245ceb24" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Leaside-Bennington</div>`)[0];
+            popup_23a0dffb30fb4692b8a77980cd27044c.setContent(html_8d765a19b49e4dd992890163245ceb24);
+        
+
+        circle_marker_e98a08728d9d4fb09fdf084da3f45e54.bindPopup(popup_23a0dffb30fb4692b8a77980cd27044c)
+        ;
+
+        
+    
+    
+            var circle_marker_86a08b880b4e467a9e5cc3ab7e7ca4c5 = L.circleMarker(
+                [43.68878, -79.348729],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_0a1dfcb38c7b409ca571899274a52eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a09ef1bca3a64e398d5494c5548cdf3f = $(`<div id="html_a09ef1bca3a64e398d5494c5548cdf3f" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Broadview North</div>`)[0];
+            popup_0a1dfcb38c7b409ca571899274a52eb4.setContent(html_a09ef1bca3a64e398d5494c5548cdf3f);
+        
+
+        circle_marker_86a08b880b4e467a9e5cc3ab7e7ca4c5.bindPopup(popup_0a1dfcb38c7b409ca571899274a52eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_bb63bbfebe5f45faa385a8eca3b3f45e = L.circleMarker(
+                [43.705933, -79.312825],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_8340ccd451cd422fb1728d63d17003ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ce11210dafd4e3195573dbb2c620bba = $(`<div id="html_4ce11210dafd4e3195573dbb2c620bba" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Old East York</div>`)[0];
+            popup_8340ccd451cd422fb1728d63d17003ed.setContent(html_4ce11210dafd4e3195573dbb2c620bba);
+        
+
+        circle_marker_bb63bbfebe5f45faa385a8eca3b3f45e.bindPopup(popup_8340ccd451cd422fb1728d63d17003ed)
+        ;
+
+        
+    
+    
+            var circle_marker_aa756da4b4534691832b20c4ff530763 = L.circleMarker(
+                [43.687934, -79.303381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_343d24b832964e13b6cf3a9418f74f37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f32498e0d96845bb8c23ec34eea7d1c5 = $(`<div id="html_f32498e0d96845bb8c23ec34eea7d1c5" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Danforth-East York</div>`)[0];
+            popup_343d24b832964e13b6cf3a9418f74f37.setContent(html_f32498e0d96845bb8c23ec34eea7d1c5);
+        
+
+        circle_marker_aa756da4b4534691832b20c4ff530763.bindPopup(popup_343d24b832964e13b6cf3a9418f74f37)
+        ;
+
+        
+    
+    
+            var circle_marker_ea388832c25f4ccd84685c8d36820c23 = L.circleMarker(
+                [43.732843, -79.268075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2c6cab4130c24cf1929cc00163834d9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50228a97c7d14d5d981784b701b98655 = $(`<div id="html_50228a97c7d14d5d981784b701b98655" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Taylor-Massey</div>`)[0];
+            popup_2c6cab4130c24cf1929cc00163834d9b.setContent(html_50228a97c7d14d5d981784b701b98655);
+        
+
+        circle_marker_ea388832c25f4ccd84685c8d36820c23.bindPopup(popup_2c6cab4130c24cf1929cc00163834d9b)
+        ;
+
+        
+    
+    
+            var circle_marker_8895956291a942c4ba97d2def9ca8ded = L.circleMarker(
+                [43.670639, -79.29769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_da4decd69fec4ffead8a14906ae4e440 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eddb5b29f6134f03a6636d33319f3edc = $(`<div id="html_eddb5b29f6134f03a6636d33319f3edc" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, The Beaches</div>`)[0];
+            popup_da4decd69fec4ffead8a14906ae4e440.setContent(html_eddb5b29f6134f03a6636d33319f3edc);
+        
+
+        circle_marker_8895956291a942c4ba97d2def9ca8ded.bindPopup(popup_da4decd69fec4ffead8a14906ae4e440)
+        ;
+
+        
+    
+    
+            var circle_marker_e330944aa4f4472b80cc7054477c6c6b = L.circleMarker(
+                [43.687934, -79.303381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c9d513b8386b430f9147afcbc109e7e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bed2ff2c687c441e839adfa079f8043f = $(`<div id="html_bed2ff2c687c441e839adfa079f8043f" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Danforth</div>`)[0];
+            popup_c9d513b8386b430f9147afcbc109e7e3.setContent(html_bed2ff2c687c441e839adfa079f8043f);
+        
+
+        circle_marker_e330944aa4f4472b80cc7054477c6c6b.bindPopup(popup_c9d513b8386b430f9147afcbc109e7e3)
+        ;
+
+        
+    
+    
+            var circle_marker_c86021ace9c54877873364d9c6b923da = L.circleMarker(
+                [43.660204, -79.361332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_f2f50faec3e24cb2b8697a5cfe36ab17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a53b83c62353434e9e2b1cc5938dcec4 = $(`<div id="html_a53b83c62353434e9e2b1cc5938dcec4" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Regent Park</div>`)[0];
+            popup_f2f50faec3e24cb2b8697a5cfe36ab17.setContent(html_a53b83c62353434e9e2b1cc5938dcec4);
+        
+
+        circle_marker_c86021ace9c54877873364d9c6b923da.bindPopup(popup_f2f50faec3e24cb2b8697a5cfe36ab17)
+        ;
+
+        
+    
+    
+            var circle_marker_48c9b5b420a541ed9ce91a1781220637 = L.circleMarker(
+                [43.640595, -79.43762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9270079718104a5fa8693541a9bec53e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee68d390769d4de2897d8953bb9ba437 = $(`<div id="html_ee68d390769d4de2897d8953bb9ba437" style="width: 100.0%; height: 100.0%;">Parkdale Guardian Pharmacy, South Parkdale</div>`)[0];
+            popup_9270079718104a5fa8693541a9bec53e.setContent(html_ee68d390769d4de2897d8953bb9ba437);
+        
+
+        circle_marker_48c9b5b420a541ed9ce91a1781220637.bindPopup(popup_9270079718104a5fa8693541a9bec53e)
+        ;
+
+        
+    
+    
+            var circle_marker_c530862e3a4448249db0ac72ed7bcb3a = L.circleMarker(
+                [43.639899, -79.439009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_868c5be6d2ab414c9b19fae0f0336baa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d39d97194b49c2b26ab8c8a0bf233a = $(`<div id="html_75d39d97194b49c2b26ab8c8a0bf233a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, South Parkdale</div>`)[0];
+            popup_868c5be6d2ab414c9b19fae0f0336baa.setContent(html_75d39d97194b49c2b26ab8c8a0bf233a);
+        
+
+        circle_marker_c530862e3a4448249db0ac72ed7bcb3a.bindPopup(popup_868c5be6d2ab414c9b19fae0f0336baa)
+        ;
+
+        
+    
+    
+            var circle_marker_6b8d22e367d3497b91adcf9aa4ad9204 = L.circleMarker(
+                [43.64369717370064, -79.44798195966851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_dcd660d134a84ef8a2b1e16f96c81a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ef879a943f41319f8330b864108254 = $(`<div id="html_29ef879a943f41319f8330b864108254" style="width: 100.0%; height: 100.0%;">Solarski Pharmacy, South Parkdale</div>`)[0];
+            popup_dcd660d134a84ef8a2b1e16f96c81a79.setContent(html_29ef879a943f41319f8330b864108254);
+        
+
+        circle_marker_6b8d22e367d3497b91adcf9aa4ad9204.bindPopup(popup_dcd660d134a84ef8a2b1e16f96c81a79)
+        ;
+
+        
+    
+    
+            var circle_marker_d7541e7098f74be2b33c68aa4021c471 = L.circleMarker(
+                [43.659212, -79.453005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_49dca5813d0046d1bd9ab3f81dd9ea4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8736b3d84c4d4ca0beca99e379790f16 = $(`<div id="html_8736b3d84c4d4ca0beca99e379790f16" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Roncesvalles</div>`)[0];
+            popup_49dca5813d0046d1bd9ab3f81dd9ea4d.setContent(html_8736b3d84c4d4ca0beca99e379790f16);
+        
+
+        circle_marker_d7541e7098f74be2b33c68aa4021c471.bindPopup(popup_49dca5813d0046d1bd9ab3f81dd9ea4d)
+        ;
+
+        
+    
+    
+            var circle_marker_ecd32e6aa7c64c1aa81812929994ce6b = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_cd535546688c46dba2f40238e2c6f5ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b0941cedcfa4fd0a98aa613acb709c6 = $(`<div id="html_7b0941cedcfa4fd0a98aa613acb709c6" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, High Park-Swansea</div>`)[0];
+            popup_cd535546688c46dba2f40238e2c6f5ac.setContent(html_7b0941cedcfa4fd0a98aa613acb709c6);
+        
+
+        circle_marker_ecd32e6aa7c64c1aa81812929994ce6b.bindPopup(popup_cd535546688c46dba2f40238e2c6f5ac)
+        ;
+
+        
+    
+    
+            var circle_marker_05e98def639945a99fff957c671a2934 = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_80ad8482f17342c98428b93f38efe3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5947ef07b7bb48b689b339ff9e7cddc7 = $(`<div id="html_5947ef07b7bb48b689b339ff9e7cddc7" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, High Park North</div>`)[0];
+            popup_80ad8482f17342c98428b93f38efe3a0.setContent(html_5947ef07b7bb48b689b339ff9e7cddc7);
+        
+
+        circle_marker_05e98def639945a99fff957c671a2934.bindPopup(popup_80ad8482f17342c98428b93f38efe3a0)
+        ;
+
+        
+    
+    
+            var circle_marker_0495b87400cd4066aa57849604cc7989 = L.circleMarker(
+                [43.65331554198388, -79.46681112650649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_d2c3e0f38d954c17bae03c4544ccb683 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cec32b66f4f486c8eee1c7199b92fc1 = $(`<div id="html_2cec32b66f4f486c8eee1c7199b92fc1" style="width: 100.0%; height: 100.0%;">IDA High Park, High Park North</div>`)[0];
+            popup_d2c3e0f38d954c17bae03c4544ccb683.setContent(html_2cec32b66f4f486c8eee1c7199b92fc1);
+        
+
+        circle_marker_0495b87400cd4066aa57849604cc7989.bindPopup(popup_d2c3e0f38d954c17bae03c4544ccb683)
+        ;
+
+        
+    
+    
+            var circle_marker_d819e65b129f4749ad36b77713f364e5 = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_d8f7795d540942d79f1b1dced98b3f68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5100d46f09e410fa76eb6e1f9dd7331 = $(`<div id="html_e5100d46f09e410fa76eb6e1f9dd7331" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Runnymede-Bloor West Village</div>`)[0];
+            popup_d8f7795d540942d79f1b1dced98b3f68.setContent(html_e5100d46f09e410fa76eb6e1f9dd7331);
+        
+
+        circle_marker_d819e65b129f4749ad36b77713f364e5.bindPopup(popup_d8f7795d540942d79f1b1dced98b3f68)
+        ;
+
+        
+    
+    
+            var circle_marker_ed6e0b12ed2e4dc2b0492fd5157c17ea = L.circleMarker(
+                [43.65331554198388, -79.46681112650649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_14d3f049788b4e0885f0d9eea0f33f48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_147c018c21574cc48bc33354f46ba0ae = $(`<div id="html_147c018c21574cc48bc33354f46ba0ae" style="width: 100.0%; height: 100.0%;">IDA High Park, Runnymede-Bloor West Village</div>`)[0];
+            popup_14d3f049788b4e0885f0d9eea0f33f48.setContent(html_147c018c21574cc48bc33354f46ba0ae);
+        
+
+        circle_marker_ed6e0b12ed2e4dc2b0492fd5157c17ea.bindPopup(popup_14d3f049788b4e0885f0d9eea0f33f48)
+        ;
+
+        
+    
+    
+            var circle_marker_684f9089e3824c23b7e3a8b5b5e662a0 = L.circleMarker(
+                [43.666745, -79.447446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2c70e21c5b084082b8f6a5f3abe492c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b6637059d2541249a8ec6ef2dfe407e = $(`<div id="html_4b6637059d2541249a8ec6ef2dfe407e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Dovercourt-Wallace Emerson-Junction</div>`)[0];
+            popup_2c70e21c5b084082b8f6a5f3abe492c1.setContent(html_4b6637059d2541249a8ec6ef2dfe407e);
+        
+
+        circle_marker_684f9089e3824c23b7e3a8b5b5e662a0.bindPopup(popup_2c70e21c5b084082b8f6a5f3abe492c1)
+        ;
+
+        
+    
+    
+            var circle_marker_da543e9d9b08499494b379e983877e12 = L.circleMarker(
+                [43.667504, -79.442086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_ba9d927c5265496596cc18066e80418a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef68ec0f31394597808f57e08a048ed0 = $(`<div id="html_ef68ec0f31394597808f57e08a048ed0" style="width: 100.0%; height: 100.0%;">Rexall, Dovercourt-Wallace Emerson-Junction</div>`)[0];
+            popup_ba9d927c5265496596cc18066e80418a.setContent(html_ef68ec0f31394597808f57e08a048ed0);
+        
+
+        circle_marker_da543e9d9b08499494b379e983877e12.bindPopup(popup_ba9d927c5265496596cc18066e80418a)
+        ;
+
+        
+    
+    
+            var circle_marker_c14b563903244a2e82f5f2ff237e71ae = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_e2dc1ff1fcad49dfa01e2680ec7316f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f448c9a44b8847059eca396e827618e2 = $(`<div id="html_f448c9a44b8847059eca396e827618e2" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Wychwood</div>`)[0];
+            popup_e2dc1ff1fcad49dfa01e2680ec7316f4.setContent(html_f448c9a44b8847059eca396e827618e2);
+        
+
+        circle_marker_c14b563903244a2e82f5f2ff237e71ae.bindPopup(popup_e2dc1ff1fcad49dfa01e2680ec7316f4)
+        ;
+
+        
+    
+    
+            var circle_marker_2f55e9ab211f47ab9b754e2faf9fbc66 = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_de820871562c4c91afd82ea16b6c1b8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3307fd7e87874ff6be2ac43aee829d27 = $(`<div id="html_3307fd7e87874ff6be2ac43aee829d27" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Casa Loma</div>`)[0];
+            popup_de820871562c4c91afd82ea16b6c1b8a.setContent(html_3307fd7e87874ff6be2ac43aee829d27);
+        
+
+        circle_marker_2f55e9ab211f47ab9b754e2faf9fbc66.bindPopup(popup_de820871562c4c91afd82ea16b6c1b8a)
+        ;
+
+        
+    
+    
+            var circle_marker_6e413f83624a46858feffd081de860e4 = L.circleMarker(
+                [43.674959, -79.407986],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b13a2e363b134a97b5bbf7521a7135ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fd495e851b24b38ba33df5528ed2cc2 = $(`<div id="html_5fd495e851b24b38ba33df5528ed2cc2" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Casa Loma</div>`)[0];
+            popup_b13a2e363b134a97b5bbf7521a7135ed.setContent(html_5fd495e851b24b38ba33df5528ed2cc2);
+        
+
+        circle_marker_6e413f83624a46858feffd081de860e4.bindPopup(popup_b13a2e363b134a97b5bbf7521a7135ed)
+        ;
+
+        
+    
+    
+            var circle_marker_0845d763361c4b38b283e8e1b15ef9b7 = L.circleMarker(
+                [43.707806, -79.389893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_a234d825c36b4b4c9daf7e302d2ce658 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff7396ea3a98434dbb1359fb17d4798d = $(`<div id="html_ff7396ea3a98434dbb1359fb17d4798d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Mount Pleasant East</div>`)[0];
+            popup_a234d825c36b4b4c9daf7e302d2ce658.setContent(html_ff7396ea3a98434dbb1359fb17d4798d);
+        
+
+        circle_marker_0845d763361c4b38b283e8e1b15ef9b7.bindPopup(popup_a234d825c36b4b4c9daf7e302d2ce658)
+        ;
+
+        
+    
+    
+            var circle_marker_10cfa92cd1cb4d1397c059b760f289bc = L.circleMarker(
+                [43.708887, -79.39806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9daa96c4f2e24a7d8a125abb9eecd62f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d6e8664124641d38a385c11dd1e88d1 = $(`<div id="html_9d6e8664124641d38a385c11dd1e88d1" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Mount Pleasant East</div>`)[0];
+            popup_9daa96c4f2e24a7d8a125abb9eecd62f.setContent(html_9d6e8664124641d38a385c11dd1e88d1);
+        
+
+        circle_marker_10cfa92cd1cb4d1397c059b760f289bc.bindPopup(popup_9daa96c4f2e24a7d8a125abb9eecd62f)
+        ;
+
+        
+    
+    
+            var circle_marker_47dfd532ba8646c2a2433a530df86935 = L.circleMarker(
+                [43.688526, -79.412392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b44e2ef256054455aa50784a2c581c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ddee52bd9c468c94fcb5446f19c78a = $(`<div id="html_e3ddee52bd9c468c94fcb5446f19c78a" style="width: 100.0%; height: 100.0%;">Rexall, Forest Hill South</div>`)[0];
+            popup_b44e2ef256054455aa50784a2c581c8e.setContent(html_e3ddee52bd9c468c94fcb5446f19c78a);
+        
+
+        circle_marker_47dfd532ba8646c2a2433a530df86935.bindPopup(popup_b44e2ef256054455aa50784a2c581c8e)
+        ;
+
+        
+    
+    
+            var circle_marker_8b9fbeaf937a48668dd4f17d86f284db = L.circleMarker(
+                [43.688526, -79.412392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_0b21c354872b43bf89308add63b2b5bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_270ace5269e44d059548c2a97d1c71a7 = $(`<div id="html_270ace5269e44d059548c2a97d1c71a7" style="width: 100.0%; height: 100.0%;">Rexall, Forest Hill North</div>`)[0];
+            popup_0b21c354872b43bf89308add63b2b5bc.setContent(html_270ace5269e44d059548c2a97d1c71a7);
+        
+
+        circle_marker_8b9fbeaf937a48668dd4f17d86f284db.bindPopup(popup_0b21c354872b43bf89308add63b2b5bc)
+        ;
+
+        
+    
+    
+            var circle_marker_f8ab8eb822804ab186a11f627d841b2c = L.circleMarker(
+                [43.732312, -79.404484],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_279bb2f6e440463f8ae28e7dbc9340fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f56a57e63d6431bb11c37d3c82a2eb9 = $(`<div id="html_0f56a57e63d6431bb11c37d3c82a2eb9" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Lawrence Park South</div>`)[0];
+            popup_279bb2f6e440463f8ae28e7dbc9340fa.setContent(html_0f56a57e63d6431bb11c37d3c82a2eb9);
+        
+
+        circle_marker_f8ab8eb822804ab186a11f627d841b2c.bindPopup(popup_279bb2f6e440463f8ae28e7dbc9340fa)
+        ;
+
+        
+    
+    
+            var circle_marker_3997cd75d8e04f81b06e8d76a73a961b = L.circleMarker(
+                [43.732312, -79.404484],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_7e89d34088b04075ae4b94085bde06e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb5f17f1ef149918244a34033a421b4 = $(`<div id="html_2eb5f17f1ef149918244a34033a421b4" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Lawrence Park North</div>`)[0];
+            popup_7e89d34088b04075ae4b94085bde06e1.setContent(html_2eb5f17f1ef149918244a34033a421b4);
+        
+
+        circle_marker_3997cd75d8e04f81b06e8d76a73a961b.bindPopup(popup_7e89d34088b04075ae4b94085bde06e1)
+        ;
+
+        
+    
+    
+            var circle_marker_f06faece55484bc09c967fde7c120d3f = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2571f790f9ad455f94be81c3e38eec0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5591af15b6b4c3fb0246cf16b648edc = $(`<div id="html_e5591af15b6b4c3fb0246cf16b648edc" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Humewood-Cedarvale</div>`)[0];
+            popup_2571f790f9ad455f94be81c3e38eec0c.setContent(html_e5591af15b6b4c3fb0246cf16b648edc);
+        
+
+        circle_marker_f06faece55484bc09c967fde7c120d3f.bindPopup(popup_2571f790f9ad455f94be81c3e38eec0c)
+        ;
+
+        
+    
+    
+            var circle_marker_46259a4360c44d4b9bdd57e07d41913f = L.circleMarker(
+                [43.701264, -79.519705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_d78a0d8538a44773af3d90ac0508336d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74402982f1a641d9acc3a6f5cd3fcf0e = $(`<div id="html_74402982f1a641d9acc3a6f5cd3fcf0e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Weston</div>`)[0];
+            popup_d78a0d8538a44773af3d90ac0508336d.setContent(html_74402982f1a641d9acc3a6f5cd3fcf0e);
+        
+
+        circle_marker_46259a4360c44d4b9bdd57e07d41913f.bindPopup(popup_d78a0d8538a44773af3d90ac0508336d)
+        ;
+
+        
+    
+    
+            var circle_marker_31ea806d268c422cb93b6a9832aaf446 = L.circleMarker(
+                [43.799966, -79.317985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_ae2b2b7c6ec04b63a202109e5a9600fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_457bcd72f9a74f9fa81cabe12118478d = $(`<div id="html_457bcd72f9a74f9fa81cabe12118478d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, L&#39;Amoreaux</div>`)[0];
+            popup_ae2b2b7c6ec04b63a202109e5a9600fa.setContent(html_457bcd72f9a74f9fa81cabe12118478d);
+        
+
+        circle_marker_31ea806d268c422cb93b6a9832aaf446.bindPopup(popup_ae2b2b7c6ec04b63a202109e5a9600fa)
+        ;
+
+        
+    
+    
+            var circle_marker_9abb145991934c30946aedb082aad1ca = L.circleMarker(
+                [43.785077, -79.310585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_fcc33316de0146a4bfb5ce172429c7de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3e82f3f83d4e7cb30bf93daf2f7058 = $(`<div id="html_2b3e82f3f83d4e7cb30bf93daf2f7058" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Tam O&#39;Shanter-Sullivan</div>`)[0];
+            popup_fcc33316de0146a4bfb5ce172429c7de.setContent(html_2b3e82f3f83d4e7cb30bf93daf2f7058);
+        
+
+        circle_marker_9abb145991934c30946aedb082aad1ca.bindPopup(popup_fcc33316de0146a4bfb5ce172429c7de)
+        ;
+
+        
+    
+    
+            var circle_marker_ab10c166f2bd47f68a57b9daeb35d6b0 = L.circleMarker(
+                [43.7809, -79.298764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_d8e1fa9169f54609af0b7aac54af9007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_131041e9ae6244ba9bd378fe634971fb = $(`<div id="html_131041e9ae6244ba9bd378fe634971fb" style="width: 100.0%; height: 100.0%;">Rexall, Tam O&#39;Shanter-Sullivan</div>`)[0];
+            popup_d8e1fa9169f54609af0b7aac54af9007.setContent(html_131041e9ae6244ba9bd378fe634971fb);
+        
+
+        circle_marker_ab10c166f2bd47f68a57b9daeb35d6b0.bindPopup(popup_d8e1fa9169f54609af0b7aac54af9007)
+        ;
+
+        
+    
+    
+            var circle_marker_52c48d276c4042bf9fe2e1b3b2cdcf95 = L.circleMarker(
+                [43.725669, -79.231626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_ddc95b14edbe4352a98f9eeca7a40a10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205e212fe6ee4f668ef3e477f2c9b512 = $(`<div id="html_205e212fe6ee4f668ef3e477f2c9b512" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Cliffcrest</div>`)[0];
+            popup_ddc95b14edbe4352a98f9eeca7a40a10.setContent(html_205e212fe6ee4f668ef3e477f2c9b512);
+        
+
+        circle_marker_52c48d276c4042bf9fe2e1b3b2cdcf95.bindPopup(popup_ddc95b14edbe4352a98f9eeca7a40a10)
+        ;
+
+        
+    
+    
+            var circle_marker_8ae9bd878f3f47ba92ca1d28312dc555 = L.circleMarker(
+                [43.732843, -79.268075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_5dd5b231aff64c3d958d99ec1905bd35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fe0af9aea4b4ecb9c3ca44248ce7e5a = $(`<div id="html_5fe0af9aea4b4ecb9c3ca44248ce7e5a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Ionview</div>`)[0];
+            popup_5dd5b231aff64c3d958d99ec1905bd35.setContent(html_5fe0af9aea4b4ecb9c3ca44248ce7e5a);
+        
+
+        circle_marker_8ae9bd878f3f47ba92ca1d28312dc555.bindPopup(popup_5dd5b231aff64c3d958d99ec1905bd35)
+        ;
+
+        
+    
+    
+            var circle_marker_f2a8dd9a84b34be7bf6ffb7d4542d9fc = L.circleMarker(
+                [43.748982, -79.276611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_052a301be8a140c1b6d73fef9f695564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71f99c45163d47c98a1001a63cbe6fc5 = $(`<div id="html_71f99c45163d47c98a1001a63cbe6fc5" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Dorset Park</div>`)[0];
+            popup_052a301be8a140c1b6d73fef9f695564.setContent(html_71f99c45163d47c98a1001a63cbe6fc5);
+        
+
+        circle_marker_f2a8dd9a84b34be7bf6ffb7d4542d9fc.bindPopup(popup_052a301be8a140c1b6d73fef9f695564)
+        ;
+
+        
+    
+    
+            var circle_marker_bb571700bd3a4c208dc67640f80e4448 = L.circleMarker(
+                [43.752733, -79.264041],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_668adc55e95643aea2e92be2e965ed89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1910b1ec7d74bde8c2d66b4be9e26bd = $(`<div id="html_f1910b1ec7d74bde8c2d66b4be9e26bd" style="width: 100.0%; height: 100.0%;">FreshCo Pharmacy Lawrence, Bendale</div>`)[0];
+            popup_668adc55e95643aea2e92be2e965ed89.setContent(html_f1910b1ec7d74bde8c2d66b4be9e26bd);
+        
+
+        circle_marker_bb571700bd3a4c208dc67640f80e4448.bindPopup(popup_668adc55e95643aea2e92be2e965ed89)
+        ;
+
+        
+    
+    
+            var circle_marker_df690e53665c4d339e3b28ea5d2c9902 = L.circleMarker(
+                [43.754474, -79.244881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9762bd43df5541d995463354a1b33f10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d7ae1f8b3a443f68d696bb22a3ca4cf = $(`<div id="html_1d7ae1f8b3a443f68d696bb22a3ca4cf" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bendale</div>`)[0];
+            popup_9762bd43df5541d995463354a1b33f10.setContent(html_1d7ae1f8b3a443f68d696bb22a3ca4cf);
+        
+
+        circle_marker_df690e53665c4d339e3b28ea5d2c9902.bindPopup(popup_9762bd43df5541d995463354a1b33f10)
+        ;
+
+        
+    
+    
+            var circle_marker_dd1065a2cccf462a9636c6fb270c8650 = L.circleMarker(
+                [43.808894, -79.269854],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_dbedaa59346348f9bb8d3fac21b71792 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49c3b6fb42ff439d9085b617fc72ad90 = $(`<div id="html_49c3b6fb42ff439d9085b617fc72ad90" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Agincourt North</div>`)[0];
+            popup_dbedaa59346348f9bb8d3fac21b71792.setContent(html_49c3b6fb42ff439d9085b617fc72ad90);
+        
+
+        circle_marker_dd1065a2cccf462a9636c6fb270c8650.bindPopup(popup_dbedaa59346348f9bb8d3fac21b71792)
+        ;
+
+        
+    
+    
+            var circle_marker_e9a9ab91737f49e0b681ff9469a5a640 = L.circleMarker(
+                [43.80961, -79.222729],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_49607cb3d99b47169843e89ce711c920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee4108ff0cb64b54b6943dffe9bf7498 = $(`<div id="html_ee4108ff0cb64b54b6943dffe9bf7498" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Malvern</div>`)[0];
+            popup_49607cb3d99b47169843e89ce711c920.setContent(html_ee4108ff0cb64b54b6943dffe9bf7498);
+        
+
+        circle_marker_e9a9ab91737f49e0b681ff9469a5a640.bindPopup(popup_49607cb3d99b47169843e89ce711c920)
+        ;
+
+        
+    
+    
+            var circle_marker_2a5599f7841649858a6025f4c4aafc38 = L.circleMarker(
+                [43.8064889218881, -79.2230236530304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2cdab2986c0043e0807b404f0b7926aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce0d50ab4cf04f39997bf27343c79e21 = $(`<div id="html_ce0d50ab4cf04f39997bf27343c79e21" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Malvern</div>`)[0];
+            popup_2cdab2986c0043e0807b404f0b7926aa.setContent(html_ce0d50ab4cf04f39997bf27343c79e21);
+        
+
+        circle_marker_2a5599f7841649858a6025f4c4aafc38.bindPopup(popup_2cdab2986c0043e0807b404f0b7926aa)
+        ;
+
+        
+    
+    
+            var circle_marker_b747dbeea8ac47d2a848b25d0b4ecabd = L.circleMarker(
+                [43.78909, -79.139695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_918f3c7ce7e64d6db561aceae88fed1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b4d4c042d214a17bc79ab41a07ce884 = $(`<div id="html_5b4d4c042d214a17bc79ab41a07ce884" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Centennial Scarborough</div>`)[0];
+            popup_918f3c7ce7e64d6db561aceae88fed1e.setContent(html_5b4d4c042d214a17bc79ab41a07ce884);
+        
+
+        circle_marker_b747dbeea8ac47d2a848b25d0b4ecabd.bindPopup(popup_918f3c7ce7e64d6db561aceae88fed1e)
+        ;
+
+        
+    
+    
+            var circle_marker_7880fa1c555e4af9bbf5a0fb76997e13 = L.circleMarker(
+                [43.780599, -79.205009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_baee647c6a9c4e7fb464ac195216f2da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7a1a0619310431e83f916133ee91b01 = $(`<div id="html_a7a1a0619310431e83f916133ee91b01" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Morningside</div>`)[0];
+            popup_baee647c6a9c4e7fb464ac195216f2da.setContent(html_a7a1a0619310431e83f916133ee91b01);
+        
+
+        circle_marker_7880fa1c555e4af9bbf5a0fb76997e13.bindPopup(popup_baee647c6a9c4e7fb464ac195216f2da)
+        ;
+
+        
+    
+    
+            var circle_marker_032bc46e6f104e79adc31a3b9369ff86 = L.circleMarker(
+                [43.7777233, -79.2125021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c457005daab642d6825ffdf8f4fa1f1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6644e107c238419b8630a0fe6538828a = $(`<div id="html_6644e107c238419b8630a0fe6538828a" style="width: 100.0%; height: 100.0%;">Orton Park Guardian Pharmacy, Morningside</div>`)[0];
+            popup_c457005daab642d6825ffdf8f4fa1f1d.setContent(html_6644e107c238419b8630a0fe6538828a);
+        
+
+        circle_marker_032bc46e6f104e79adc31a3b9369ff86.bindPopup(popup_c457005daab642d6825ffdf8f4fa1f1d)
+        ;
+
+        
+    
+    
+            var circle_marker_42e9be9753f241b1be0ad815161c8b8d = L.circleMarker(
+                [43.770282, -79.185012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9feb8e68d9074d5483eb268220f35056 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d167cf158fb427785315f73aecadab6 = $(`<div id="html_9d167cf158fb427785315f73aecadab6" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, West Hill</div>`)[0];
+            popup_9feb8e68d9074d5483eb268220f35056.setContent(html_9d167cf158fb427785315f73aecadab6);
+        
+
+        circle_marker_42e9be9753f241b1be0ad815161c8b8d.bindPopup(popup_9feb8e68d9074d5483eb268220f35056)
+        ;
+
+        
+    
+    
+            var circle_marker_2ea0b2f8fe2f4fc8b70f5939ad3c73e7 = L.circleMarker(
+                [43.759825, -79.225268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_083d3f19a4114eb3bb14e3f964976e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a334bdad01f4ca3bfa9c7c1d1b82ea7 = $(`<div id="html_1a334bdad01f4ca3bfa9c7c1d1b82ea7" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Woburn</div>`)[0];
+            popup_083d3f19a4114eb3bb14e3f964976e22.setContent(html_1a334bdad01f4ca3bfa9c7c1d1b82ea7);
+        
+
+        circle_marker_2ea0b2f8fe2f4fc8b70f5939ad3c73e7.bindPopup(popup_083d3f19a4114eb3bb14e3f964976e22)
+        ;
+
+        
+    
+    
+            var circle_marker_9e49044c0870464b9cfb677ceffe9b73 = L.circleMarker(
+                [43.742951088631926, -79.21676599653438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_211512d9f686490cb00ba7db54183795 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ca7f40fbf77435ba128d01cc250999b = $(`<div id="html_1ca7f40fbf77435ba128d01cc250999b" style="width: 100.0%; height: 100.0%;">Metro Pharmacy, Scarborough Village</div>`)[0];
+            popup_211512d9f686490cb00ba7db54183795.setContent(html_1ca7f40fbf77435ba128d01cc250999b);
+        
+
+        circle_marker_9e49044c0870464b9cfb677ceffe9b73.bindPopup(popup_211512d9f686490cb00ba7db54183795)
+        ;
+
+        
+    
+    
+            var circle_marker_0eaa25fd0e344335b1270798908b5c89 = L.circleMarker(
+                [43.72337025, -79.59745741095173],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.749423333738008, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_cc355df682b842dabab01f6af846b476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a91d0927c0480faa9c271f425d8a2d = $(`<div id="html_e3a91d0927c0480faa9c271f425d8a2d" style="width: 100.0%; height: 100.0%;">West Humber-Clairville</div>`)[0];
+            popup_cc355df682b842dabab01f6af846b476.setContent(html_e3a91d0927c0480faa9c271f425d8a2d);
+        
+
+        circle_marker_0eaa25fd0e344335b1270798908b5c89.bindPopup(popup_cc355df682b842dabab01f6af846b476)
+        ;
+
+        
+    
+    
+            var circle_marker_78187a7501b34b36b7010e52bfbd562f = L.circleMarker(
+                [43.722114149999996, -79.57229244708017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.489620007284206, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_69b0ac274afe40d5aa323407bcbe47f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800e11369de54835b53a019de0bf5716 = $(`<div id="html_800e11369de54835b53a019de0bf5716" style="width: 100.0%; height: 100.0%;">Rexdale-Kipling</div>`)[0];
+            popup_69b0ac274afe40d5aa323407bcbe47f1.setContent(html_800e11369de54835b53a019de0bf5716);
+        
+
+        circle_marker_78187a7501b34b36b7010e52bfbd562f.bindPopup(popup_69b0ac274afe40d5aa323407bcbe47f1)
+        ;
+
+        
+    
+    
+            var circle_marker_301e8d596184456da7861866af0d6a5d = L.circleMarker(
+                [43.72176985, -79.55217331972301],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.359394601594431, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_3c3c27aa73ad415ea5c6d019d7eac3db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfb34ee86fdc438da92f665c6bf11e8d = $(`<div id="html_dfb34ee86fdc438da92f665c6bf11e8d" style="width: 100.0%; height: 100.0%;">Elms-Old Rexdale</div>`)[0];
+            popup_3c3c27aa73ad415ea5c6d019d7eac3db.setContent(html_dfb34ee86fdc438da92f665c6bf11e8d);
+        
+
+        circle_marker_301e8d596184456da7861866af0d6a5d.bindPopup(popup_3c3c27aa73ad415ea5c6d019d7eac3db)
+        ;
+
+        
+    
+    
+            var circle_marker_06723368c6734fcdb856b4b7ac404354 = L.circleMarker(
+                [43.63123865, -79.58543401986114],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.903281939217353, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_df1555951c984dd09792f8df1fce9f44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10cd2436574c4a31b58f16198a4dbc3b = $(`<div id="html_10cd2436574c4a31b58f16198a4dbc3b" style="width: 100.0%; height: 100.0%;">Markland Wood</div>`)[0];
+            popup_df1555951c984dd09792f8df1fce9f44.setContent(html_10cd2436574c4a31b58f16198a4dbc3b);
+        
+
+        circle_marker_06723368c6734fcdb856b4b7ac404354.bindPopup(popup_df1555951c984dd09792f8df1fce9f44)
+        ;
+
+        
+    
+    
+            var circle_marker_97cabea3a9184c829d88e6e1a5056ad7 = L.circleMarker(
+                [43.6166773, -79.4968048],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.74416251871636, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_9d16ceb14ee640adb3d72e1ec4bd17b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9419b27956e548478d12fbfcb24033c9 = $(`<div id="html_9419b27956e548478d12fbfcb24033c9" style="width: 100.0%; height: 100.0%;">Mimico</div>`)[0];
+            popup_9d16ceb14ee640adb3d72e1ec4bd17b6.setContent(html_9419b27956e548478d12fbfcb24033c9);
+        
+
+        circle_marker_97cabea3a9184c829d88e6e1a5056ad7.bindPopup(popup_9d16ceb14ee640adb3d72e1ec4bd17b6)
+        ;
+
+        
+    
+    
+            var circle_marker_8b3ceaed309b49558bdf98141afe3cb2 = L.circleMarker(
+                [43.7600778, -79.5717598],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.571729189429808, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_cea889a1c6a048eebfb038eb1e8802c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c88480a8c6049d585b88bdcf5265e74 = $(`<div id="html_4c88480a8c6049d585b88bdcf5265e74" style="width: 100.0%; height: 100.0%;">Humber Summit</div>`)[0];
+            popup_cea889a1c6a048eebfb038eb1e8802c4.setContent(html_4c88480a8c6049d585b88bdcf5265e74);
+        
+
+        circle_marker_8b3ceaed309b49558bdf98141afe3cb2.bindPopup(popup_cea889a1c6a048eebfb038eb1e8802c4)
+        ;
+
+        
+    
+    
+            var circle_marker_6f4ba499aa4b475c80b1703533d39041 = L.circleMarker(
+                [43.6954005, -79.485495],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.412690704544534, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_7a3d5efce6b841ba99be52579f736998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06563cbfdc1146ab8383da2797faa662 = $(`<div id="html_06563cbfdc1146ab8383da2797faa662" style="width: 100.0%; height: 100.0%;">Black Creek</div>`)[0];
+            popup_7a3d5efce6b841ba99be52579f736998.setContent(html_06563cbfdc1146ab8383da2797faa662);
+        
+
+        circle_marker_6f4ba499aa4b475c80b1703533d39041.bindPopup(popup_7a3d5efce6b841ba99be52579f736998)
+        ;
+
+        
+    
+    
+            var circle_marker_62aee353d7934ef184085f9956b7c697 = L.circleMarker(
+                [43.7122767, -79.4901977],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.390595281453603, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b600499e8934458e80a4bd422fc599a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_248f52096a384cc7b91ddea837399293 = $(`<div id="html_248f52096a384cc7b91ddea837399293" style="width: 100.0%; height: 100.0%;">Maple Leaf</div>`)[0];
+            popup_b600499e8934458e80a4bd422fc599a2.setContent(html_248f52096a384cc7b91ddea837399293);
+        
+
+        circle_marker_62aee353d7934ef184085f9956b7c697.bindPopup(popup_b600499e8934458e80a4bd422fc599a2)
+        ;
+
+        
+    
+    
+            var circle_marker_188c0b69d45a4fada1302cc88d83febe = L.circleMarker(
+                [43.7589503, -79.4225555],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.676662215207802, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_f98e3f92e8cb4f85819fe6beda37017a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_321286feed884fce9c2f5f6ba8ba39bd = $(`<div id="html_321286feed884fce9c2f5f6ba8ba39bd" style="width: 100.0%; height: 100.0%;">Lansing-Westgate</div>`)[0];
+            popup_f98e3f92e8cb4f85819fe6beda37017a.setContent(html_321286feed884fce9c2f5f6ba8ba39bd);
+        
+
+        circle_marker_188c0b69d45a4fada1302cc88d83febe.bindPopup(popup_f98e3f92e8cb4f85819fe6beda37017a)
+        ;
+
+        
+    
+    
+            var circle_marker_e655c3f79f7345959b353965cfcafd32 = L.circleMarker(
+                [43.6477917, -79.3848711],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.917324268544373, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c815a1a06a69441dafe0790bfb808824 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0412d9217c42486db4f92bdae9f764bf = $(`<div id="html_0412d9217c42486db4f92bdae9f764bf" style="width: 100.0%; height: 100.0%;">St.Andrew-Windfields</div>`)[0];
+            popup_c815a1a06a69441dafe0790bfb808824.setContent(html_0412d9217c42486db4f92bdae9f764bf);
+        
+
+        circle_marker_e655c3f79f7345959b353965cfcafd32.bindPopup(popup_c815a1a06a69441dafe0790bfb808824)
+        ;
+
+        
+    
+    
+            var circle_marker_693cfc365afa41e8bd25a23aeaa35dc5 = L.circleMarker(
+                [43.732658, -79.3111892],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.370401845332037, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c9fc444e463b42e7b529852ced0514f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b65daa1f8cff47dbaa742b476cec922a = $(`<div id="html_b65daa1f8cff47dbaa742b476cec922a" style="width: 100.0%; height: 100.0%;">Victoria Village</div>`)[0];
+            popup_c9fc444e463b42e7b529852ced0514f3.setContent(html_b65daa1f8cff47dbaa742b476cec922a);
+        
+
+        circle_marker_693cfc365afa41e8bd25a23aeaa35dc5.bindPopup(popup_c9fc444e463b42e7b529852ced0514f3)
+        ;
+
+        
+    
+    
+            var circle_marker_6188694252c842c4a7c16ae255dd096f = L.circleMarker(
+                [43.7695089, -79.354296],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.161183278701793, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c00966dac47f44aca194d27c73d3c757 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a235678175494b9ca449420767c000c8 = $(`<div id="html_a235678175494b9ca449420767c000c8" style="width: 100.0%; height: 100.0%;">Henry Farm</div>`)[0];
+            popup_c00966dac47f44aca194d27c73d3c757.setContent(html_a235678175494b9ca449420767c000c8);
+        
+
+        circle_marker_6188694252c842c4a7c16ae255dd096f.bindPopup(popup_c00966dac47f44aca194d27c73d3c757)
+        ;
+
+        
+    
+    
+            var circle_marker_6d1d26319c7f4dc2b0de57f0ebe3e54b = L.circleMarker(
+                [43.6684402, -79.33067],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.540285702723484, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_818185fb27f54c269e34ebd5ea086167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e90c978b5754433b69490a2ccda8212 = $(`<div id="html_3e90c978b5754433b69490a2ccda8212" style="width: 100.0%; height: 100.0%;">East End-Danforth</div>`)[0];
+            popup_818185fb27f54c269e34ebd5ea086167.setContent(html_3e90c978b5754433b69490a2ccda8212);
+        
+
+        circle_marker_6d1d26319c7f4dc2b0de57f0ebe3e54b.bindPopup(popup_818185fb27f54c269e34ebd5ea086167)
+        ;
+
+        
+    
+    
+            var circle_marker_a797e69977f749ee8949a8589de0f6bc = L.circleMarker(
+                [43.6786661, -79.3555177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.917567075391526, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b436adc0fc0649ada180b9a67ffcff52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e4c31ff4a6146628be120361be0ee2c = $(`<div id="html_8e4c31ff4a6146628be120361be0ee2c" style="width: 100.0%; height: 100.0%;">Playter Estates-Danforth</div>`)[0];
+            popup_b436adc0fc0649ada180b9a67ffcff52.setContent(html_8e4c31ff4a6146628be120361be0ee2c);
+        
+
+        circle_marker_a797e69977f749ee8949a8589de0f6bc.bindPopup(popup_b436adc0fc0649ada180b9a67ffcff52)
+        ;
+
+        
+    
+    
+            var circle_marker_d0b4cfd854de4bf8b90f85f67690241a = L.circleMarker(
+                [43.66064985, -79.34271760826113],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09024321152523, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_473b8c1459f44cd3b326f05fc3c26b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b7811201edc45638f9a6dbecd62a3b5 = $(`<div id="html_2b7811201edc45638f9a6dbecd62a3b5" style="width: 100.0%; height: 100.0%;">North Riverdale</div>`)[0];
+            popup_473b8c1459f44cd3b326f05fc3c26b09.setContent(html_2b7811201edc45638f9a6dbecd62a3b5);
+        
+
+        circle_marker_d0b4cfd854de4bf8b90f85f67690241a.bindPopup(popup_473b8c1459f44cd3b326f05fc3c26b09)
+        ;
+
+        
+    
+    
+            var circle_marker_6cf95b1d582f4adaa9921b9adad026fa = L.circleMarker(
+                [43.66064985, -79.34271760826113],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.047144996155556, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_e76ad5f7e7794c3096254a6cab16b086 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82fbe2ced07447b8962732c4c4101ee6 = $(`<div id="html_82fbe2ced07447b8962732c4c4101ee6" style="width: 100.0%; height: 100.0%;">South Riverdale</div>`)[0];
+            popup_e76ad5f7e7794c3096254a6cab16b086.setContent(html_82fbe2ced07447b8962732c4c4101ee6);
+        
+
+        circle_marker_6cf95b1d582f4adaa9921b9adad026fa.bindPopup(popup_e76ad5f7e7794c3096254a6cab16b086)
+        ;
+
+        
+    
+    
+            var circle_marker_62fdf1fd74ac407abd61c77c81908032 = L.circleMarker(
+                [43.6546438, -79.3697278],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.384525110274776, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_3b8371ded824440683af633b9b33a116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51d180a1d3c5472b9f5bf9a869179961 = $(`<div id="html_51d180a1d3c5472b9f5bf9a869179961" style="width: 100.0%; height: 100.0%;">Moss Park</div>`)[0];
+            popup_3b8371ded824440683af633b9b33a116.setContent(html_51d180a1d3c5472b9f5bf9a869179961);
+        
+
+        circle_marker_62fdf1fd74ac407abd61c77c81908032.bindPopup(popup_3b8371ded824440683af633b9b33a116)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3ca722a76441b99664d8ae0dcdc206 = L.circleMarker(
+                [43.6730826, -79.38828915261209],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.081299825988424, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c05a849f29124047b1c8110306e412fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41cf8e3af566453ea50a2bf66a455d70 = $(`<div id="html_41cf8e3af566453ea50a2bf66a455d70" style="width: 100.0%; height: 100.0%;">Church-Yonge Corridor</div>`)[0];
+            popup_c05a849f29124047b1c8110306e412fd.setContent(html_41cf8e3af566453ea50a2bf66a455d70);
+        
+
+        circle_marker_9f3ca722a76441b99664d8ae0dcdc206.bindPopup(popup_c05a849f29124047b1c8110306e412fd)
+        ;
+
+        
+    
+    
+            var circle_marker_fe563a732fe14f1ab9dbea5195a3e05d = L.circleMarker(
+                [43.6688649, -79.3891256],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.891789081785438, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_e6fb10952b6e447ca1e76b5e35ac285c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4817d8853ef411182244f99a8f10644 = $(`<div id="html_b4817d8853ef411182244f99a8f10644" style="width: 100.0%; height: 100.0%;">Bay Street Corridor</div>`)[0];
+            popup_e6fb10952b6e447ca1e76b5e35ac285c.setContent(html_b4817d8853ef411182244f99a8f10644);
+        
+
+        circle_marker_fe563a732fe14f1ab9dbea5195a3e05d.bindPopup(popup_e6fb10952b6e447ca1e76b5e35ac285c)
+        ;
+
+        
+    
+    
+            var circle_marker_cc32d0c8a0aa4de0af0a51a822cf7d7c = L.circleMarker(
+                [43.663461999999996, -79.39775965337452],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3736797377686045, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_17080f9b912149d5b3f2583702f2af67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6900c20f03fd4c749952dd680be415ea = $(`<div id="html_6900c20f03fd4c749952dd680be415ea" style="width: 100.0%; height: 100.0%;">University</div>`)[0];
+            popup_17080f9b912149d5b3f2583702f2af67.setContent(html_6900c20f03fd4c749952dd680be415ea);
+        
+
+        circle_marker_cc32d0c8a0aa4de0af0a51a822cf7d7c.bindPopup(popup_17080f9b912149d5b3f2583702f2af67)
+        ;
+
+        
+    
+    
+            var circle_marker_77746abedd674f1a8e97182a6321f7dd = L.circleMarker(
+                [43.6610934, -79.4122283],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.81829954271377, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_4efe943c1fe1433e8a3cb9ec0015390b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261a9660f5d64d93aadb755eb9f2aec1 = $(`<div id="html_261a9660f5d64d93aadb755eb9f2aec1" style="width: 100.0%; height: 100.0%;">Palmerston-Little Italy</div>`)[0];
+            popup_4efe943c1fe1433e8a3cb9ec0015390b.setContent(html_261a9660f5d64d93aadb755eb9f2aec1);
+        
+
+        circle_marker_77746abedd674f1a8e97182a6321f7dd.bindPopup(popup_4efe943c1fe1433e8a3cb9ec0015390b)
+        ;
+
+        
+    
+    
+            var circle_marker_e3575d8a1d9c4629bec21ab33a1ff568 = L.circleMarker(
+                [43.64756465, -79.41388090266673],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.917324268544373, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c4ccb1180a3d4a34af1d03b37d1721f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5abf2cf711304750b3a18eb68b63c329 = $(`<div id="html_5abf2cf711304750b3a18eb68b63c329" style="width: 100.0%; height: 100.0%;">Trinity-Bellwoods</div>`)[0];
+            popup_c4ccb1180a3d4a34af1d03b37d1721f6.setContent(html_5abf2cf711304750b3a18eb68b63c329);
+        
+
+        circle_marker_e3575d8a1d9c4629bec21ab33a1ff568.bindPopup(popup_c4ccb1180a3d4a34af1d03b37d1721f6)
+        ;
+
+        
+    
+    
+            var circle_marker_7504157404ff4fcabbc0af6effb666bd = L.circleMarker(
+                [43.6440753, -79.4086982],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.076039010966776, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_c53cec0a1fe44c1dae86ae02a7d237d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab9069be830a4676a1143f5c14f30dd5 = $(`<div id="html_ab9069be830a4676a1143f5c14f30dd5" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+            popup_c53cec0a1fe44c1dae86ae02a7d237d9.setContent(html_ab9069be830a4676a1143f5c14f30dd5);
+        
+
+        circle_marker_7504157404ff4fcabbc0af6effb666bd.bindPopup(popup_c53cec0a1fe44c1dae86ae02a7d237d9)
+        ;
+
+        
+    
+    
+            var circle_marker_a973017199654c86a42caf51932c356d = L.circleMarker(
+                [43.6536319, -79.4264389],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5945530330622, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_6938772b41784b43a3afafd4a588fe7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_866cdc77d449400586c6a73a2c0ea989 = $(`<div id="html_866cdc77d449400586c6a73a2c0ea989" style="width: 100.0%; height: 100.0%;">Dufferin Grove</div>`)[0];
+            popup_6938772b41784b43a3afafd4a588fe7a.setContent(html_866cdc77d449400586c6a73a2c0ea989);
+        
+
+        circle_marker_a973017199654c86a42caf51932c356d.bindPopup(popup_6938772b41784b43a3afafd4a588fe7a)
+        ;
+
+        
+    
+    
+            var circle_marker_449d727a57b9440d9765c0b214d3a0a4 = L.circleMarker(
+                [43.64741325, -79.43111632546047],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.330986200477518, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_e1ede27e049d43a5b39ed8e3b5d2185e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_704c803527dd46baa45b803efe7276ae = $(`<div id="html_704c803527dd46baa45b803efe7276ae" style="width: 100.0%; height: 100.0%;">Little Portugal</div>`)[0];
+            popup_e1ede27e049d43a5b39ed8e3b5d2185e.setContent(html_704c803527dd46baa45b803efe7276ae);
+        
+
+        circle_marker_449d727a57b9440d9765c0b214d3a0a4.bindPopup(popup_e1ede27e049d43a5b39ed8e3b5d2185e)
+        ;
+
+        
+    
+    
+            var circle_marker_c13d90b8d7c24e94bac59df17e06bf84 = L.circleMarker(
+                [43.677954, -79.4430828],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.277123548217393, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_0112677193ec46ca9e6b27c397c138e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91ba9653670843e39b02be8ccf3b9a73 = $(`<div id="html_91ba9653670843e39b02be8ccf3b9a73" style="width: 100.0%; height: 100.0%;">Corso Italia-Davenport</div>`)[0];
+            popup_0112677193ec46ca9e6b27c397c138e4.setContent(html_91ba9653670843e39b02be8ccf3b9a73);
+        
+
+        circle_marker_c13d90b8d7c24e94bac59df17e06bf84.bindPopup(popup_0112677193ec46ca9e6b27c397c138e4)
+        ;
+
+        
+    
+    
+            var circle_marker_c5f03e28242f4dc894bc01412057095f = L.circleMarker(
+                [43.6703377, -79.407117],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.472056978673464, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_df8a78080252434ca52e310991829a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c57961e395a4f89b10221be15b7cc29 = $(`<div id="html_2c57961e395a4f89b10221be15b7cc29" style="width: 100.0%; height: 100.0%;">Annex</div>`)[0];
+            popup_df8a78080252434ca52e310991829a01.setContent(html_2c57961e395a4f89b10221be15b7cc29);
+        
+
+        circle_marker_c5f03e28242f4dc894bc01412057095f.bindPopup(popup_df8a78080252434ca52e310991829a01)
+        ;
+
+        
+    
+    
+            var circle_marker_e4d4ccc4ab4e4be1b8c1d0f05ade1c9d = L.circleMarker(
+                [43.6880777, -79.3943963721967],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.699405123224475, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_7a5a6a292a134273b02be634e00a8603 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bde63c045fdd4976a9feb6e00d3e5a2d = $(`<div id="html_bde63c045fdd4976a9feb6e00d3e5a2d" style="width: 100.0%; height: 100.0%;">Yonge-St.Clair</div>`)[0];
+            popup_7a5a6a292a134273b02be634e00a8603.setContent(html_bde63c045fdd4976a9feb6e00d3e5a2d);
+        
+
+        circle_marker_e4d4ccc4ab4e4be1b8c1d0f05ade1c9d.bindPopup(popup_7a5a6a292a134273b02be634e00a8603)
+        ;
+
+        
+    
+    
+            var circle_marker_a973bcb1076b407bb7fefe4c2aaf472b = L.circleMarker(
+                [43.6869541, -79.3812804],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.48937720043705, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_b54ecd723ee54692b9c7c6df36446f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6954e2b7dc54449f9f63ac068bd9f48d = $(`<div id="html_6954e2b7dc54449f9f63ac068bd9f48d" style="width: 100.0%; height: 100.0%;">Rosedale-Moore Park</div>`)[0];
+            popup_b54ecd723ee54692b9c7c6df36446f88.setContent(html_6954e2b7dc54449f9f63ac068bd9f48d);
+        
+
+        circle_marker_a973bcb1076b407bb7fefe4c2aaf472b.bindPopup(popup_b54ecd723ee54692b9c7c6df36446f88)
+        ;
+
+        
+    
+    
+            var circle_marker_3b00da0ab9b9465181628ede14892dd6 = L.circleMarker(
+                [43.7067479, -79.3983271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.226295981546679, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_3a482075db6249de9a0be1b8452dedd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1af5b456903a49ceb7711018901fa16f = $(`<div id="html_1af5b456903a49ceb7711018901fa16f" style="width: 100.0%; height: 100.0%;">Yonge-Eglinton</div>`)[0];
+            popup_3a482075db6249de9a0be1b8452dedd0.setContent(html_1af5b456903a49ceb7711018901fa16f);
+        
+
+        circle_marker_3b00da0ab9b9465181628ede14892dd6.bindPopup(popup_3a482075db6249de9a0be1b8452dedd0)
+        ;
+
+        
+    
+    
+            var circle_marker_6a00c17eda0c46c6bec8fb1ecde2e859 = L.circleMarker(
+                [43.7084166, -79.3901348],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.268261098296303, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_737ce85e37014d6d920973c08b390828 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c8fe19bb014ee78bcbf3033f80d29e = $(`<div id="html_17c8fe19bb014ee78bcbf3033f80d29e" style="width: 100.0%; height: 100.0%;">Mount Pleasant West</div>`)[0];
+            popup_737ce85e37014d6d920973c08b390828.setContent(html_17c8fe19bb014ee78bcbf3033f80d29e);
+        
+
+        circle_marker_6a00c17eda0c46c6bec8fb1ecde2e859.bindPopup(popup_737ce85e37014d6d920973c08b390828)
+        ;
+
+        
+    
+    
+            var circle_marker_aa25749a2a29485cafdb4cd47abd6582 = L.circleMarker(
+                [43.6827255, -79.4380548],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.339120229857148, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_8f08026784554474885b4cef9b99e467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f760ee3adab4ccf8d55bb733fe71175 = $(`<div id="html_5f760ee3adab4ccf8d55bb733fe71175" style="width: 100.0%; height: 100.0%;">Oakwood Village</div>`)[0];
+            popup_8f08026784554474885b4cef9b99e467.setContent(html_5f760ee3adab4ccf8d55bb733fe71175);
+        
+
+        circle_marker_aa25749a2a29485cafdb4cd47abd6582.bindPopup(popup_8f08026784554474885b4cef9b99e467)
+        ;
+
+        
+    
+    
+            var circle_marker_adcf5133019d414e9e206e3e4a309acf = L.circleMarker(
+                [43.6901578, -79.4749985],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.993929828821173, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_1486efb7104a493d82ede1cbaf8dbb2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04122b4255a645cbaa41bef5e442d4a9 = $(`<div id="html_04122b4255a645cbaa41bef5e442d4a9" style="width: 100.0%; height: 100.0%;">Keelesdale-Eglinton West</div>`)[0];
+            popup_1486efb7104a493d82ede1cbaf8dbb2b.setContent(html_04122b4255a645cbaa41bef5e442d4a9);
+        
+
+        circle_marker_adcf5133019d414e9e206e3e4a309acf.bindPopup(popup_1486efb7104a493d82ede1cbaf8dbb2b)
+        ;
+
+        
+    
+    
+            var circle_marker_366f1376f9384f18ae4defdeffe5a7cf = L.circleMarker(
+                [43.6869597, -79.4895513],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.053296102950101, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_acf241d5b49041329bf8c830cf420785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c182ff44254198b43b7841130e5a9f = $(`<div id="html_29c182ff44254198b43b7841130e5a9f" style="width: 100.0%; height: 100.0%;">Mount Dennis</div>`)[0];
+            popup_acf241d5b49041329bf8c830cf420785.setContent(html_29c182ff44254198b43b7841130e5a9f);
+        
+
+        circle_marker_366f1376f9384f18ae4defdeffe5a7cf.bindPopup(popup_acf241d5b49041329bf8c830cf420785)
+        ;
+
+        
+    
+    
+            var circle_marker_4636c8cd83434ea6b4d563b174b95348 = L.circleMarker(
+                [43.8161778, -79.3145378],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.22309902472583, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_5fc37b3d46e54baa9b76fb252d4301a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16803d2109a437982cafa7802758e6d = $(`<div id="html_e16803d2109a437982cafa7802758e6d" style="width: 100.0%; height: 100.0%;">Steeles</div>`)[0];
+            popup_5fc37b3d46e54baa9b76fb252d4301a0.setContent(html_e16803d2109a437982cafa7802758e6d);
+        
+
+        circle_marker_4636c8cd83434ea6b4d563b174b95348.bindPopup(popup_5fc37b3d46e54baa9b76fb252d4301a0)
+        ;
+
+        
+    
+    
+            var circle_marker_09d859d7226a47cab20202f67c5d41e4 = L.circleMarker(
+                [43.6971738, -79.2748232],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.673627129618389, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_233a7c7f56534ad586e100411da0b386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_702fd1d7caac4c3cbfe7d9bcce59838d = $(`<div id="html_702fd1d7caac4c3cbfe7d9bcce59838d" style="width: 100.0%; height: 100.0%;">Oakridge</div>`)[0];
+            popup_233a7c7f56534ad586e100411da0b386.setContent(html_702fd1d7caac4c3cbfe7d9bcce59838d);
+        
+
+        circle_marker_09d859d7226a47cab20202f67c5d41e4.bindPopup(popup_233a7c7f56534ad586e100411da0b386)
+        ;
+
+        
+    
+    
+            var circle_marker_e5466c6ef78340bd92c70718fc4ec5ab = L.circleMarker(
+                [43.724878, -79.2539688],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.155194043138684, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_e84f44858322431bb5ca6ce9927d4798 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3df41cfd108b4fde9b4dc5d2e2868f78 = $(`<div id="html_3df41cfd108b4fde9b4dc5d2e2868f78" style="width: 100.0%; height: 100.0%;">Kennedy Park</div>`)[0];
+            popup_e84f44858322431bb5ca6ce9927d4798.setContent(html_3df41cfd108b4fde9b4dc5d2e2868f78);
+        
+
+        circle_marker_e5466c6ef78340bd92c70718fc4ec5ab.bindPopup(popup_e84f44858322431bb5ca6ce9927d4798)
+        ;
+
+        
+    
+    
+            var circle_marker_c7b329db85db4e339c18bb30beef1957 = L.circleMarker(
+                [43.8231743, -79.3017626],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.070049775403668, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_4a46920e89ad465793ac34b2604dd383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7215d04f2d574b89b3b9ea07c3664c7a = $(`<div id="html_7215d04f2d574b89b3b9ea07c3664c7a" style="width: 100.0%; height: 100.0%;">Milliken</div>`)[0];
+            popup_4a46920e89ad465793ac34b2604dd383.setContent(html_7215d04f2d574b89b3b9ea07c3664c7a);
+        
+
+        circle_marker_c7b329db85db4e339c18bb30beef1957.bindPopup(popup_4a46920e89ad465793ac34b2604dd383)
+        ;
+
+        
+    
+    
+            var circle_marker_db94dd041e694afdb8823d4ab486a184 = L.circleMarker(
+                [43.8049304, -79.1658374],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.10125045526284, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_6e5e757942344362999e3f9f80975c62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8d6f71f2abc4cdb839adfeb598d9663 = $(`<div id="html_d8d6f71f2abc4cdb839adfeb598d9663" style="width: 100.0%; height: 100.0%;">Rouge</div>`)[0];
+            popup_6e5e757942344362999e3f9f80975c62.setContent(html_d8d6f71f2abc4cdb839adfeb598d9663);
+        
+
+        circle_marker_db94dd041e694afdb8823d4ab486a184.bindPopup(popup_6e5e757942344362999e3f9f80975c62)
+        ;
+
+        
+    
+    
+            var circle_marker_d46d577574e54921a6a99d01ace58adb = L.circleMarker(
+                [43.7901172, -79.1733344],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4925741572579, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_353f83606e0a4ae2835d9a58b132520b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0858916acfb47c68dbe34e85537ac59 = $(`<div id="html_a0858916acfb47c68dbe34e85537ac59" style="width: 100.0%; height: 100.0%;">Highland Creek</div>`)[0];
+            popup_353f83606e0a4ae2835d9a58b132520b.setContent(html_a0858916acfb47c68dbe34e85537ac59);
+        
+
+        circle_marker_d46d577574e54921a6a99d01ace58adb.bindPopup(popup_353f83606e0a4ae2835d9a58b132520b)
+        ;
+
+        
+    
+    
+            var circle_marker_02339c03320e48e787e7e2963b40ea0c = L.circleMarker(
+                [43.7394646, -79.2320997],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.001982922585082, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_2bfe4e393a854e1486178a567fb994bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0134a975c5b947aea624d1a8ec39b6b2 = $(`<div id="html_0134a975c5b947aea624d1a8ec39b6b2" style="width: 100.0%; height: 100.0%;">Eglinton East</div>`)[0];
+            popup_2bfe4e393a854e1486178a567fb994bf.setContent(html_0134a975c5b947aea624d1a8ec39b6b2);
+        
+
+        circle_marker_02339c03320e48e787e7e2963b40ea0c.bindPopup(popup_2bfe4e393a854e1486178a567fb994bf)
+        ;
+
+        
+    
+    
+            var circle_marker_87a55b9ca5334650992f34b64d92d511 = L.circleMarker(
+                [43.7552251, -79.1982293],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.495366436000161, "stroke": true, "weight": 3}
+            ).addTo(map_753e229d7d3a41f5aac0890a457ab647);
+        
+    
+        var popup_33582487fdf94240be3fd937d958948c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9220906730154fbda44a4bb7aee8499b = $(`<div id="html_9220906730154fbda44a4bb7aee8499b" style="width: 100.0%; height: 100.0%;">Guildwood</div>`)[0];
+            popup_33582487fdf94240be3fd937d958948c.setContent(html_9220906730154fbda44a4bb7aee8499b);
+        
+
+        circle_marker_87a55b9ca5334650992f34b64d92d511.bindPopup(popup_33582487fdf94240be3fd937d958948c)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_560e16b094db44a4b88d6c4b00a63923 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_560e16b094db44a4b88d6c4b00a63923" ></div>
+        
+</body>
+<script>    
+    
+            var map_560e16b094db44a4b88d6c4b00a63923 = L.map(
+                "map_560e16b094db44a4b88d6c4b00a63923",
+                {
+                    center: [43.6534817, -79.3839347],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_79a7152a7db34c6f9e95ce86664347e6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+            var circle_marker_4af4a48de99144e49ecbd11dedd4ccdc = L.circleMarker(
+                [43.701264, -79.519705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_004229d4318b45eeb8737cc14267a423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84391bc4a8f64f1aa9eadd7bfa8d854a = $(`<div id="html_84391bc4a8f64f1aa9eadd7bfa8d854a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Humber Heights-Westmount</div>`)[0];
+            popup_004229d4318b45eeb8737cc14267a423.setContent(html_84391bc4a8f64f1aa9eadd7bfa8d854a);
+        
+
+        circle_marker_4af4a48de99144e49ecbd11dedd4ccdc.bindPopup(popup_004229d4318b45eeb8737cc14267a423)
+        ;
+
+        
+    
+    
+            var circle_marker_1e436fc8c8094dfdbb7509df8378c77e = L.circleMarker(
+                [43.661721, -79.518881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_b15d2b991334482f805931e9e6e68458 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a0615158eee477498c6309bee3f66aa = $(`<div id="html_7a0615158eee477498c6309bee3f66aa" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Edenbridge-Humber Valley</div>`)[0];
+            popup_b15d2b991334482f805931e9e6e68458.setContent(html_7a0615158eee477498c6309bee3f66aa);
+        
+
+        circle_marker_1e436fc8c8094dfdbb7509df8378c77e.bindPopup(popup_b15d2b991334482f805931e9e6e68458)
+        ;
+
+        
+    
+    
+            var circle_marker_b1f19f54425f4c27b2216e98dd1a868b = L.circleMarker(
+                [43.641312, -79.576924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_d956dbf50f834fc5af13ff109abaec9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45aaa05b5d7d4b31b96e4050e179206e = $(`<div id="html_45aaa05b5d7d4b31b96e4050e179206e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Etobicoke West Mall</div>`)[0];
+            popup_d956dbf50f834fc5af13ff109abaec9b.setContent(html_45aaa05b5d7d4b31b96e4050e179206e);
+        
+
+        circle_marker_b1f19f54425f4c27b2216e98dd1a868b.bindPopup(popup_d956dbf50f834fc5af13ff109abaec9b)
+        ;
+
+        
+    
+    
+            var circle_marker_6ea045a04bbf400eaa7ef3e1b4c4b40a = L.circleMarker(
+                [43.663067, -79.531753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3df6fe11cf364d038180f2a05b1f958b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5afd351cece24dcb8c256bc27579978d = $(`<div id="html_5afd351cece24dcb8c256bc27579978d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Islington-City Centre West</div>`)[0];
+            popup_3df6fe11cf364d038180f2a05b1f958b.setContent(html_5afd351cece24dcb8c256bc27579978d);
+        
+
+        circle_marker_6ea045a04bbf400eaa7ef3e1b4c4b40a.bindPopup(popup_3df6fe11cf364d038180f2a05b1f958b)
+        ;
+
+        
+    
+    
+            var circle_marker_4526c1c5166d434e8f3e9eeafcf3b52c = L.circleMarker(
+                [43.66298764333833, -79.53181698355863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_a8dd1092d4914abc96d1a33e17198d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f3f886aa254f3e84e0e4bc0b2d279f = $(`<div id="html_68f3f886aa254f3e84e0e4bc0b2d279f" style="width: 100.0%; height: 100.0%;">Thorncrest Drug Store, Islington-City Centre West</div>`)[0];
+            popup_a8dd1092d4914abc96d1a33e17198d69.setContent(html_68f3f886aa254f3e84e0e4bc0b2d279f);
+        
+
+        circle_marker_4526c1c5166d434e8f3e9eeafcf3b52c.bindPopup(popup_a8dd1092d4914abc96d1a33e17198d69)
+        ;
+
+        
+    
+    
+            var circle_marker_b74425709584443997b9dc653816babd = L.circleMarker(
+                [43.647623, -79.51086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_80884c4a9a05452fb7f37946955d4bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5888e77857194852a961b602c67b880a = $(`<div id="html_5888e77857194852a961b602c67b880a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Kingsway South</div>`)[0];
+            popup_80884c4a9a05452fb7f37946955d4bb7.setContent(html_5888e77857194852a961b602c67b880a);
+        
+
+        circle_marker_b74425709584443997b9dc653816babd.bindPopup(popup_80884c4a9a05452fb7f37946955d4bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_f268e7a37658485aafb0cc6f4dcab06f = L.circleMarker(
+                [43.601677, -79.502239],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_17f89d5c0a714917ba702805a1155eeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6c1b429263a4e0b9cf64671ca20546a = $(`<div id="html_d6c1b429263a4e0b9cf64671ca20546a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, New Toronto</div>`)[0];
+            popup_17f89d5c0a714917ba702805a1155eeb.setContent(html_d6c1b429263a4e0b9cf64671ca20546a);
+        
+
+        circle_marker_f268e7a37658485aafb0cc6f4dcab06f.bindPopup(popup_17f89d5c0a714917ba702805a1155eeb)
+        ;
+
+        
+    
+    
+            var circle_marker_6ad502f27a5448c2bee9b84b3c9e8194 = L.circleMarker(
+                [43.593111, -79.538327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_b034a2882a37479a8076d6215658632b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77bd269ed3a34e7caa34a5391246dcf6 = $(`<div id="html_77bd269ed3a34e7caa34a5391246dcf6" style="width: 100.0%; height: 100.0%;">Rexall, Long Branch</div>`)[0];
+            popup_b034a2882a37479a8076d6215658632b.setContent(html_77bd269ed3a34e7caa34a5391246dcf6);
+        
+
+        circle_marker_6ad502f27a5448c2bee9b84b3c9e8194.bindPopup(popup_b034a2882a37479a8076d6215658632b)
+        ;
+
+        
+    
+    
+            var circle_marker_cee9adab06534a10b6433a374a0c7fd6 = L.circleMarker(
+                [43.60989067411187, -79.54961756159075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_47d525581a56454cab3cf9b730b48220 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d318b805bfa74b50b9f94e516e021d73 = $(`<div id="html_d318b805bfa74b50b9f94e516e021d73" style="width: 100.0%; height: 100.0%;">Sav-On Drug Mart, Alderwood</div>`)[0];
+            popup_47d525581a56454cab3cf9b730b48220.setContent(html_d318b805bfa74b50b9f94e516e021d73);
+        
+
+        circle_marker_cee9adab06534a10b6433a374a0c7fd6.bindPopup(popup_47d525581a56454cab3cf9b730b48220)
+        ;
+
+        
+    
+    
+            var circle_marker_cdfb243ccd044c51934989ab0129fb3f = L.circleMarker(
+                [43.756147, -79.515843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_80a3e9c40d444dd6b711401847efae82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a28a0dcd595c409aa606eda0e27d1a07 = $(`<div id="html_a28a0dcd595c409aa606eda0e27d1a07" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Glenfield-Jane Heights</div>`)[0];
+            popup_80a3e9c40d444dd6b711401847efae82.setContent(html_a28a0dcd595c409aa606eda0e27d1a07);
+        
+
+        circle_marker_cdfb243ccd044c51934989ab0129fb3f.bindPopup(popup_80a3e9c40d444dd6b711401847efae82)
+        ;
+
+        
+    
+    
+            var circle_marker_8831e689fc4d4429b312ee68065311c4 = L.circleMarker(
+                [43.756147, -79.515843],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_c49f128f402145dca7b23c3a7d59848a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1e61346482d45439cbe91cda53b924d = $(`<div id="html_a1e61346482d45439cbe91cda53b924d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, York University Heights</div>`)[0];
+            popup_c49f128f402145dca7b23c3a7d59848a.setContent(html_a1e61346482d45439cbe91cda53b924d);
+        
+
+        circle_marker_8831e689fc4d4429b312ee68065311c4.bindPopup(popup_c49f128f402145dca7b23c3a7d59848a)
+        ;
+
+        
+    
+    
+            var circle_marker_cb14265a01e74dde825fd581a80f866e = L.circleMarker(
+                [43.76659, -79.519852],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_2ff830c7252d45bd9de8f9bb3d1633a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce474d4ef1c44b4aa5453f2dd1fe34cf = $(`<div id="html_ce474d4ef1c44b4aa5453f2dd1fe34cf" style="width: 100.0%; height: 100.0%;">Rexall, York University Heights</div>`)[0];
+            popup_2ff830c7252d45bd9de8f9bb3d1633a8.setContent(html_ce474d4ef1c44b4aa5453f2dd1fe34cf);
+        
+
+        circle_marker_cb14265a01e74dde825fd581a80f866e.bindPopup(popup_2ff830c7252d45bd9de8f9bb3d1633a8)
+        ;
+
+        
+    
+    
+            var circle_marker_514973bc8aad41538045aa032e0ff6ed = L.circleMarker(
+                [43.719742, -79.510549],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_41fe78be45a14e199efa879bb40a0d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97b110b73e644d8abf7cb0fab8268b59 = $(`<div id="html_97b110b73e644d8abf7cb0fab8268b59" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Rustic</div>`)[0];
+            popup_41fe78be45a14e199efa879bb40a0d7a.setContent(html_97b110b73e644d8abf7cb0fab8268b59);
+        
+
+        circle_marker_514973bc8aad41538045aa032e0ff6ed.bindPopup(popup_41fe78be45a14e199efa879bb40a0d7a)
+        ;
+
+        
+    
+    
+            var circle_marker_b6e432eb0fd64e26a9a83816c697c6ae = L.circleMarker(
+                [43.695714, -79.450789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_6b2e7e927d0e48248ee9d796e2c1d4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89307b4bb014442b8e9760f2a1196f3b = $(`<div id="html_89307b4bb014442b8e9760f2a1196f3b" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Yorkdale-Glen Park</div>`)[0];
+            popup_6b2e7e927d0e48248ee9d796e2c1d4c2.setContent(html_89307b4bb014442b8e9760f2a1196f3b);
+        
+
+        circle_marker_b6e432eb0fd64e26a9a83816c697c6ae.bindPopup(popup_6b2e7e927d0e48248ee9d796e2c1d4c2)
+        ;
+
+        
+    
+    
+            var circle_marker_236bad9425cf4d58b03f6963c3769c1a = L.circleMarker(
+                [43.720349, -79.430194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_de6e109106aa4ea0bada24acdb8394cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4d4d20f78034bde872ba6c4e656ff45 = $(`<div id="html_d4d4d20f78034bde872ba6c4e656ff45" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Englemount-Lawrence</div>`)[0];
+            popup_de6e109106aa4ea0bada24acdb8394cb.setContent(html_d4d4d20f78034bde872ba6c4e656ff45);
+        
+
+        circle_marker_236bad9425cf4d58b03f6963c3769c1a.bindPopup(popup_de6e109106aa4ea0bada24acdb8394cb)
+        ;
+
+        
+    
+    
+            var circle_marker_f347b1bb858c437eabc50e2ea2a4a9e9 = L.circleMarker(
+                [43.71265154175745, -79.42803977796558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_b7d9b4bad7214576a9b544ead48ddf07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce53167156fd4621940f56b3f339428d = $(`<div id="html_ce53167156fd4621940f56b3f339428d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Englemount-Lawrence</div>`)[0];
+            popup_b7d9b4bad7214576a9b544ead48ddf07.setContent(html_ce53167156fd4621940f56b3f339428d);
+        
+
+        circle_marker_f347b1bb858c437eabc50e2ea2a4a9e9.bindPopup(popup_b7d9b4bad7214576a9b544ead48ddf07)
+        ;
+
+        
+    
+    
+            var circle_marker_133fb3ec87f044908e226306874c40e2 = L.circleMarker(
+                [43.759235, -79.466466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_46e9a2a83d6f4cbbb4d8946c98debc68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d97042a8c60d4145bb999ac8f4815f58 = $(`<div id="html_d97042a8c60d4145bb999ac8f4815f58" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bathurst Manor</div>`)[0];
+            popup_46e9a2a83d6f4cbbb4d8946c98debc68.setContent(html_d97042a8c60d4145bb999ac8f4815f58);
+        
+
+        circle_marker_133fb3ec87f044908e226306874c40e2.bindPopup(popup_46e9a2a83d6f4cbbb4d8946c98debc68)
+        ;
+
+        
+    
+    
+            var circle_marker_4f117289b0b8428397d94d13323716cf = L.circleMarker(
+                [43.796197, -79.42219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_b23758cc4ce24449920a03ef1e23b7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ec08eb8b49644799813aa433e5b2972 = $(`<div id="html_4ec08eb8b49644799813aa433e5b2972" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Newtonbrook West</div>`)[0];
+            popup_b23758cc4ce24449920a03ef1e23b7b9.setContent(html_4ec08eb8b49644799813aa433e5b2972);
+        
+
+        circle_marker_4f117289b0b8428397d94d13323716cf.bindPopup(popup_b23758cc4ce24449920a03ef1e23b7b9)
+        ;
+
+        
+    
+    
+            var circle_marker_d7b8ffd0f91649388b3ff348b1d21642 = L.circleMarker(
+                [43.762587, -79.410924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_422a42fea9a1403bad4280c1295771b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_773d6b90bcbb4c24b7f7ab9f899da437 = $(`<div id="html_773d6b90bcbb4c24b7f7ab9f899da437" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale West</div>`)[0];
+            popup_422a42fea9a1403bad4280c1295771b5.setContent(html_773d6b90bcbb4c24b7f7ab9f899da437);
+        
+
+        circle_marker_d7b8ffd0f91649388b3ff348b1d21642.bindPopup(popup_422a42fea9a1403bad4280c1295771b5)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae4393b5097436eade58f217cb5dbd1 = L.circleMarker(
+                [43.765829, -79.412338],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_a33f815560aa48e680b2f1cd20a29fab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07a130aecd146c08c7ab6a2c84d178a = $(`<div id="html_a07a130aecd146c08c7ab6a2c84d178a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale West</div>`)[0];
+            popup_a33f815560aa48e680b2f1cd20a29fab.setContent(html_a07a130aecd146c08c7ab6a2c84d178a);
+        
+
+        circle_marker_2ae4393b5097436eade58f217cb5dbd1.bindPopup(popup_a33f815560aa48e680b2f1cd20a29fab)
+        ;
+
+        
+    
+    
+            var circle_marker_cbdb8ec03f2a40e9a836693c6c405da5 = L.circleMarker(
+                [43.754171, -79.358057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_474e76a1b2af4293a2fc1b0a669b255b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1251124097ef4b4486c20e3b69195423 = $(`<div id="html_1251124097ef4b4486c20e3b69195423" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Banbury-Don Mills</div>`)[0];
+            popup_474e76a1b2af4293a2fc1b0a669b255b.setContent(html_1251124097ef4b4486c20e3b69195423);
+        
+
+        circle_marker_cbdb8ec03f2a40e9a836693c6c405da5.bindPopup(popup_474e76a1b2af4293a2fc1b0a669b255b)
+        ;
+
+        
+    
+    
+            var circle_marker_d76895564aa64dc2af5b7aa3f2e4a385 = L.circleMarker(
+                [43.714038, -79.334223],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_861e091a3d7b4a3781c558e4e18cc18a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ee5eab994584376985cd5867149a906 = $(`<div id="html_1ee5eab994584376985cd5867149a906" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Flemingdon Park</div>`)[0];
+            popup_861e091a3d7b4a3781c558e4e18cc18a.setContent(html_1ee5eab994584376985cd5867149a906);
+        
+
+        circle_marker_d76895564aa64dc2af5b7aa3f2e4a385.bindPopup(popup_861e091a3d7b4a3781c558e4e18cc18a)
+        ;
+
+        
+    
+    
+            var circle_marker_3c05941aef3940c6803dc4cbf61221e0 = L.circleMarker(
+                [43.788167, -79.330268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_d26b20105906410ea4feab81a264b2d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8c0095e420149c1998b5099e38357dc = $(`<div id="html_d8c0095e420149c1998b5099e38357dc" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Pleasant View</div>`)[0];
+            popup_d26b20105906410ea4feab81a264b2d7.setContent(html_d8c0095e420149c1998b5099e38357dc);
+        
+
+        circle_marker_3c05941aef3940c6803dc4cbf61221e0.bindPopup(popup_d26b20105906410ea4feab81a264b2d7)
+        ;
+
+        
+    
+    
+            var circle_marker_3b2b9e99b3ba4e1ea58a0a66984236a3 = L.circleMarker(
+                [43.79396236392167, -79.35323999236898],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_bae9c318469c41f096ebf78886590b03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b6e17d9c2354539aa927dac521f90ad = $(`<div id="html_4b6e17d9c2354539aa927dac521f90ad" style="width: 100.0%; height: 100.0%;">Rexall Pharma Plus, Don Valley Village</div>`)[0];
+            popup_bae9c318469c41f096ebf78886590b03.setContent(html_4b6e17d9c2354539aa927dac521f90ad);
+        
+
+        circle_marker_3b2b9e99b3ba4e1ea58a0a66984236a3.bindPopup(popup_bae9c318469c41f096ebf78886590b03)
+        ;
+
+        
+    
+    
+            var circle_marker_971b4dffbb7843388c678f648d49adad = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_9eaa43078d8f45eeba5b241bd713b826 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d4320b66b5f4860b9396766556cf1c5 = $(`<div id="html_1d4320b66b5f4860b9396766556cf1c5" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Hillcrest Village</div>`)[0];
+            popup_9eaa43078d8f45eeba5b241bd713b826.setContent(html_1d4320b66b5f4860b9396766556cf1c5);
+        
+
+        circle_marker_971b4dffbb7843388c678f648d49adad.bindPopup(popup_9eaa43078d8f45eeba5b241bd713b826)
+        ;
+
+        
+    
+    
+            var circle_marker_472cc2707fa34d0a96d9f7aa8c2f4901 = L.circleMarker(
+                [43.806058, -79.384766],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3987c277130242cdb4720a13d6e1351d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e76c432747d457c9f55dc427cc4541c = $(`<div id="html_8e76c432747d457c9f55dc427cc4541c" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bayview Woods-Steeles</div>`)[0];
+            popup_3987c277130242cdb4720a13d6e1351d.setContent(html_8e76c432747d457c9f55dc427cc4541c);
+        
+
+        circle_marker_472cc2707fa34d0a96d9f7aa8c2f4901.bindPopup(popup_3987c277130242cdb4720a13d6e1351d)
+        ;
+
+        
+    
+    
+            var circle_marker_3b87a94cef6947d7b151a4c52d3e0c40 = L.circleMarker(
+                [43.796197, -79.42219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_2073e24d5ebf48f19dcdcc57b713593b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fcee26005d14a6089a051882b474dc9 = $(`<div id="html_2fcee26005d14a6089a051882b474dc9" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Newtonbrook East</div>`)[0];
+            popup_2073e24d5ebf48f19dcdcc57b713593b.setContent(html_2fcee26005d14a6089a051882b474dc9);
+        
+
+        circle_marker_3b87a94cef6947d7b151a4c52d3e0c40.bindPopup(popup_2073e24d5ebf48f19dcdcc57b713593b)
+        ;
+
+        
+    
+    
+            var circle_marker_7f36e4e277d54c66b481664fa081eecd = L.circleMarker(
+                [43.762587, -79.410924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_7c1fb3ee0f3749fa90e11fc689be50ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0187ee7f506641aba2438cde14a8f247 = $(`<div id="html_0187ee7f506641aba2438cde14a8f247" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale East</div>`)[0];
+            popup_7c1fb3ee0f3749fa90e11fc689be50ed.setContent(html_0187ee7f506641aba2438cde14a8f247);
+        
+
+        circle_marker_7f36e4e277d54c66b481664fa081eecd.bindPopup(popup_7c1fb3ee0f3749fa90e11fc689be50ed)
+        ;
+
+        
+    
+    
+            var circle_marker_81f80f146444450d94a88930089f4037 = L.circleMarker(
+                [43.765829, -79.412338],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_4d80f15cb30142a8803108950b22ce37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1185733039c74688be1b86c5fae1492a = $(`<div id="html_1185733039c74688be1b86c5fae1492a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Willowdale East</div>`)[0];
+            popup_4d80f15cb30142a8803108950b22ce37.setContent(html_1185733039c74688be1b86c5fae1492a);
+        
+
+        circle_marker_81f80f146444450d94a88930089f4037.bindPopup(popup_4d80f15cb30142a8803108950b22ce37)
+        ;
+
+        
+    
+    
+            var circle_marker_f75ee13d580c4587a8f4211685c03636 = L.circleMarker(
+                [43.768819, -79.385788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_e26fd60232e74fe581027dd80211738d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1441e677e941461b91b8416d9fae2242 = $(`<div id="html_1441e677e941461b91b8416d9fae2242" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bayview Village</div>`)[0];
+            popup_e26fd60232e74fe581027dd80211738d.setContent(html_1441e677e941461b91b8416d9fae2242);
+        
+
+        circle_marker_f75ee13d580c4587a8f4211685c03636.bindPopup(popup_e26fd60232e74fe581027dd80211738d)
+        ;
+
+        
+    
+    
+            var circle_marker_cca5e21e60b34d76960d26324c91a53d = L.circleMarker(
+                [43.705933, -79.312825],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_9bec3e578c5d41c38089256b23842c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b57426125a684aebabf534fca9026892 = $(`<div id="html_b57426125a684aebabf534fca9026892" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, O&#39;Connor-Parkview</div>`)[0];
+            popup_9bec3e578c5d41c38089256b23842c29.setContent(html_b57426125a684aebabf534fca9026892);
+        
+
+        circle_marker_cca5e21e60b34d76960d26324c91a53d.bindPopup(popup_9bec3e578c5d41c38089256b23842c29)
+        ;
+
+        
+    
+    
+            var circle_marker_3bc4922277f24eec918fcf5877df75b9 = L.circleMarker(
+                [43.70581, -79.347044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_0847e4a7af404c099ec2be57ca829aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39efd79e653242f0932bfa1482bdbf08 = $(`<div id="html_39efd79e653242f0932bfa1482bdbf08" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Thorncliffe Park</div>`)[0];
+            popup_0847e4a7af404c099ec2be57ca829aa2.setContent(html_39efd79e653242f0932bfa1482bdbf08);
+        
+
+        circle_marker_3bc4922277f24eec918fcf5877df75b9.bindPopup(popup_0847e4a7af404c099ec2be57ca829aa2)
+        ;
+
+        
+    
+    
+            var circle_marker_d77a257b9a664f56981e82107a437cda = L.circleMarker(
+                [43.704748, -79.374647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_9e63d130e03f4f759d46d8ad6274d85e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e6d6fa16584453824b8d64d28e298c = $(`<div id="html_30e6d6fa16584453824b8d64d28e298c" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Leaside-Bennington</div>`)[0];
+            popup_9e63d130e03f4f759d46d8ad6274d85e.setContent(html_30e6d6fa16584453824b8d64d28e298c);
+        
+
+        circle_marker_d77a257b9a664f56981e82107a437cda.bindPopup(popup_9e63d130e03f4f759d46d8ad6274d85e)
+        ;
+
+        
+    
+    
+            var circle_marker_8e3dce7107b74536b1dca288cb57295c = L.circleMarker(
+                [43.68878, -79.348729],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_dd6e18062aa74299989c037ef98165b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88205cd4193642cfb0b3c081abde6cc9 = $(`<div id="html_88205cd4193642cfb0b3c081abde6cc9" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Broadview North</div>`)[0];
+            popup_dd6e18062aa74299989c037ef98165b7.setContent(html_88205cd4193642cfb0b3c081abde6cc9);
+        
+
+        circle_marker_8e3dce7107b74536b1dca288cb57295c.bindPopup(popup_dd6e18062aa74299989c037ef98165b7)
+        ;
+
+        
+    
+    
+            var circle_marker_44d215e25a134ea89a9d4edca1017cde = L.circleMarker(
+                [43.705933, -79.312825],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_b9a89c2576e944e0a4d87fd0796679b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_790be0f0c21c43f099f1d8c44127fbcb = $(`<div id="html_790be0f0c21c43f099f1d8c44127fbcb" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Old East York</div>`)[0];
+            popup_b9a89c2576e944e0a4d87fd0796679b6.setContent(html_790be0f0c21c43f099f1d8c44127fbcb);
+        
+
+        circle_marker_44d215e25a134ea89a9d4edca1017cde.bindPopup(popup_b9a89c2576e944e0a4d87fd0796679b6)
+        ;
+
+        
+    
+    
+            var circle_marker_31bb2f4e59e44847b68e344499bc54c2 = L.circleMarker(
+                [43.687934, -79.303381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3e8c8563ea064bca835fa6af66b2947d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43d5d74601ba420ba89b9bd3ec29f45d = $(`<div id="html_43d5d74601ba420ba89b9bd3ec29f45d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Danforth-East York</div>`)[0];
+            popup_3e8c8563ea064bca835fa6af66b2947d.setContent(html_43d5d74601ba420ba89b9bd3ec29f45d);
+        
+
+        circle_marker_31bb2f4e59e44847b68e344499bc54c2.bindPopup(popup_3e8c8563ea064bca835fa6af66b2947d)
+        ;
+
+        
+    
+    
+            var circle_marker_cf33102982274cf9904a5f4e58ca2496 = L.circleMarker(
+                [43.732843, -79.268075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_d17760ec819042b381045a0bd925e5d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a412015eb1c046e49c2f6bf5040f26b7 = $(`<div id="html_a412015eb1c046e49c2f6bf5040f26b7" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Taylor-Massey</div>`)[0];
+            popup_d17760ec819042b381045a0bd925e5d1.setContent(html_a412015eb1c046e49c2f6bf5040f26b7);
+        
+
+        circle_marker_cf33102982274cf9904a5f4e58ca2496.bindPopup(popup_d17760ec819042b381045a0bd925e5d1)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb85fb6edf5470baec915ac21a91895 = L.circleMarker(
+                [43.670639, -79.29769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_15f8b4f3c7d74ccc9cad3f7535ea80b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff5855c6c2eb4fa18eb1dd181f08e544 = $(`<div id="html_ff5855c6c2eb4fa18eb1dd181f08e544" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, The Beaches</div>`)[0];
+            popup_15f8b4f3c7d74ccc9cad3f7535ea80b5.setContent(html_ff5855c6c2eb4fa18eb1dd181f08e544);
+        
+
+        circle_marker_2cb85fb6edf5470baec915ac21a91895.bindPopup(popup_15f8b4f3c7d74ccc9cad3f7535ea80b5)
+        ;
+
+        
+    
+    
+            var circle_marker_034041e3d4df4b4a8c09d1f159273394 = L.circleMarker(
+                [43.687934, -79.303381],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_a61c55b30a1e4b768c6866f3b79316c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b5d876c592b4a2ba7656a86bcc03b5e = $(`<div id="html_7b5d876c592b4a2ba7656a86bcc03b5e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Danforth</div>`)[0];
+            popup_a61c55b30a1e4b768c6866f3b79316c0.setContent(html_7b5d876c592b4a2ba7656a86bcc03b5e);
+        
+
+        circle_marker_034041e3d4df4b4a8c09d1f159273394.bindPopup(popup_a61c55b30a1e4b768c6866f3b79316c0)
+        ;
+
+        
+    
+    
+            var circle_marker_d9b6d22b7ab84dfea2a1856af83a61ff = L.circleMarker(
+                [43.660204, -79.361332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_5bda0bdd81e74fd98149aeea05bbde3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c587b5c6cbd48b9aaf8595a261b41e9 = $(`<div id="html_7c587b5c6cbd48b9aaf8595a261b41e9" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Regent Park</div>`)[0];
+            popup_5bda0bdd81e74fd98149aeea05bbde3d.setContent(html_7c587b5c6cbd48b9aaf8595a261b41e9);
+        
+
+        circle_marker_d9b6d22b7ab84dfea2a1856af83a61ff.bindPopup(popup_5bda0bdd81e74fd98149aeea05bbde3d)
+        ;
+
+        
+    
+    
+            var circle_marker_995a73590979470a8eeb8ad7133353e3 = L.circleMarker(
+                [43.640595, -79.43762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_329b7a3471734c05bf7e22c95722fdc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_730ae640c8294876a55146c673d1df6f = $(`<div id="html_730ae640c8294876a55146c673d1df6f" style="width: 100.0%; height: 100.0%;">Parkdale Guardian Pharmacy, South Parkdale</div>`)[0];
+            popup_329b7a3471734c05bf7e22c95722fdc1.setContent(html_730ae640c8294876a55146c673d1df6f);
+        
+
+        circle_marker_995a73590979470a8eeb8ad7133353e3.bindPopup(popup_329b7a3471734c05bf7e22c95722fdc1)
+        ;
+
+        
+    
+    
+            var circle_marker_d0ce8787aa8447e5997bbc0fe4740ecf = L.circleMarker(
+                [43.639899, -79.439009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_d301abd2c0924d378d618496af63e417 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a502a4226f494e6d81c2328a9255cde6 = $(`<div id="html_a502a4226f494e6d81c2328a9255cde6" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, South Parkdale</div>`)[0];
+            popup_d301abd2c0924d378d618496af63e417.setContent(html_a502a4226f494e6d81c2328a9255cde6);
+        
+
+        circle_marker_d0ce8787aa8447e5997bbc0fe4740ecf.bindPopup(popup_d301abd2c0924d378d618496af63e417)
+        ;
+
+        
+    
+    
+            var circle_marker_38ff88768d0e4665b7682602bd6c2543 = L.circleMarker(
+                [43.64369717370064, -79.44798195966851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_a87652a4bf2f4b89865fee92372985e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_238f8de6df9d49a0a8444de95337cff3 = $(`<div id="html_238f8de6df9d49a0a8444de95337cff3" style="width: 100.0%; height: 100.0%;">Solarski Pharmacy, South Parkdale</div>`)[0];
+            popup_a87652a4bf2f4b89865fee92372985e9.setContent(html_238f8de6df9d49a0a8444de95337cff3);
+        
+
+        circle_marker_38ff88768d0e4665b7682602bd6c2543.bindPopup(popup_a87652a4bf2f4b89865fee92372985e9)
+        ;
+
+        
+    
+    
+            var circle_marker_f2a726d257b8477887a8ff12a3b80e38 = L.circleMarker(
+                [43.659212, -79.453005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_eb1e8bd0938448309325140e0c245964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b231e0379522482e9aa8d3cb19d14138 = $(`<div id="html_b231e0379522482e9aa8d3cb19d14138" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Roncesvalles</div>`)[0];
+            popup_eb1e8bd0938448309325140e0c245964.setContent(html_b231e0379522482e9aa8d3cb19d14138);
+        
+
+        circle_marker_f2a726d257b8477887a8ff12a3b80e38.bindPopup(popup_eb1e8bd0938448309325140e0c245964)
+        ;
+
+        
+    
+    
+            var circle_marker_ffa82cd92ef340ec8c196f2617d707b7 = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_676c4320b0e34a35accdf93d17a26e27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5e7d4c2e2274379bedfe366c3d0b388 = $(`<div id="html_c5e7d4c2e2274379bedfe366c3d0b388" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, High Park-Swansea</div>`)[0];
+            popup_676c4320b0e34a35accdf93d17a26e27.setContent(html_c5e7d4c2e2274379bedfe366c3d0b388);
+        
+
+        circle_marker_ffa82cd92ef340ec8c196f2617d707b7.bindPopup(popup_676c4320b0e34a35accdf93d17a26e27)
+        ;
+
+        
+    
+    
+            var circle_marker_96743971cb804da7bb309a61d3cbfd1c = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_416039f6743541e9a26283079bebbb76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88e8b8cafba54bab9d74539b88fa8135 = $(`<div id="html_88e8b8cafba54bab9d74539b88fa8135" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, High Park North</div>`)[0];
+            popup_416039f6743541e9a26283079bebbb76.setContent(html_88e8b8cafba54bab9d74539b88fa8135);
+        
+
+        circle_marker_96743971cb804da7bb309a61d3cbfd1c.bindPopup(popup_416039f6743541e9a26283079bebbb76)
+        ;
+
+        
+    
+    
+            var circle_marker_3f39c471aa5a46279df78270f667a6a4 = L.circleMarker(
+                [43.65331554198388, -79.46681112650649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3b6a497469b54f1da8c78b83485b0682 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6efaa3964864c7ba720e6bb39383dfb = $(`<div id="html_c6efaa3964864c7ba720e6bb39383dfb" style="width: 100.0%; height: 100.0%;">IDA High Park, High Park North</div>`)[0];
+            popup_3b6a497469b54f1da8c78b83485b0682.setContent(html_c6efaa3964864c7ba720e6bb39383dfb);
+        
+
+        circle_marker_3f39c471aa5a46279df78270f667a6a4.bindPopup(popup_3b6a497469b54f1da8c78b83485b0682)
+        ;
+
+        
+    
+    
+            var circle_marker_beec672a872c40c783929778c4512866 = L.circleMarker(
+                [43.651105, -79.476428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_26d56127e7e04041a070d7b9a883cd0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a141be78bc46219756cb9f4e13aad0 = $(`<div id="html_07a141be78bc46219756cb9f4e13aad0" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Runnymede-Bloor West Village</div>`)[0];
+            popup_26d56127e7e04041a070d7b9a883cd0b.setContent(html_07a141be78bc46219756cb9f4e13aad0);
+        
+
+        circle_marker_beec672a872c40c783929778c4512866.bindPopup(popup_26d56127e7e04041a070d7b9a883cd0b)
+        ;
+
+        
+    
+    
+            var circle_marker_122c45485da9462ba87517f0ce12364b = L.circleMarker(
+                [43.65331554198388, -79.46681112650649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_c1d317f4d6784e10ae810d6ff6473b12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea8358353d3647e59f5ed3e97b393f7a = $(`<div id="html_ea8358353d3647e59f5ed3e97b393f7a" style="width: 100.0%; height: 100.0%;">IDA High Park, Runnymede-Bloor West Village</div>`)[0];
+            popup_c1d317f4d6784e10ae810d6ff6473b12.setContent(html_ea8358353d3647e59f5ed3e97b393f7a);
+        
+
+        circle_marker_122c45485da9462ba87517f0ce12364b.bindPopup(popup_c1d317f4d6784e10ae810d6ff6473b12)
+        ;
+
+        
+    
+    
+            var circle_marker_713aa5eb0e234ca4879d38d3908db508 = L.circleMarker(
+                [43.666745, -79.447446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_f5682242d8b34012af47a05543c75fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ec5e411c0c45fa82a4664a86674330 = $(`<div id="html_97ec5e411c0c45fa82a4664a86674330" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Dovercourt-Wallace Emerson-Junction</div>`)[0];
+            popup_f5682242d8b34012af47a05543c75fe1.setContent(html_97ec5e411c0c45fa82a4664a86674330);
+        
+
+        circle_marker_713aa5eb0e234ca4879d38d3908db508.bindPopup(popup_f5682242d8b34012af47a05543c75fe1)
+        ;
+
+        
+    
+    
+            var circle_marker_4320b37a97a044e2a2357c63c8f52e93 = L.circleMarker(
+                [43.667504, -79.442086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_aa5cd28aeec04941991a5376974bbe2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd7374f633af4ee5863a91ce11897cb1 = $(`<div id="html_fd7374f633af4ee5863a91ce11897cb1" style="width: 100.0%; height: 100.0%;">Rexall, Dovercourt-Wallace Emerson-Junction</div>`)[0];
+            popup_aa5cd28aeec04941991a5376974bbe2d.setContent(html_fd7374f633af4ee5863a91ce11897cb1);
+        
+
+        circle_marker_4320b37a97a044e2a2357c63c8f52e93.bindPopup(popup_aa5cd28aeec04941991a5376974bbe2d)
+        ;
+
+        
+    
+    
+            var circle_marker_6dfe014d30a24bf3a4beeec5041b2288 = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_9e3582f5fc6d47a7ae9a21c9257cec88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b686c857a11474c9bca4098743cd08a = $(`<div id="html_4b686c857a11474c9bca4098743cd08a" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Wychwood</div>`)[0];
+            popup_9e3582f5fc6d47a7ae9a21c9257cec88.setContent(html_4b686c857a11474c9bca4098743cd08a);
+        
+
+        circle_marker_6dfe014d30a24bf3a4beeec5041b2288.bindPopup(popup_9e3582f5fc6d47a7ae9a21c9257cec88)
+        ;
+
+        
+    
+    
+            var circle_marker_561281a49f8b4ab7a0af9e1c3d0a1051 = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_ab8a2f948a2f4388adff1f8b59b4fb23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07bbf32b29124169b1563aa11821f2af = $(`<div id="html_07bbf32b29124169b1563aa11821f2af" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Casa Loma</div>`)[0];
+            popup_ab8a2f948a2f4388adff1f8b59b4fb23.setContent(html_07bbf32b29124169b1563aa11821f2af);
+        
+
+        circle_marker_561281a49f8b4ab7a0af9e1c3d0a1051.bindPopup(popup_ab8a2f948a2f4388adff1f8b59b4fb23)
+        ;
+
+        
+    
+    
+            var circle_marker_9edf4e7539c54728802fd54c763b82f9 = L.circleMarker(
+                [43.674959, -79.407986],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_15175c64b80246f684cb4bdea078ec79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45e07e6fa2284bd58f08bb33fdc76947 = $(`<div id="html_45e07e6fa2284bd58f08bb33fdc76947" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Casa Loma</div>`)[0];
+            popup_15175c64b80246f684cb4bdea078ec79.setContent(html_45e07e6fa2284bd58f08bb33fdc76947);
+        
+
+        circle_marker_9edf4e7539c54728802fd54c763b82f9.bindPopup(popup_15175c64b80246f684cb4bdea078ec79)
+        ;
+
+        
+    
+    
+            var circle_marker_21a07c9b06e3401c8ad7dae5ede1c011 = L.circleMarker(
+                [43.707806, -79.389893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_a4dbe68b64584e4388be91a844fd4083 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad90e9c63d1547ca9a86ed395c6f9bd1 = $(`<div id="html_ad90e9c63d1547ca9a86ed395c6f9bd1" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Mount Pleasant East</div>`)[0];
+            popup_a4dbe68b64584e4388be91a844fd4083.setContent(html_ad90e9c63d1547ca9a86ed395c6f9bd1);
+        
+
+        circle_marker_21a07c9b06e3401c8ad7dae5ede1c011.bindPopup(popup_a4dbe68b64584e4388be91a844fd4083)
+        ;
+
+        
+    
+    
+            var circle_marker_1529f2c839e44137820c2a8f04de2df3 = L.circleMarker(
+                [43.708887, -79.39806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_04b89a0b25874390a7e139b015bd178e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_332ee80f02b645f893599e9ef505b40c = $(`<div id="html_332ee80f02b645f893599e9ef505b40c" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Mount Pleasant East</div>`)[0];
+            popup_04b89a0b25874390a7e139b015bd178e.setContent(html_332ee80f02b645f893599e9ef505b40c);
+        
+
+        circle_marker_1529f2c839e44137820c2a8f04de2df3.bindPopup(popup_04b89a0b25874390a7e139b015bd178e)
+        ;
+
+        
+    
+    
+            var circle_marker_91dfd6ae763649c286ff8504269083f1 = L.circleMarker(
+                [43.688526, -79.412392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_4eff8deae08146649908da018a77f2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfb745d83b064df8ae7d177b25628d69 = $(`<div id="html_cfb745d83b064df8ae7d177b25628d69" style="width: 100.0%; height: 100.0%;">Rexall, Forest Hill South</div>`)[0];
+            popup_4eff8deae08146649908da018a77f2c5.setContent(html_cfb745d83b064df8ae7d177b25628d69);
+        
+
+        circle_marker_91dfd6ae763649c286ff8504269083f1.bindPopup(popup_4eff8deae08146649908da018a77f2c5)
+        ;
+
+        
+    
+    
+            var circle_marker_d139b84e1aee47ac9f2a9c9849a2f8df = L.circleMarker(
+                [43.688526, -79.412392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_fad22d8c633545b9a95bfc1668f5b7a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_051e878b679d4b33a977053d1a52b384 = $(`<div id="html_051e878b679d4b33a977053d1a52b384" style="width: 100.0%; height: 100.0%;">Rexall, Forest Hill North</div>`)[0];
+            popup_fad22d8c633545b9a95bfc1668f5b7a9.setContent(html_051e878b679d4b33a977053d1a52b384);
+        
+
+        circle_marker_d139b84e1aee47ac9f2a9c9849a2f8df.bindPopup(popup_fad22d8c633545b9a95bfc1668f5b7a9)
+        ;
+
+        
+    
+    
+            var circle_marker_dd47c7dfeffc4156b2c26e6614195318 = L.circleMarker(
+                [43.732312, -79.404484],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_8422cf7b69f543ea81e0564ce65329ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2293026d599423da13608d3864b7678 = $(`<div id="html_d2293026d599423da13608d3864b7678" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Lawrence Park South</div>`)[0];
+            popup_8422cf7b69f543ea81e0564ce65329ad.setContent(html_d2293026d599423da13608d3864b7678);
+        
+
+        circle_marker_dd47c7dfeffc4156b2c26e6614195318.bindPopup(popup_8422cf7b69f543ea81e0564ce65329ad)
+        ;
+
+        
+    
+    
+            var circle_marker_22cdcd87f2d14406a2fe84610b8f330f = L.circleMarker(
+                [43.732312, -79.404484],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_d72d2c1af093486eaf1918beb29c3753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4036a8e5b64f959dc7b20796219f1d = $(`<div id="html_3d4036a8e5b64f959dc7b20796219f1d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Lawrence Park North</div>`)[0];
+            popup_d72d2c1af093486eaf1918beb29c3753.setContent(html_3d4036a8e5b64f959dc7b20796219f1d);
+        
+
+        circle_marker_22cdcd87f2d14406a2fe84610b8f330f.bindPopup(popup_d72d2c1af093486eaf1918beb29c3753)
+        ;
+
+        
+    
+    
+            var circle_marker_a16520fec41b405dbd13335265286262 = L.circleMarker(
+                [43.68263, -79.419261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_f8c9063ab97c4f4b8703dca3f5f17cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e69991ca51d43b092c9ec728e5cf923 = $(`<div id="html_3e69991ca51d43b092c9ec728e5cf923" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Humewood-Cedarvale</div>`)[0];
+            popup_f8c9063ab97c4f4b8703dca3f5f17cb3.setContent(html_3e69991ca51d43b092c9ec728e5cf923);
+        
+
+        circle_marker_a16520fec41b405dbd13335265286262.bindPopup(popup_f8c9063ab97c4f4b8703dca3f5f17cb3)
+        ;
+
+        
+    
+    
+            var circle_marker_009c312497a04d79bbcb3274f5d7252a = L.circleMarker(
+                [43.701264, -79.519705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_c41a5086b4a04bcc8c4f95cdfd761a97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f46b3247dc4479494201ab44f0b3810 = $(`<div id="html_2f46b3247dc4479494201ab44f0b3810" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Weston</div>`)[0];
+            popup_c41a5086b4a04bcc8c4f95cdfd761a97.setContent(html_2f46b3247dc4479494201ab44f0b3810);
+        
+
+        circle_marker_009c312497a04d79bbcb3274f5d7252a.bindPopup(popup_c41a5086b4a04bcc8c4f95cdfd761a97)
+        ;
+
+        
+    
+    
+            var circle_marker_9bfc482fb5674c6ba7503ee4ecbd80fa = L.circleMarker(
+                [43.799966, -79.317985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3736c86316004d348cd06d11471980c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3944dac0294faebd50f130f71cf6ba = $(`<div id="html_da3944dac0294faebd50f130f71cf6ba" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, L&#39;Amoreaux</div>`)[0];
+            popup_3736c86316004d348cd06d11471980c7.setContent(html_da3944dac0294faebd50f130f71cf6ba);
+        
+
+        circle_marker_9bfc482fb5674c6ba7503ee4ecbd80fa.bindPopup(popup_3736c86316004d348cd06d11471980c7)
+        ;
+
+        
+    
+    
+            var circle_marker_21b9f505833b429694b5adee27d3a030 = L.circleMarker(
+                [43.785077, -79.310585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_587ac745f0a54bc592c67be3f427986a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a10a7dfff8d447f3be86127c1d4d5113 = $(`<div id="html_a10a7dfff8d447f3be86127c1d4d5113" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Tam O&#39;Shanter-Sullivan</div>`)[0];
+            popup_587ac745f0a54bc592c67be3f427986a.setContent(html_a10a7dfff8d447f3be86127c1d4d5113);
+        
+
+        circle_marker_21b9f505833b429694b5adee27d3a030.bindPopup(popup_587ac745f0a54bc592c67be3f427986a)
+        ;
+
+        
+    
+    
+            var circle_marker_cc4a7b392b3540c298fc805b2ed266fd = L.circleMarker(
+                [43.7809, -79.298764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_7770b96bce7f4a838da62375a6bc37d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b0cea88bc234897bd8345c9c64628e5 = $(`<div id="html_5b0cea88bc234897bd8345c9c64628e5" style="width: 100.0%; height: 100.0%;">Rexall, Tam O&#39;Shanter-Sullivan</div>`)[0];
+            popup_7770b96bce7f4a838da62375a6bc37d0.setContent(html_5b0cea88bc234897bd8345c9c64628e5);
+        
+
+        circle_marker_cc4a7b392b3540c298fc805b2ed266fd.bindPopup(popup_7770b96bce7f4a838da62375a6bc37d0)
+        ;
+
+        
+    
+    
+            var circle_marker_3093a649be5847b7978e78aa1794f8dd = L.circleMarker(
+                [43.725669, -79.231626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_54e95cb180e64cb0bc8bb6ba5e54fe38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6515d00f5dc45ea8172d17fb335bc2e = $(`<div id="html_b6515d00f5dc45ea8172d17fb335bc2e" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Cliffcrest</div>`)[0];
+            popup_54e95cb180e64cb0bc8bb6ba5e54fe38.setContent(html_b6515d00f5dc45ea8172d17fb335bc2e);
+        
+
+        circle_marker_3093a649be5847b7978e78aa1794f8dd.bindPopup(popup_54e95cb180e64cb0bc8bb6ba5e54fe38)
+        ;
+
+        
+    
+    
+            var circle_marker_0f425605987749789dc7217c5d133dd4 = L.circleMarker(
+                [43.732843, -79.268075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_23b4e94f5126465a83829565e9422709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3edc215f48e49018635a895658ac7a4 = $(`<div id="html_b3edc215f48e49018635a895658ac7a4" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Ionview</div>`)[0];
+            popup_23b4e94f5126465a83829565e9422709.setContent(html_b3edc215f48e49018635a895658ac7a4);
+        
+
+        circle_marker_0f425605987749789dc7217c5d133dd4.bindPopup(popup_23b4e94f5126465a83829565e9422709)
+        ;
+
+        
+    
+    
+            var circle_marker_666f6d8dd25442ed931021fd5274423e = L.circleMarker(
+                [43.748982, -79.276611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_5407a453a5ca46af8597074d84d1cc8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bfe8172b7d7470e969f0b968fc04e8b = $(`<div id="html_2bfe8172b7d7470e969f0b968fc04e8b" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Dorset Park</div>`)[0];
+            popup_5407a453a5ca46af8597074d84d1cc8b.setContent(html_2bfe8172b7d7470e969f0b968fc04e8b);
+        
+
+        circle_marker_666f6d8dd25442ed931021fd5274423e.bindPopup(popup_5407a453a5ca46af8597074d84d1cc8b)
+        ;
+
+        
+    
+    
+            var circle_marker_d887a8db8d474ac98fef640b94865aa1 = L.circleMarker(
+                [43.752733, -79.264041],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_5f35936f33eb42eaa3244c22862ef0de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16744c13473b4283b102b0e0dcf4809c = $(`<div id="html_16744c13473b4283b102b0e0dcf4809c" style="width: 100.0%; height: 100.0%;">FreshCo Pharmacy Lawrence, Bendale</div>`)[0];
+            popup_5f35936f33eb42eaa3244c22862ef0de.setContent(html_16744c13473b4283b102b0e0dcf4809c);
+        
+
+        circle_marker_d887a8db8d474ac98fef640b94865aa1.bindPopup(popup_5f35936f33eb42eaa3244c22862ef0de)
+        ;
+
+        
+    
+    
+            var circle_marker_bae4ce59b83947e7a6ed7793a929baa2 = L.circleMarker(
+                [43.754474, -79.244881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_c73e3f58c7034803bfbea6a093bb613a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d37f0d7866d4b24b5da259dc22df9ab = $(`<div id="html_8d37f0d7866d4b24b5da259dc22df9ab" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Bendale</div>`)[0];
+            popup_c73e3f58c7034803bfbea6a093bb613a.setContent(html_8d37f0d7866d4b24b5da259dc22df9ab);
+        
+
+        circle_marker_bae4ce59b83947e7a6ed7793a929baa2.bindPopup(popup_c73e3f58c7034803bfbea6a093bb613a)
+        ;
+
+        
+    
+    
+            var circle_marker_77408d7ac3f64e0ab3650e2522287af2 = L.circleMarker(
+                [43.808894, -79.269854],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_4e3f8158ae3e4a41afb4fa9e0ab6912f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07d3b63844c24106ad842a07cc5fe4ed = $(`<div id="html_07d3b63844c24106ad842a07cc5fe4ed" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Agincourt North</div>`)[0];
+            popup_4e3f8158ae3e4a41afb4fa9e0ab6912f.setContent(html_07d3b63844c24106ad842a07cc5fe4ed);
+        
+
+        circle_marker_77408d7ac3f64e0ab3650e2522287af2.bindPopup(popup_4e3f8158ae3e4a41afb4fa9e0ab6912f)
+        ;
+
+        
+    
+    
+            var circle_marker_132a1321058e4ee4a11e0cc35988e94d = L.circleMarker(
+                [43.80961, -79.222729],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_0b9b4e57d78347bb80b211596a42fb1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bbebf01ea0e48148c15357aea9e0089 = $(`<div id="html_1bbebf01ea0e48148c15357aea9e0089" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Malvern</div>`)[0];
+            popup_0b9b4e57d78347bb80b211596a42fb1b.setContent(html_1bbebf01ea0e48148c15357aea9e0089);
+        
+
+        circle_marker_132a1321058e4ee4a11e0cc35988e94d.bindPopup(popup_0b9b4e57d78347bb80b211596a42fb1b)
+        ;
+
+        
+    
+    
+            var circle_marker_5cb82c78ed5b4e5bb4ab1cdee79ecf4b = L.circleMarker(
+                [43.8064889218881, -79.2230236530304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_f72f1e6c19d443df8497f49efef60717 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1c76c31f23941fabc55dfe1dac01d3d = $(`<div id="html_c1c76c31f23941fabc55dfe1dac01d3d" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Malvern</div>`)[0];
+            popup_f72f1e6c19d443df8497f49efef60717.setContent(html_c1c76c31f23941fabc55dfe1dac01d3d);
+        
+
+        circle_marker_5cb82c78ed5b4e5bb4ab1cdee79ecf4b.bindPopup(popup_f72f1e6c19d443df8497f49efef60717)
+        ;
+
+        
+    
+    
+            var circle_marker_015d14b43734487788cb4e07db17be6a = L.circleMarker(
+                [43.78909, -79.139695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_c46831426fd6448a8ef7f69385badeea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bb49a370f9440aabd0a3ffd898172bd = $(`<div id="html_3bb49a370f9440aabd0a3ffd898172bd" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Centennial Scarborough</div>`)[0];
+            popup_c46831426fd6448a8ef7f69385badeea.setContent(html_3bb49a370f9440aabd0a3ffd898172bd);
+        
+
+        circle_marker_015d14b43734487788cb4e07db17be6a.bindPopup(popup_c46831426fd6448a8ef7f69385badeea)
+        ;
+
+        
+    
+    
+            var circle_marker_10e6c9499128492cbb16e9a4ea9742f6 = L.circleMarker(
+                [43.780599, -79.205009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_763f7c4b070f437794056a1455ca7c48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd59d1ccbe31437a8ce1e76a29158c32 = $(`<div id="html_cd59d1ccbe31437a8ce1e76a29158c32" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Morningside</div>`)[0];
+            popup_763f7c4b070f437794056a1455ca7c48.setContent(html_cd59d1ccbe31437a8ce1e76a29158c32);
+        
+
+        circle_marker_10e6c9499128492cbb16e9a4ea9742f6.bindPopup(popup_763f7c4b070f437794056a1455ca7c48)
+        ;
+
+        
+    
+    
+            var circle_marker_c624d74bf1bb49dda6792bda7593708a = L.circleMarker(
+                [43.7777233, -79.2125021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_178d2c7b767649248b31155790a2bf85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd81ef39a7d14c05a93d8d97307c60d1 = $(`<div id="html_bd81ef39a7d14c05a93d8d97307c60d1" style="width: 100.0%; height: 100.0%;">Orton Park Guardian Pharmacy, Morningside</div>`)[0];
+            popup_178d2c7b767649248b31155790a2bf85.setContent(html_bd81ef39a7d14c05a93d8d97307c60d1);
+        
+
+        circle_marker_c624d74bf1bb49dda6792bda7593708a.bindPopup(popup_178d2c7b767649248b31155790a2bf85)
+        ;
+
+        
+    
+    
+            var circle_marker_0e3b9d991a70404282f8a66101f9b3cc = L.circleMarker(
+                [43.770282, -79.185012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_dd85d13577684adcb5fabba5f4ede37d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c327292c907a4d12871677187e4121c8 = $(`<div id="html_c327292c907a4d12871677187e4121c8" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, West Hill</div>`)[0];
+            popup_dd85d13577684adcb5fabba5f4ede37d.setContent(html_c327292c907a4d12871677187e4121c8);
+        
+
+        circle_marker_0e3b9d991a70404282f8a66101f9b3cc.bindPopup(popup_dd85d13577684adcb5fabba5f4ede37d)
+        ;
+
+        
+    
+    
+            var circle_marker_b9db47e4fb7c4586aa6478759011772c = L.circleMarker(
+                [43.759825, -79.225268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_14321f1e96b44bf889639e921f3962b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b60cfa4641b4ed5ba41bc5cba7e86d0 = $(`<div id="html_6b60cfa4641b4ed5ba41bc5cba7e86d0" style="width: 100.0%; height: 100.0%;">Shoppers Drug Mart, Woburn</div>`)[0];
+            popup_14321f1e96b44bf889639e921f3962b9.setContent(html_6b60cfa4641b4ed5ba41bc5cba7e86d0);
+        
+
+        circle_marker_b9db47e4fb7c4586aa6478759011772c.bindPopup(popup_14321f1e96b44bf889639e921f3962b9)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc87be9d8cb4bc0a4aa177f28a4f1cb = L.circleMarker(
+                [43.742951088631926, -79.21676599653438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_560e16b094db44a4b88d6c4b00a63923);
+        
+    
+        var popup_3c2251aed1424a84bdf578bd5c58b1ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aa8990413594cafb729b956732d1e01 = $(`<div id="html_7aa8990413594cafb729b956732d1e01" style="width: 100.0%; height: 100.0%;">Metro Pharmacy, Scarborough Village</div>`)[0];
+            popup_3c2251aed1424a84bdf578bd5c58b1ab.setContent(html_7aa8990413594cafb729b956732d1e01);
+        
+
+        circle_marker_6cc87be9d8cb4bc0a4aa177f28a4f1cb.bindPopup(popup_3c2251aed1424a84bdf578bd5c58b1ab)
+        ;
+
+        
+    
+</script>

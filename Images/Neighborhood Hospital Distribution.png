@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa3cf4e0e25b436a8ce885dc44459103 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fa3cf4e0e25b436a8ce885dc44459103" ></div>
+        
+</body>
+<script>    
+    
+            var map_fa3cf4e0e25b436a8ce885dc44459103 = L.map(
+                "map_fa3cf4e0e25b436a8ce885dc44459103",
+                {
+                    center: [43.6534817, -79.3839347],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c4ac00a037c4cd9885ec9992bebb145 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+            var circle_marker_9c89e02a9a0a4fa098af2dde6266c6e7 = L.circleMarker(
+                [43.72337025, -79.59745741095173],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.47226561548658, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_b544e91f8f5146f89ff4787cf08bf819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0dfb046c84d484eb9b34e2f476e3294 = $(`<div id="html_a0dfb046c84d484eb9b34e2f476e3294" style="width: 100.0%; height: 100.0%;">5604 Admitted in: West Humber-Clairville</div>`)[0];
+            popup_b544e91f8f5146f89ff4787cf08bf819.setContent(html_a0dfb046c84d484eb9b34e2f476e3294);
+        
+
+        circle_marker_9c89e02a9a0a4fa098af2dde6266c6e7.bindPopup(popup_b544e91f8f5146f89ff4787cf08bf819)
+        ;
+
+        
+    
+    
+            var circle_marker_ded55d9178234647895702e717dad16d = L.circleMarker(
+                [43.722114149999996, -79.57229244708017],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.40859291010114, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_a18ba986331143a480ce334438fe52a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e94f08b1e414503ab0d40e32bc698db = $(`<div id="html_5e94f08b1e414503ab0d40e32bc698db" style="width: 100.0%; height: 100.0%;">2028 Admitted in: Rexdale-Kipling</div>`)[0];
+            popup_a18ba986331143a480ce334438fe52a2.setContent(html_5e94f08b1e414503ab0d40e32bc698db);
+        
+
+        circle_marker_ded55d9178234647895702e717dad16d.bindPopup(popup_a18ba986331143a480ce334438fe52a2)
+        ;
+
+        
+    
+    
+            var circle_marker_e835c6ce014643b2b351e0179eae2111 = L.circleMarker(
+                [43.72176985, -79.55217331972301],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.035007636827951, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cecedf815ec742889a341fc15492f8de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0590ac2191408693595dd855eff100 = $(`<div id="html_4a0590ac2191408693595dd855eff100" style="width: 100.0%; height: 100.0%;">1652 Admitted in: Elms-Old Rexdale</div>`)[0];
+            popup_cecedf815ec742889a341fc15492f8de.setContent(html_4a0590ac2191408693595dd855eff100);
+        
+
+        circle_marker_e835c6ce014643b2b351e0179eae2111.bindPopup(popup_cecedf815ec742889a341fc15492f8de)
+        ;
+
+        
+    
+    
+            var circle_marker_d6cc0afd7dff4728816d227e64122308 = L.circleMarker(
+                [43.6957852, -79.5208324],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.347453056992656, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_43a16041b3f04400bb38c8b72e5be310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ab97205b344b90bc7c03592949ab7a = $(`<div id="html_b1ab97205b344b90bc7c03592949ab7a" style="width: 100.0%; height: 100.0%;">2285 Admitted in: Humber Heights-Westmount</div>`)[0];
+            popup_43a16041b3f04400bb38c8b72e5be310.setContent(html_b1ab97205b344b90bc7c03592949ab7a);
+        
+
+        circle_marker_d6cc0afd7dff4728816d227e64122308.bindPopup(popup_43a16041b3f04400bb38c8b72e5be310)
+        ;
+
+        
+    
+    
+            var circle_marker_ac0e63370022497cb6d103e42f9b5bb3 = L.circleMarker(
+                [43.670672, -79.5188545],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.394944037185612, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_c42a7b96ee384326a794460d274fa145 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf15a068e0794d1a8236c8f444724a32 = $(`<div id="html_cf15a068e0794d1a8236c8f444724a32" style="width: 100.0%; height: 100.0%;">2298 Admitted in: Edenbridge-Humber Valley</div>`)[0];
+            popup_c42a7b96ee384326a794460d274fa145.setContent(html_cf15a068e0794d1a8236c8f444724a32);
+        
+
+        circle_marker_ac0e63370022497cb6d103e42f9b5bb3.bindPopup(popup_c42a7b96ee384326a794460d274fa145)
+        ;
+
+        
+    
+    
+            var circle_marker_5a581b69127f45e49b1468b1eb424f26 = L.circleMarker(
+                [43.63123865, -79.58543401986114],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.385710259791317, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_810d5e4b50414802b28df9a42959e9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c4d481b45e3479aad5d675d06906043 = $(`<div id="html_6c4d481b45e3479aad5d675d06906043" style="width: 100.0%; height: 100.0%;">1748 Admitted in: Markland Wood</div>`)[0];
+            popup_810d5e4b50414802b28df9a42959e9c6.setContent(html_6c4d481b45e3479aad5d675d06906043);
+        
+
+        circle_marker_5a581b69127f45e49b1468b1eb424f26.bindPopup(popup_810d5e4b50414802b28df9a42959e9c6)
+        ;
+
+        
+    
+    
+            var circle_marker_2e935b2723264358abf02e26ef5b4208 = L.circleMarker(
+                [43.6435491, -79.56532534553605],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.864273214043413, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_436b59e94323451f880f3d8f5abab56e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd98c8b2d2a449e1aa707f6a52102135 = $(`<div id="html_cd98c8b2d2a449e1aa707f6a52102135" style="width: 100.0%; height: 100.0%;">1879 Admitted in: Etobicoke West Mall</div>`)[0];
+            popup_436b59e94323451f880f3d8f5abab56e.setContent(html_cd98c8b2d2a449e1aa707f6a52102135);
+        
+
+        circle_marker_2e935b2723264358abf02e26ef5b4208.bindPopup(popup_436b59e94323451f880f3d8f5abab56e)
+        ;
+
+        
+    
+    
+            var circle_marker_6156cd76026e4542a55fca13c7ff6a33 = L.circleMarker(
+                [43.6625768, -79.5317888],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.823170031625857, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_ce54527f2f314b44a4af84e3a90e7418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c149b2fa0928488fa0b2842077490cd8 = $(`<div id="html_c149b2fa0928488fa0b2842077490cd8" style="width: 100.0%; height: 100.0%;">6795 Admitted in: Islington-City Centre West</div>`)[0];
+            popup_ce54527f2f314b44a4af84e3a90e7418.setContent(html_c149b2fa0928488fa0b2842077490cd8);
+        
+
+        circle_marker_6156cd76026e4542a55fca13c7ff6a33.bindPopup(popup_ce54527f2f314b44a4af84e3a90e7418)
+        ;
+
+        
+    
+    
+            var circle_marker_5584e0d6d6794c908a942ddee7611e87 = L.circleMarker(
+                [43.6473811, -79.5113328],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.939061940067426, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_962dda47e7a3454aa327bfc5825efbd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77b8b36b7d8745758266cf0e5dfbdd39 = $(`<div id="html_77b8b36b7d8745758266cf0e5dfbdd39" style="width: 100.0%; height: 100.0%;">1352 Admitted in: Kingsway South</div>`)[0];
+            popup_962dda47e7a3454aa327bfc5825efbd2.setContent(html_77b8b36b7d8745758266cf0e5dfbdd39);
+        
+
+        circle_marker_5584e0d6d6794c908a942ddee7611e87.bindPopup(popup_962dda47e7a3454aa327bfc5825efbd2)
+        ;
+
+        
+    
+    
+            var circle_marker_e3814dae8bab4d2897c7a0206648cb72 = L.circleMarker(
+                [43.6166773, -79.4968048],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.020798613889632, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5b093166f0094cf282d73e8f74d0087e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f8bb208d0140eaa4cdd7ba3cb6a1f5 = $(`<div id="html_d4f8bb208d0140eaa4cdd7ba3cb6a1f5" style="width: 100.0%; height: 100.0%;">3838 Admitted in: Mimico</div>`)[0];
+            popup_5b093166f0094cf282d73e8f74d0087e.setContent(html_d4f8bb208d0140eaa4cdd7ba3cb6a1f5);
+        
+
+        circle_marker_e3814dae8bab4d2897c7a0206648cb72.bindPopup(popup_5b093166f0094cf282d73e8f74d0087e)
+        ;
+
+        
+    
+    
+            var circle_marker_24c9b6547e4a4b888b7e7d3cdefb9711 = L.circleMarker(
+                [43.6007625, -79.505264],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.4743496519067705, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_51322315faa84b1bbf20fa28e9a17ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c324cc52628471d83aebc03eecbb6bb = $(`<div id="html_4c324cc52628471d83aebc03eecbb6bb" style="width: 100.0%; height: 100.0%;">2046 Admitted in: New Toronto</div>`)[0];
+            popup_51322315faa84b1bbf20fa28e9a17ba8.setContent(html_4c324cc52628471d83aebc03eecbb6bb);
+        
+
+        circle_marker_24c9b6547e4a4b888b7e7d3cdefb9711.bindPopup(popup_51322315faa84b1bbf20fa28e9a17ba8)
+        ;
+
+        
+    
+    
+            var circle_marker_609bb946b7a4402ba9fa83ffe528b53d = L.circleMarker(
+                [43.59200455, -79.54536450659592],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0824986170209066, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_c561782b0a344c11a3faf5217600bda5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_781c795743d84dc388e18e9aae42eef0 = $(`<div id="html_781c795743d84dc388e18e9aae42eef0" style="width: 100.0%; height: 100.0%;">1665 Admitted in: Long Branch</div>`)[0];
+            popup_c561782b0a344c11a3faf5217600bda5.setContent(html_781c795743d84dc388e18e9aae42eef0);
+        
+
+        circle_marker_609bb946b7a4402ba9fa83ffe528b53d.bindPopup(popup_c561782b0a344c11a3faf5217600bda5)
+        ;
+
+        
+    
+    
+            var circle_marker_5b97424692124414b54467c20880bd29 = L.circleMarker(
+                [43.6017173, -79.5452325],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.689885638936341, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_1650f6486f654273a94a3fa49c3b041b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_460e542be26c4c5da948ca99ad059631 = $(`<div id="html_460e542be26c4c5da948ca99ad059631" style="width: 100.0%; height: 100.0%;">2105 Admitted in: Alderwood</div>`)[0];
+            popup_1650f6486f654273a94a3fa49c3b041b.setContent(html_460e542be26c4c5da948ca99ad059631);
+        
+
+        circle_marker_5b97424692124414b54467c20880bd29.bindPopup(popup_1650f6486f654273a94a3fa49c3b041b)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab655986959452281d4e88270403a98 = L.circleMarker(
+                [43.7600778, -79.5717598],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.10634500370534, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e8b2eee4f71846fb9b3594fb554092f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd798e83167d47d882e943d876cdca27 = $(`<div id="html_cd798e83167d47d882e943d876cdca27" style="width: 100.0%; height: 100.0%;">2219 Admitted in: Humber Summit</div>`)[0];
+            popup_e8b2eee4f71846fb9b3594fb554092f1.setContent(html_cd798e83167d47d882e943d876cdca27);
+        
+
+        circle_marker_2ab655986959452281d4e88270403a98.bindPopup(popup_e8b2eee4f71846fb9b3594fb554092f1)
+        ;
+
+        
+    
+    
+            var circle_marker_135533b649014efd871ca76597865009 = L.circleMarker(
+                [43.6954005, -79.485495],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.451870587948772, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_f77f9b6c4b5a46699207a615f789d2b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d07285705124fe2bacca300aaf3270e = $(`<div id="html_6d07285705124fe2bacca300aaf3270e" style="width: 100.0%; height: 100.0%;">3956 Admitted in: Black Creek</div>`)[0];
+            popup_f77f9b6c4b5a46699207a615f789d2b1.setContent(html_6d07285705124fe2bacca300aaf3270e);
+        
+
+        circle_marker_135533b649014efd871ca76597865009.bindPopup(popup_f77f9b6c4b5a46699207a615f789d2b1)
+        ;
+
+        
+    
+    
+            var circle_marker_a1c2e2a763c44e658926918dd15e4537 = L.circleMarker(
+                [43.7567991, -79.5180495],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.421121482971092, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_448b4daf71254d059a454e1762262bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c47fef37fbe4c15b652e89178d48802 = $(`<div id="html_4c47fef37fbe4c15b652e89178d48802" style="width: 100.0%; height: 100.0%;">5590 Admitted in: Glenfield-Jane Heights</div>`)[0];
+            popup_448b4daf71254d059a454e1762262bb7.setContent(html_4c47fef37fbe4c15b652e89178d48802);
+        
+
+        circle_marker_a1c2e2a763c44e658926918dd15e4537.bindPopup(popup_448b4daf71254d059a454e1762262bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_6863d26fc9d24e77bf57a7421e7859c0 = L.circleMarker(
+                [43.7587808, -79.5194336],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.832762165867031, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_efbe9715fe344db2a221ee6318338791 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d9812d455634a7a8f5998d3418d3185 = $(`<div id="html_4d9812d455634a7a8f5998d3418d3185" style="width: 100.0%; height: 100.0%;">4334 Admitted in: York University Heights</div>`)[0];
+            popup_efbe9715fe344db2a221ee6318338791.setContent(html_4d9812d455634a7a8f5998d3418d3185);
+        
+
+        circle_marker_6863d26fc9d24e77bf57a7421e7859c0.bindPopup(popup_efbe9715fe344db2a221ee6318338791)
+        ;
+
+        
+    
+    
+            var circle_marker_9e2af85b5e1445f3a01a9885d4f1afe7 = L.circleMarker(
+                [43.71336615, -79.50450373904313],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.747372339722291, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_61775effd08f4f20b551cdbc1c8709ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93cb363bd5a240c29941975186a48850 = $(`<div id="html_93cb363bd5a240c29941975186a48850" style="width: 100.0%; height: 100.0%;">1847 Admitted in: Rustic</div>`)[0];
+            popup_61775effd08f4f20b551cdbc1c8709ac.setContent(html_93cb363bd5a240c29941975186a48850);
+        
+
+        circle_marker_9e2af85b5e1445f3a01a9885d4f1afe7.bindPopup(popup_61775effd08f4f20b551cdbc1c8709ac)
+        ;
+
+        
+    
+    
+            var circle_marker_e0f601c2d5c449589159d95f9da0573c = L.circleMarker(
+                [43.7122767, -79.4901977],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.410318589674452, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_bc0d701f24d64e2e8a5a3061e71c9c49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bdb6415ed3b4253b06a1a663362a908 = $(`<div id="html_2bdb6415ed3b4253b06a1a663362a908" style="width: 100.0%; height: 100.0%;">1481 Admitted in: Maple Leaf</div>`)[0];
+            popup_bc0d701f24d64e2e8a5a3061e71c9c49.setContent(html_2bdb6415ed3b4253b06a1a663362a908);
+        
+
+        circle_marker_e0f601c2d5c449589159d95f9da0573c.bindPopup(popup_bc0d701f24d64e2e8a5a3061e71c9c49)
+        ;
+
+        
+    
+    
+            var circle_marker_e8ebdecfa5244f2a886dfd152bfb1e71 = L.circleMarker(
+                [43.703434, -79.45291835752212],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.239785960065825, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_d06c4de992584bcfb366d7b4c763f8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c86daebda03a46f8bd608f8d4539e797 = $(`<div id="html_c86daebda03a46f8bd608f8d4539e797" style="width: 100.0%; height: 100.0%;">2803 Admitted in: Yorkdale-Glen Park</div>`)[0];
+            popup_d06c4de992584bcfb366d7b4c763f8c1.setContent(html_c86daebda03a46f8bd608f8d4539e797);
+        
+
+        circle_marker_e8ebdecfa5244f2a886dfd152bfb1e71.bindPopup(popup_d06c4de992584bcfb366d7b4c763f8c1)
+        ;
+
+        
+    
+    
+            var circle_marker_cd421e11735645a795c9e83745df1cf5 = L.circleMarker(
+                [43.7172222, -79.4382909],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.190569300299558, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_7be3a0fbe90d4e4fbc01330f891373d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77924a18d7184488bd5c0d9638b67c24 = $(`<div id="html_77924a18d7184488bd5c0d9638b67c24" style="width: 100.0%; height: 100.0%;">3337 Admitted in: Englemount-Lawrence</div>`)[0];
+            popup_7be3a0fbe90d4e4fbc01330f891373d8.setContent(html_77924a18d7184488bd5c0d9638b67c24);
+        
+
+        circle_marker_cd421e11735645a795c9e83745df1cf5.bindPopup(popup_7be3a0fbe90d4e4fbc01330f891373d8)
+        ;
+
+        
+    
+    
+            var circle_marker_bf2e8718faf04deea7e75d1af8b013ac = L.circleMarker(
+                [43.76389295, -79.45636693710946],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.170376065937658, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_b9acc60a9eff4646a7a1443781fe03e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fe04b0599af4148bd9154244075c099 = $(`<div id="html_9fe04b0599af4148bd9154244075c099" style="width: 100.0%; height: 100.0%;">2784 Admitted in: Bathurst Manor</div>`)[0];
+            popup_b9acc60a9eff4646a7a1443781fe03e9.setContent(html_9fe04b0599af4148bd9154244075c099);
+        
+
+        circle_marker_bf2e8718faf04deea7e75d1af8b013ac.bindPopup(popup_b9acc60a9eff4646a7a1443781fe03e9)
+        ;
+
+        
+    
+    
+            var circle_marker_8ed3aa60287b42a593223ba96f9d26d1 = L.circleMarker(
+                [43.795986, -79.4130896],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.050785775668611, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5641f2b0ee19422cabda6908c7980c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c15daad67fb436aaa6afa1840c7b239 = $(`<div id="html_6c15daad67fb436aaa6afa1840c7b239" style="width: 100.0%; height: 100.0%;">3025 Admitted in: Newtonbrook West</div>`)[0];
+            popup_5641f2b0ee19422cabda6908c7980c8e.setContent(html_6c15daad67fb436aaa6afa1840c7b239);
+        
+
+        circle_marker_8ed3aa60287b42a593223ba96f9d26d1.bindPopup(popup_5641f2b0ee19422cabda6908c7980c8e)
+        ;
+
+        
+    
+    
+            var circle_marker_d82d548640dc4beba517699ceab3655d = L.circleMarker(
+                [43.7615095, -79.4109234],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.584907957957435, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_418c0f5f934c401fad477fdfd2e14d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_993966e54b514901b71c5063072f6268 = $(`<div id="html_993966e54b514901b71c5063072f6268" style="width: 100.0%; height: 100.0%;">2350 Admitted in: Willowdale West</div>`)[0];
+            popup_418c0f5f934c401fad477fdfd2e14d86.setContent(html_993966e54b514901b71c5063072f6268);
+        
+
+        circle_marker_d82d548640dc4beba517699ceab3655d.bindPopup(popup_418c0f5f934c401fad477fdfd2e14d86)
+        ;
+
+        
+    
+    
+            var circle_marker_036d14ffbfaa464884665e2416a8f137 = L.circleMarker(
+                [43.7589503, -79.4225555],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.239584166889914, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_dec1759b1ca84dd0ba294f2ac9e20259 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_883212d3454c462d99b1d3c481345f98 = $(`<div id="html_883212d3454c462d99b1d3c481345f98" style="width: 100.0%; height: 100.0%;">1708 Admitted in: Lansing-Westgate</div>`)[0];
+            popup_dec1759b1ca84dd0ba294f2ac9e20259.setContent(html_883212d3454c462d99b1d3c481345f98);
+        
+
+        circle_marker_036d14ffbfaa464884665e2416a8f137.bindPopup(popup_dec1759b1ca84dd0ba294f2ac9e20259)
+        ;
+
+        
+    
+    
+            var circle_marker_238edb2dd10c4d28aedfe1cac5d47b02 = L.circleMarker(
+                [43.6477917, -79.3848711],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.32918729537998, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_b3898d4ac5c947788aa899fcc5bfb428 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d629dca0f4894cc984a4fdecdd4855ef = $(`<div id="html_d629dca0f4894cc984a4fdecdd4855ef" style="width: 100.0%; height: 100.0%;">2280 Admitted in: St.Andrew-Windfields</div>`)[0];
+            popup_b3898d4ac5c947788aa899fcc5bfb428.setContent(html_d629dca0f4894cc984a4fdecdd4855ef);
+        
+
+        circle_marker_238edb2dd10c4d28aedfe1cac5d47b02.bindPopup(popup_b3898d4ac5c947788aa899fcc5bfb428)
+        ;
+
+        
+    
+    
+            var circle_marker_201fe6b04d284d43b487287495dfada0 = L.circleMarker(
+                [43.7526832, -79.3652703],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.724893275764291, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_75a9d8cae5994e47a903b1d4227f4b01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9124c69093c45089a8a9545ed9e4ef9 = $(`<div id="html_d9124c69093c45089a8a9545ed9e4ef9" style="width: 100.0%; height: 100.0%;">3757 Admitted in: Banbury-Don Mills</div>`)[0];
+            popup_75a9d8cae5994e47a903b1d4227f4b01.setContent(html_d9124c69093c45089a8a9545ed9e4ef9);
+        
+
+        circle_marker_201fe6b04d284d43b487287495dfada0.bindPopup(popup_75a9d8cae5994e47a903b1d4227f4b01)
+        ;
+
+        
+    
+    
+            var circle_marker_daa5371bef7d41879c277ab6b1e070d8 = L.circleMarker(
+                [43.732658, -79.3111892],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.200565020892553, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_910ca96c99af41f8b9f5568d1fa10886 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9b5190c5a5040d988b4d694524309dd = $(`<div id="html_c9b5190c5a5040d988b4d694524309dd" style="width: 100.0%; height: 100.0%;">3066 Admitted in: Victoria Village</div>`)[0];
+            popup_910ca96c99af41f8b9f5568d1fa10886.setContent(html_c9b5190c5a5040d988b4d694524309dd);
+        
+
+        circle_marker_daa5371bef7d41879c277ab6b1e070d8.bindPopup(popup_910ca96c99af41f8b9f5568d1fa10886)
+        ;
+
+        
+    
+    
+            var circle_marker_0d83fd43f9b84c519311d7f2e6ce9a73 = L.circleMarker(
+                [43.7184315, -79.333204],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.033483750430548, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_fe4fc016ab084bc28ae38ffe9836f9f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_188aadb5c8504550b1be7b1e46b8f56a = $(`<div id="html_188aadb5c8504550b1be7b1e46b8f56a" style="width: 100.0%; height: 100.0%;">3294 Admitted in: Flemingdon Park</div>`)[0];
+            popup_fe4fc016ab084bc28ae38ffe9836f9f0.setContent(html_188aadb5c8504550b1be7b1e46b8f56a);
+        
+
+        circle_marker_0d83fd43f9b84c519311d7f2e6ce9a73.bindPopup(popup_fe4fc016ab084bc28ae38ffe9836f9f0)
+        ;
+
+        
+    
+    
+            var circle_marker_2c08af33ebef4cf69fd6748c41e2ce56 = L.circleMarker(
+                [43.787048, -79.3337137],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.628745785827856, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_8ca14ad08ab9401586c10d213fc95983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a0369dcc0df4c6697169aebc9fc0f56 = $(`<div id="html_3a0369dcc0df4c6697169aebc9fc0f56" style="width: 100.0%; height: 100.0%;">2362 Admitted in: Pleasant View</div>`)[0];
+            popup_8ca14ad08ab9401586c10d213fc95983.setContent(html_3a0369dcc0df4c6697169aebc9fc0f56);
+        
+
+        circle_marker_2c08af33ebef4cf69fd6748c41e2ce56.bindPopup(popup_8ca14ad08ab9401586c10d213fc95983)
+        ;
+
+        
+    
+    
+            var circle_marker_b541491e01af447a8853262b8d806c9c = L.circleMarker(
+                [43.7926732, -79.3547219],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.275555540092476, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_8d47d50f21104cf2b20bc6a0449d2537 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efb2880677044bf4a162ca766ed9f320 = $(`<div id="html_efb2880677044bf4a162ca766ed9f320" style="width: 100.0%; height: 100.0%;">3634 Admitted in: Don Valley Village</div>`)[0];
+            popup_8d47d50f21104cf2b20bc6a0449d2537.setContent(html_efb2880677044bf4a162ca766ed9f320);
+        
+
+        circle_marker_b541491e01af447a8853262b8d806c9c.bindPopup(popup_8d47d50f21104cf2b20bc6a0449d2537)
+        ;
+
+        
+    
+    
+            var circle_marker_5b30300c6d6a4c29be81dd030c1c5869 = L.circleMarker(
+                [43.6816953, -79.4257118],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.665277309053206, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5676529c61684349bf973f57f6f6cdaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_726e57332e7843f4b5fd14ec1d20e2a3 = $(`<div id="html_726e57332e7843f4b5fd14ec1d20e2a3" style="width: 100.0%; height: 100.0%;">2372 Admitted in: Hillcrest Village</div>`)[0];
+            popup_5676529c61684349bf973f57f6f6cdaa.setContent(html_726e57332e7843f4b5fd14ec1d20e2a3);
+        
+
+        circle_marker_5b30300c6d6a4c29be81dd030c1c5869.bindPopup(popup_5676529c61684349bf973f57f6f6cdaa)
+        ;
+
+        
+    
+    
+            var circle_marker_02f3b7608c0049219e53c205214f8376 = L.circleMarker(
+                [43.7981268, -79.3829726],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.44339875375318, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e03bcfbd84bf4bce974177c20e6afc28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c96b42b6324e41e5b3b842514ae85710 = $(`<div id="html_c96b42b6324e41e5b3b842514ae85710" style="width: 100.0%; height: 100.0%;">2585 Admitted in: Bayview Woods-Steeles</div>`)[0];
+            popup_e03bcfbd84bf4bce974177c20e6afc28.setContent(html_c96b42b6324e41e5b3b842514ae85710);
+        
+
+        circle_marker_02f3b7608c0049219e53c205214f8376.bindPopup(popup_e03bcfbd84bf4bce974177c20e6afc28)
+        ;
+
+        
+    
+    
+            var circle_marker_61a8887d0d544539bb21db110e9a52ab = L.circleMarker(
+                [43.795986, -79.4130896],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.284385731134947, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_d0fd3f014d0d4f2fab89ea77b93a973e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beeaf159ab48401d90962313e09e2b8b = $(`<div id="html_beeaf159ab48401d90962313e09e2b8b" style="width: 100.0%; height: 100.0%;">1994 Admitted in: Newtonbrook East</div>`)[0];
+            popup_d0fd3f014d0d4f2fab89ea77b93a973e.setContent(html_beeaf159ab48401d90962313e09e2b8b);
+        
+
+        circle_marker_61a8887d0d544539bb21db110e9a52ab.bindPopup(popup_d0fd3f014d0d4f2fab89ea77b93a973e)
+        ;
+
+        
+    
+    
+            var circle_marker_bf520b62efdf4768874cf05d05759a1c = L.circleMarker(
+                [43.7615095, -79.4109234],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.927542333077032, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cc2accfc01d641768f878c711f6cb310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f1c41fa24304a2fa14fb28d9d43ea26 = $(`<div id="html_4f1c41fa24304a2fa14fb28d9d43ea26" style="width: 100.0%; height: 100.0%;">3265 Admitted in: Willowdale East</div>`)[0];
+            popup_cc2accfc01d641768f878c711f6cb310.setContent(html_4f1c41fa24304a2fa14fb28d9d43ea26);
+        
+
+        circle_marker_bf520b62efdf4768874cf05d05759a1c.bindPopup(popup_cc2accfc01d641768f878c711f6cb310)
+        ;
+
+        
+    
+    
+            var circle_marker_81a3693da5504472bcf02ec67b812997 = L.circleMarker(
+                [43.7691966, -79.3766617],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.433201239984273, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_6e9fe3e318d946568e890b09a5e6e8ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd05dcdaf59a4eb7a93805b7a7bc77bb = $(`<div id="html_bd05dcdaf59a4eb7a93805b7a7bc77bb" style="width: 100.0%; height: 100.0%;">1761 Admitted in: Bayview Village</div>`)[0];
+            popup_6e9fe3e318d946568e890b09a5e6e8ab.setContent(html_bd05dcdaf59a4eb7a93805b7a7bc77bb);
+        
+
+        circle_marker_81a3693da5504472bcf02ec67b812997.bindPopup(popup_6e9fe3e318d946568e890b09a5e6e8ab)
+        ;
+
+        
+    
+    
+            var circle_marker_b614b1fefaed471288d43e36c3165a70 = L.circleMarker(
+                [43.7695089, -79.354296],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6175845356843395, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_d41dd349cd084338b867508d8480001e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c80d01cbbc8c4014aeb9649d34aded84 = $(`<div id="html_c80d01cbbc8c4014aeb9649d34aded84" style="width: 100.0%; height: 100.0%;">1264 Admitted in: Henry Farm</div>`)[0];
+            popup_d41dd349cd084338b867508d8480001e.setContent(html_c80d01cbbc8c4014aeb9649d34aded84);
+        
+
+        circle_marker_b614b1fefaed471288d43e36c3165a70.bindPopup(popup_d41dd349cd084338b867508d8480001e)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd4ecc631c145d88ef2a2e24660ef2f = L.circleMarker(
+                [43.7023902, -79.3160976],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.043479471023543, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_c7922f9f830e41939fa13378715c144e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91e22eabc6604578a10022938ba0658c = $(`<div id="html_91e22eabc6604578a10022938ba0658c" style="width: 100.0%; height: 100.0%;">3023 Admitted in: O&#39;Connor-Parkview</div>`)[0];
+            popup_c7922f9f830e41939fa13378715c144e.setContent(html_91e22eabc6604578a10022938ba0658c);
+        
+
+        circle_marker_4dd4ecc631c145d88ef2a2e24660ef2f.bindPopup(popup_c7922f9f830e41939fa13378715c144e)
+        ;
+
+        
+    
+    
+            var circle_marker_373aca42ce6e4c93b0fd8e8a0946d155 = L.circleMarker(
+                [43.704553, -79.3454074],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.815056554277145, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5597d1ce9dc0441894256ac478662792 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fc99f2c56b24bf792e7e9ba566d63ed = $(`<div id="html_9fc99f2c56b24bf792e7e9ba566d63ed" style="width: 100.0%; height: 100.0%;">2413 Admitted in: Thorncliffe Park</div>`)[0];
+            popup_5597d1ce9dc0441894256ac478662792.setContent(html_9fc99f2c56b24bf792e7e9ba566d63ed);
+        
+
+        circle_marker_373aca42ce6e4c93b0fd8e8a0946d155.bindPopup(popup_5597d1ce9dc0441894256ac478662792)
+        ;
+
+        
+    
+    
+            var circle_marker_1aec8c4d57cd40afaa4cd827ac2ccb77 = L.circleMarker(
+                [43.7014812, -79.3731559],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.274390010541953, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_463106e0fb5e420f8f5833638d643b92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdfbde0737534f7d9e51095de8040775 = $(`<div id="html_fdfbde0737534f7d9e51095de8040775" style="width: 100.0%; height: 100.0%;">2265 Admitted in: Leaside-Bennington</div>`)[0];
+            popup_463106e0fb5e420f8f5833638d643b92.setContent(html_fdfbde0737534f7d9e51095de8040775);
+        
+
+        circle_marker_1aec8c4d57cd40afaa4cd827ac2ccb77.bindPopup(popup_463106e0fb5e420f8f5833638d643b92)
+        ;
+
+        
+    
+    
+            var circle_marker_6dab808e0ccf4cba90374246eda29575 = L.circleMarker(
+                [43.6839216, -79.3569421],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.115376987923722, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_235c75ca5458493cb9b33469ad7fa154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eab283b5aa448d7a91a0ee672118f6b = $(`<div id="html_1eab283b5aa448d7a91a0ee672118f6b" style="width: 100.0%; height: 100.0%;">1674 Admitted in: Broadview North</div>`)[0];
+            popup_235c75ca5458493cb9b33469ad7fa154.setContent(html_1eab283b5aa448d7a91a0ee672118f6b);
+        
+
+        circle_marker_6dab808e0ccf4cba90374246eda29575.bindPopup(popup_235c75ca5458493cb9b33469ad7fa154)
+        ;
+
+        
+    
+    
+            var circle_marker_c5d9e1cf58b3476696e74b2f77a8d93e = L.circleMarker(
+                [43.712452, -79.31265325],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.085188032968829, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_44de6f519d3949ccaa2157f07571e00f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9c5abd8e984a8d9d1df220580b9e73 = $(`<div id="html_3d9c5abd8e984a8d9d1df220580b9e73" style="width: 100.0%; height: 100.0%;">1392 Admitted in: Old East York</div>`)[0];
+            popup_44de6f519d3949ccaa2157f07571e00f.setContent(html_3d9c5abd8e984a8d9d1df220580b9e73);
+        
+
+        circle_marker_c5d9e1cf58b3476696e74b2f77a8d93e.bindPopup(popup_44de6f519d3949ccaa2157f07571e00f)
+        ;
+
+        
+    
+    
+            var circle_marker_e28b0033d755470e869f212478910a6c = L.circleMarker(
+                [43.6881713, -79.3018156],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.42974988083765, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_393c1383cd4a4fbf8382307fc9252b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c697c35dedd40108c023d525dcbbab9 = $(`<div id="html_4c697c35dedd40108c023d525dcbbab9" style="width: 100.0%; height: 100.0%;">2855 Admitted in: Danforth-East York</div>`)[0];
+            popup_393c1383cd4a4fbf8382307fc9252b37.setContent(html_4c697c35dedd40108c023d525dcbbab9);
+        
+
+        circle_marker_e28b0033d755470e869f212478910a6c.bindPopup(popup_393c1383cd4a4fbf8382307fc9252b37)
+        ;
+
+        
+    
+    
+            var circle_marker_31da677583454d569bfd561f22b72da6 = L.circleMarker(
+                [43.7240387, -79.2661943],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.695466264008099, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_663d7ee99d1146a2ac8057e296382918 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a583ab5d0a5c4da0b11bf6c1418bb0f7 = $(`<div id="html_a583ab5d0a5c4da0b11bf6c1418bb0f7" style="width: 100.0%; height: 100.0%;">2654 Admitted in: Taylor-Massey</div>`)[0];
+            popup_663d7ee99d1146a2ac8057e296382918.setContent(html_a583ab5d0a5c4da0b11bf6c1418bb0f7);
+        
+
+        circle_marker_31da677583454d569bfd561f22b72da6.bindPopup(popup_663d7ee99d1146a2ac8057e296382918)
+        ;
+
+        
+    
+    
+            var circle_marker_778d3fcdcca84d41be084ac4888fea63 = L.circleMarker(
+                [43.6684402, -79.33067],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.599722360423486, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cf273467c78447978dd49864eca3b7a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e99c9cd8e5e4a1b9508c0fd0fd01fe9 = $(`<div id="html_8e99c9cd8e5e4a1b9508c0fd0fd01fe9" style="width: 100.0%; height: 100.0%;">3449 Admitted in: East End-Danforth</div>`)[0];
+            popup_cf273467c78447978dd49864eca3b7a9.setContent(html_8e99c9cd8e5e4a1b9508c0fd0fd01fe9);
+        
+
+        circle_marker_778d3fcdcca84d41be084ac4888fea63.bindPopup(popup_cf273467c78447978dd49864eca3b7a9)
+        ;
+
+        
+    
+    
+            var circle_marker_3d51f75c0b40422db0327397404d8007 = L.circleMarker(
+                [43.6710244, -79.296712],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.924651123953197, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_f7bd828b2e0e4bf0a1c489eeb06ffe6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d805cb201bd249ebb570dcc083bcd4ba = $(`<div id="html_d805cb201bd249ebb570dcc083bcd4ba" style="width: 100.0%; height: 100.0%;">2443 Admitted in: The Beaches</div>`)[0];
+            popup_f7bd828b2e0e4bf0a1c489eeb06ffe6b.setContent(html_d805cb201bd249ebb570dcc083bcd4ba);
+        
+
+        circle_marker_3d51f75c0b40422db0327397404d8007.bindPopup(popup_f7bd828b2e0e4bf0a1c489eeb06ffe6b)
+        ;
+
+        
+    
+    
+            var circle_marker_58864d4777f24d978d25806d639aa9e4 = L.circleMarker(
+                [43.6864333, -79.3003555],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.527219463995574, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_3965e8dfb1dc421796f707cefe50b79b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c7b30a0f3954849b8adac955c834ef5 = $(`<div id="html_0c7b30a0f3954849b8adac955c834ef5" style="width: 100.0%; height: 100.0%;">1513 Admitted in: Danforth</div>`)[0];
+            popup_3965e8dfb1dc421796f707cefe50b79b.setContent(html_0c7b30a0f3954849b8adac955c834ef5);
+        
+
+        circle_marker_58864d4777f24d978d25806d639aa9e4.bindPopup(popup_3965e8dfb1dc421796f707cefe50b79b)
+        ;
+
+        
+    
+    
+            var circle_marker_699647be47174daab5c16d2d83be65b6 = L.circleMarker(
+                [43.6786661, -79.3555177],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.460498985815331, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_6aa97c78171b4f3cbf557f3d2b62ae53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f802cb16cf394853b3f3aa37c1ac0b47 = $(`<div id="html_f802cb16cf394853b3f3aa37c1ac0b47" style="width: 100.0%; height: 100.0%;">1221 Admitted in: Playter Estates-Danforth</div>`)[0];
+            popup_6aa97c78171b4f3cbf557f3d2b62ae53.setContent(html_f802cb16cf394853b3f3aa37c1ac0b47);
+        
+
+        circle_marker_699647be47174daab5c16d2d83be65b6.bindPopup(popup_6aa97c78171b4f3cbf557f3d2b62ae53)
+        ;
+
+        
+    
+    
+            var circle_marker_d78cf8c36a8544a7b2bb3eb57156818f = L.circleMarker(
+                [43.66064985, -79.34271760826113],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.506264286434975, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_8b58dce2ac5e430e9237e176af7ae322 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a73fdf68f9e64243a5a246a4f74ac767 = $(`<div id="html_a73fdf68f9e64243a5a246a4f74ac767" style="width: 100.0%; height: 100.0%;">1781 Admitted in: North Riverdale</div>`)[0];
+            popup_8b58dce2ac5e430e9237e176af7ae322.setContent(html_a73fdf68f9e64243a5a246a4f74ac767);
+        
+
+        circle_marker_d78cf8c36a8544a7b2bb3eb57156818f.bindPopup(popup_8b58dce2ac5e430e9237e176af7ae322)
+        ;
+
+        
+    
+    
+            var circle_marker_c59c5c9d4813460bae0a13dfa4c992df = L.circleMarker(
+                [43.66064985, -79.34271760826113],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.150586417927585, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_1a7dafb0a15b4b38af97eee447b70d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_552ae87f7d12439c9e910d8c31f46e24 = $(`<div id="html_552ae87f7d12439c9e910d8c31f46e24" style="width: 100.0%; height: 100.0%;">4421 Admitted in: South Riverdale</div>`)[0];
+            popup_1a7dafb0a15b4b38af97eee447b70d34.setContent(html_552ae87f7d12439c9e910d8c31f46e24);
+        
+
+        circle_marker_c59c5c9d4813460bae0a13dfa4c992df.bindPopup(popup_1a7dafb0a15b4b38af97eee447b70d34)
+        ;
+
+        
+    
+    
+            var circle_marker_89aa79d674004139a5e4b26d8711cf27 = L.circleMarker(
+                [43.6607056, -79.3604569],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.745444866973067, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_f2b20df0da0240a69cd2e10a7b6964d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cfa8b8f4a4f43e588fe0e0fa454aeea = $(`<div id="html_8cfa8b8f4a4f43e588fe0e0fa454aeea" style="width: 100.0%; height: 100.0%;">1299 Admitted in: Regent Park</div>`)[0];
+            popup_f2b20df0da0240a69cd2e10a7b6964d0.setContent(html_8cfa8b8f4a4f43e588fe0e0fa454aeea);
+        
+
+        circle_marker_89aa79d674004139a5e4b26d8711cf27.bindPopup(popup_f2b20df0da0240a69cd2e10a7b6964d0)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae7cc4ff55041eba21c4791c0a0c772 = L.circleMarker(
+                [43.6546438, -79.3697278],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.85447928662633, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e4553edfe48c4d4ba54b2497542f09cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_102d81f80a8d45bc8d7f33e6bcdeebb9 = $(`<div id="html_102d81f80a8d45bc8d7f33e6bcdeebb9" style="width: 100.0%; height: 100.0%;">3245 Admitted in: Moss Park</div>`)[0];
+            popup_e4553edfe48c4d4ba54b2497542f09cc.setContent(html_102d81f80a8d45bc8d7f33e6bcdeebb9);
+        
+
+        circle_marker_2ae7cc4ff55041eba21c4791c0a0c772.bindPopup(popup_e4553edfe48c4d4ba54b2497542f09cc)
+        ;
+
+        
+    
+    
+            var circle_marker_da0bb7c4ecbd4a32aefe0b7e1f793b71 = L.circleMarker(
+                [43.6730826, -79.38828915261209],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.593379792153028, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_38bef2c92a88498a834c7acb5a4bdb38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21e30a2092be4878972b3fb05f09cc0c = $(`<div id="html_21e30a2092be4878972b3fb05f09cc0c" style="width: 100.0%; height: 100.0%;">3721 Admitted in: Church-Yonge Corridor</div>`)[0];
+            popup_38bef2c92a88498a834c7acb5a4bdb38.setContent(html_21e30a2092be4878972b3fb05f09cc0c);
+        
+
+        circle_marker_da0bb7c4ecbd4a32aefe0b7e1f793b71.bindPopup(popup_38bef2c92a88498a834c7acb5a4bdb38)
+        ;
+
+        
+    
+    
+            var circle_marker_3b87be73bdef45b8ae2d2ffdff0155a4 = L.circleMarker(
+                [43.6688649, -79.3891256],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.957529494856013, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5c0e3c5a693d4415b58fc3f746adcf2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a98b123da15040c38005473c3ef83ec3 = $(`<div id="html_a98b123da15040c38005473c3ef83ec3" style="width: 100.0%; height: 100.0%;">2452 Admitted in: Bay Street Corridor</div>`)[0];
+            popup_5c0e3c5a693d4415b58fc3f746adcf2f.setContent(html_a98b123da15040c38005473c3ef83ec3);
+        
+
+        circle_marker_3b87be73bdef45b8ae2d2ffdff0155a4.bindPopup(popup_5c0e3c5a693d4415b58fc3f746adcf2f)
+        ;
+
+        
+    
+    
+            var circle_marker_2a2fa691f3904ab39221eb7d1bb2f36d = L.circleMarker(
+                [43.663461999999996, -79.39775965337452],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.109796362851964, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_32bc85889cf5435d92cda0e5301a2e7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f047df0b25cb49c480206565ebd076f6 = $(`<div id="html_f047df0b25cb49c480206565ebd076f6" style="width: 100.0%; height: 100.0%;">1125 Admitted in: University</div>`)[0];
+            popup_32bc85889cf5435d92cda0e5301a2e7a.setContent(html_f047df0b25cb49c480206565ebd076f6);
+        
+
+        circle_marker_2a2fa691f3904ab39221eb7d1bb2f36d.bindPopup(popup_32bc85889cf5435d92cda0e5301a2e7a)
+        ;
+
+        
+    
+    
+            var circle_marker_25ec4f4b37f349dda077398214f38441 = L.circleMarker(
+                [43.6610934, -79.4122283],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.330912974953291, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_0a4e43c3af414e4fbe5d6957a96eb2ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af88f43cb9d94a309fa7129065bb1b54 = $(`<div id="html_af88f43cb9d94a309fa7129065bb1b54" style="width: 100.0%; height: 100.0%;">1733 Admitted in: Palmerston-Little Italy</div>`)[0];
+            popup_0a4e43c3af414e4fbe5d6957a96eb2ac.setContent(html_af88f43cb9d94a309fa7129065bb1b54);
+        
+
+        circle_marker_25ec4f4b37f349dda077398214f38441.bindPopup(popup_0a4e43c3af414e4fbe5d6957a96eb2ac)
+        ;
+
+        
+    
+    
+            var circle_marker_54d6e7389b8747c89399d73e410d8bb3 = L.circleMarker(
+                [43.64756465, -79.41388090266673],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.32918729537998, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_c6b768e95aa8456884bf941e3ab2af4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ac7674c984469e83f4d60157de5504 = $(`<div id="html_b5ac7674c984469e83f4d60157de5504" style="width: 100.0%; height: 100.0%;">2280 Admitted in: Trinity-Bellwoods</div>`)[0];
+            popup_c6b768e95aa8456884bf941e3ab2af4e.setContent(html_b5ac7674c984469e83f4d60157de5504);
+        
+
+        circle_marker_54d6e7389b8747c89399d73e410d8bb3.bindPopup(popup_c6b768e95aa8456884bf941e3ab2af4e)
+        ;
+
+        
+    
+    
+            var circle_marker_7e479a3b33ca4d85a95a70ad0043e9d9 = L.circleMarker(
+                [43.6440753, -79.4086982],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.141912790556079, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_66305b6ba00d48aa8eaedf487cd0af1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7352e53ebcd84b70bfc6e82efe4672c4 = $(`<div id="html_7352e53ebcd84b70bfc6e82efe4672c4" style="width: 100.0%; height: 100.0%;">1955 Admitted in: Niagara</div>`)[0];
+            popup_66305b6ba00d48aa8eaedf487cd0af1a.setContent(html_7352e53ebcd84b70bfc6e82efe4672c4);
+        
+
+        circle_marker_7e479a3b33ca4d85a95a70ad0043e9d9.bindPopup(popup_66305b6ba00d48aa8eaedf487cd0af1a)
+        ;
+
+        
+    
+    
+            var circle_marker_e76f3e8a6a4042249a7e9f429ba2b74f = L.circleMarker(
+                [43.6536319, -79.4264389],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.541832073285714, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_05ce7d5e36f24a88be23549af057f1f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b08c86ff48949199d62256ad37182be = $(`<div id="html_7b08c86ff48949199d62256ad37182be" style="width: 100.0%; height: 100.0%;">1517 Admitted in: Dufferin Grove</div>`)[0];
+            popup_05ce7d5e36f24a88be23549af057f1f7.setContent(html_7b08c86ff48949199d62256ad37182be);
+        
+
+        circle_marker_e76f3e8a6a4042249a7e9f429ba2b74f.bindPopup(popup_05ce7d5e36f24a88be23549af057f1f7)
+        ;
+
+        
+    
+    
+            var circle_marker_6c271c282219410e8e18f5227ae584e3 = L.circleMarker(
+                [43.64741325, -79.43111632546047],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.306304645070157, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cdd1db120bcf48de89ca1766febf1de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1744615ef249c0927aea9b41a5525f = $(`<div id="html_ba1744615ef249c0927aea9b41a5525f" style="width: 100.0%; height: 100.0%;">2000 Admitted in: Little Portugal</div>`)[0];
+            popup_cdd1db120bcf48de89ca1766febf1de4.setContent(html_ba1744615ef249c0927aea9b41a5525f);
+        
+
+        circle_marker_6c271c282219410e8e18f5227ae584e3.bindPopup(popup_cdd1db120bcf48de89ca1766febf1de4)
+        ;
+
+        
+    
+    
+            var circle_marker_b42e21ed8b1b46b7b020a402737df0df = L.circleMarker(
+                [43.6447523, -79.4482598],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.772384255957245, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_19d4fed8dcef4ae892d5b748a1958d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5079d77a04e450e8eefa6c09ce5c890 = $(`<div id="html_f5079d77a04e450e8eefa6c09ce5c890" style="width: 100.0%; height: 100.0%;">3770 Admitted in: South Parkdale</div>`)[0];
+            popup_19d4fed8dcef4ae892d5b748a1958d05.setContent(html_f5079d77a04e450e8eefa6c09ce5c890);
+        
+
+        circle_marker_b42e21ed8b1b46b7b020a402737df0df.bindPopup(popup_19d4fed8dcef4ae892d5b748a1958d05)
+        ;
+
+        
+    
+    
+            var circle_marker_8a448e3211914e74b6c873685862f032 = L.circleMarker(
+                [43.6514426, -79.4510381],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.005020475048969, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_3dcfa644817c4730bdc1a6d09af24d3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4736b6ce42c4c90a449380339405dfd = $(`<div id="html_d4736b6ce42c4c90a449380339405dfd" style="width: 100.0%; height: 100.0%;">2465 Admitted in: Roncesvalles</div>`)[0];
+            popup_3dcfa644817c4730bdc1a6d09af24d3d.setContent(html_d4736b6ce42c4c90a449380339405dfd);
+        
+
+        circle_marker_8a448e3211914e74b6c873685862f032.bindPopup(popup_3dcfa644817c4730bdc1a6d09af24d3d)
+        ;
+
+        
+    
+    
+            var circle_marker_18596033d7cc44b4966e539b1a4c8478 = L.circleMarker(
+                [43.6495416, -79.4842102],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.45090685157416, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_79b86302e07b4882a46c919996d7c4df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46809eee5aca427d8a1f731a9b76fe40 = $(`<div id="html_46809eee5aca427d8a1f731a9b76fe40" style="width: 100.0%; height: 100.0%;">3682 Admitted in: High Park-Swansea</div>`)[0];
+            popup_79b86302e07b4882a46c919996d7c4df.setContent(html_46809eee5aca427d8a1f731a9b76fe40);
+        
+
+        circle_marker_18596033d7cc44b4966e539b1a4c8478.bindPopup(popup_79b86302e07b4882a46c919996d7c4df)
+        ;
+
+        
+    
+    
+            var circle_marker_0abc186306324170aa69e9f2a45ce794 = L.circleMarker(
+                [43.6573833, -79.470961],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.474551445082682, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_3ae2cbfd89674224be547988c26221c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7ced2e00a7f447782023b3cbe8e27bf = $(`<div id="html_b7ced2e00a7f447782023b3cbe8e27bf" style="width: 100.0%; height: 100.0%;">3141 Admitted in: High Park North</div>`)[0];
+            popup_3ae2cbfd89674224be547988c26221c8.setContent(html_b7ced2e00a7f447782023b3cbe8e27bf);
+        
+
+        circle_marker_0abc186306324170aa69e9f2a45ce794.bindPopup(popup_3ae2cbfd89674224be547988c26221c8)
+        ;
+
+        
+    
+    
+            var circle_marker_23d0714b5d1b430d911a15cc4904b7a5 = L.circleMarker(
+                [43.6517776, -79.4759227],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.144602206504003, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_2dd37e76b65343ac95a4ef1b31fdc213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4de0667bde449df9f31e8aee192dae4 = $(`<div id="html_f4de0667bde449df9f31e8aee192dae4" style="width: 100.0%; height: 100.0%;">1682 Admitted in: Runnymede-Bloor West Village</div>`)[0];
+            popup_2dd37e76b65343ac95a4ef1b31fdc213.setContent(html_f4de0667bde449df9f31e8aee192dae4);
+        
+
+        circle_marker_23d0714b5d1b430d911a15cc4904b7a5.bindPopup(popup_2dd37e76b65343ac95a4ef1b31fdc213)
+        ;
+
+        
+    
+    
+            var circle_marker_fc123b20ee414cc289623a02824c1628 = L.circleMarker(
+                [43.677954, -79.4430828],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9163810829335155, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_fd72242950ba4ac3ae92ca30741c181e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e3b3f5cf06d457cbe7796be42cde1c3 = $(`<div id="html_7e3b3f5cf06d457cbe7796be42cde1c3" style="width: 100.0%; height: 100.0%;">2167 Admitted in: Corso Italia-Davenport</div>`)[0];
+            popup_fd72242950ba4ac3ae92ca30741c181e.setContent(html_7e3b3f5cf06d457cbe7796be42cde1c3);
+        
+
+        circle_marker_fc123b20ee414cc289623a02824c1628.bindPopup(popup_fd72242950ba4ac3ae92ca30741c181e)
+        ;
+
+        
+    
+    
+            var circle_marker_1e846c40660c418d9efe8c39d49f4201 = L.circleMarker(
+                [43.668005, -79.4413386],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.43380661951201, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_f2b601e80a2348a78693293c283ca6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa69497204d4472ab57d21b9151a11f3 = $(`<div id="html_aa69497204d4472ab57d21b9151a11f3" style="width: 100.0%; height: 100.0%;">5046 Admitted in: Dovercourt-Wallace Emerson-Junction</div>`)[0];
+            popup_f2b601e80a2348a78693293c283ca6f0.setContent(html_aa69497204d4472ab57d21b9151a11f3);
+        
+
+        circle_marker_1e846c40660c418d9efe8c39d49f4201.bindPopup(popup_f2b601e80a2348a78693293c283ca6f0)
+        ;
+
+        
+    
+    
+            var circle_marker_56db78883e3a4a9ab4f66d5c5cc55ea9 = L.circleMarker(
+                [43.682121699999996, -79.42383883756801],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.06347091220953, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_dd1aa21d9f7d410ab2e0c4d2c583111c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a552e22c334d09b916c0f7e1a5d5f7 = $(`<div id="html_21a552e22c334d09b916c0f7e1a5d5f7" style="width: 100.0%; height: 100.0%;">2481 Admitted in: Wychwood</div>`)[0];
+            popup_dd1aa21d9f7d410ab2e0c4d2c583111c.setContent(html_21a552e22c334d09b916c0f7e1a5d5f7);
+        
+
+        circle_marker_56db78883e3a4a9ab4f66d5c5cc55ea9.bindPopup(popup_dd1aa21d9f7d410ab2e0c4d2c583111c)
+        ;
+
+        
+    
+    
+            var circle_marker_0d13d740982749e5a1ae8354a649d0d9 = L.circleMarker(
+                [43.6703377, -79.407117],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.424572842117712, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5eba7652495e46d3b1de813f433fc0d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97626c07ef014e3185ed5520915c4827 = $(`<div id="html_97626c07ef014e3185ed5520915c4827" style="width: 100.0%; height: 100.0%;">4496 Admitted in: Annex</div>`)[0];
+            popup_5eba7652495e46d3b1de813f433fc0d2.setContent(html_97626c07ef014e3185ed5520915c4827);
+        
+
+        circle_marker_0d13d740982749e5a1ae8354a649d0d9.bindPopup(popup_5eba7652495e46d3b1de813f433fc0d2)
+        ;
+
+        
+    
+    
+            var circle_marker_db4d9e73193243718a222c99a6c0addb = L.circleMarker(
+                [43.6781015, -79.409415775],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.427620614912515, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_374130a3824f4f43b8b6aefd319c9795 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93445d6627b246578e4360690841295a = $(`<div id="html_93445d6627b246578e4360690841295a" style="width: 100.0%; height: 100.0%;">1212 Admitted in: Casa Loma</div>`)[0];
+            popup_374130a3824f4f43b8b6aefd319c9795.setContent(html_93445d6627b246578e4360690841295a);
+        
+
+        circle_marker_db4d9e73193243718a222c99a6c0addb.bindPopup(popup_374130a3824f4f43b8b6aefd319c9795)
+        ;
+
+        
+    
+    
+            var circle_marker_f82a36ab5da24b98897d0ea8fdc349cb = L.circleMarker(
+                [43.6880777, -79.3943963721967],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.964634006325172, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5a558f3917514581baaf92f8eca79989 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd6e9103fa07487d9e7a392c17e3e5bf = $(`<div id="html_cd6e9103fa07487d9e7a392c17e3e5bf" style="width: 100.0%; height: 100.0%;">1359 Admitted in: Yonge-St.Clair</div>`)[0];
+            popup_5a558f3917514581baaf92f8eca79989.setContent(html_cd6e9103fa07487d9e7a392c17e3e5bf);
+        
+
+        circle_marker_f82a36ab5da24b98897d0ea8fdc349cb.bindPopup(popup_5a558f3917514581baaf92f8eca79989)
+        ;
+
+        
+    
+    
+            var circle_marker_7fa51fca57974d549d88debc69b56484 = L.circleMarker(
+                [43.6869541, -79.3812804],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.277281219665788, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e5b3f2a463a24c8f9f941d023eabee6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad8d7ccfe46448587c71264a4e5d188 = $(`<div id="html_6ad8d7ccfe46448587c71264a4e5d188" style="width: 100.0%; height: 100.0%;">3087 Admitted in: Rosedale-Moore Park</div>`)[0];
+            popup_e5b3f2a463a24c8f9f941d023eabee6b.setContent(html_6ad8d7ccfe46448587c71264a4e5d188);
+        
+
+        circle_marker_7fa51fca57974d549d88debc69b56484.bindPopup(popup_e5b3f2a463a24c8f9f941d023eabee6b)
+        ;
+
+        
+    
+    
+            var circle_marker_ec4d7f21e3cf466385167508d5cfc92b = L.circleMarker(
+                [43.7039289, -79.3881996],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.234205334994067, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_121d88d9f5754d919d57dc8d44324e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5f30ac2bbf7491681f22dc960c68322 = $(`<div id="html_d5f30ac2bbf7491681f22dc960c68322" style="width: 100.0%; height: 100.0%;">2254 Admitted in: Mount Pleasant East</div>`)[0];
+            popup_121d88d9f5754d919d57dc8d44324e9a.setContent(html_d5f30ac2bbf7491681f22dc960c68322);
+        
+
+        circle_marker_ec4d7f21e3cf466385167508d5cfc92b.bindPopup(popup_121d88d9f5754d919d57dc8d44324e9a)
+        ;
+
+        
+    
+    
+            var circle_marker_09d755ec3a0a4517b5a60becc43957a8 = L.circleMarker(
+                [43.7067479, -79.3983271],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.304377172320934, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e6e15b124cba402eb8c65441ad07578b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d96a7fc418d04b0ea96e1c80bb4e8254 = $(`<div id="html_d96a7fc418d04b0ea96e1c80bb4e8254" style="width: 100.0%; height: 100.0%;">1452 Admitted in: Yonge-Eglinton</div>`)[0];
+            popup_e6e15b124cba402eb8c65441ad07578b.setContent(html_d96a7fc418d04b0ea96e1c80bb4e8254);
+        
+
+        circle_marker_09d755ec3a0a4517b5a60becc43957a8.bindPopup(popup_e6e15b124cba402eb8c65441ad07578b)
+        ;
+
+        
+    
+    
+            var circle_marker_8422abf52d104f87aeb6e0dd2b5f592e = L.circleMarker(
+                [43.6935586, -79.4139023],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.939061940067426, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_31d15fd2b9ea4418a4d11d8f4be601e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da6f1d193a834c878d67dc16c1c33eb0 = $(`<div id="html_da6f1d193a834c878d67dc16c1c33eb0" style="width: 100.0%; height: 100.0%;">1352 Admitted in: Forest Hill South</div>`)[0];
+            popup_31d15fd2b9ea4418a4d11d8f4be601e4.setContent(html_da6f1d193a834c878d67dc16c1c33eb0);
+        
+
+        circle_marker_8422abf52d104f87aeb6e0dd2b5f592e.bindPopup(popup_31d15fd2b9ea4418a4d11d8f4be601e4)
+        ;
+
+        
+    
+    
+            var circle_marker_1c1e5810fce842d8b419227078557427 = L.circleMarker(
+                [43.6935586, -79.4139023],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.032318220880026, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_d41cc41c3d9c496daeb70d403566e966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c552105e0b9c450fb6f62bab2ac99989 = $(`<div id="html_c552105e0b9c450fb6f62bab2ac99989" style="width: 100.0%; height: 100.0%;">1925 Admitted in: Forest Hill North</div>`)[0];
+            popup_d41cc41c3d9c496daeb70d403566e966.setContent(html_c552105e0b9c450fb6f62bab2ac99989);
+        
+
+        circle_marker_1c1e5810fce842d8b419227078557427.bindPopup(popup_d41cc41c3d9c496daeb70d403566e966)
+        ;
+
+        
+    
+    
+            var circle_marker_eeb455572e0e44eca85cf3515aecbfe3 = L.circleMarker(
+                [43.729199, -79.4032525],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.356485041211037, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_707b09e805a34e8fb8c549ba56227703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e53a226c5b248a2917a5ba564774265 = $(`<div id="html_0e53a226c5b248a2917a5ba564774265" style="width: 100.0%; height: 100.0%;">1740 Admitted in: Lawrence Park South</div>`)[0];
+            popup_707b09e805a34e8fb8c549ba56227703.setContent(html_0e53a226c5b248a2917a5ba564774265);
+        
+
+        circle_marker_eeb455572e0e44eca85cf3515aecbfe3.bindPopup(popup_707b09e805a34e8fb8c549ba56227703)
+        ;
+
+        
+    
+    
+            var circle_marker_7cb1a85d813a49309d069fa9a197008a = L.circleMarker(
+                [43.7084166, -79.3901348],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.713933818796686, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_f35a46e0c109469290de160cf693c0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a8b092a00640fb81256d0c4f21aef9 = $(`<div id="html_e2a8b092a00640fb81256d0c4f21aef9" style="width: 100.0%; height: 100.0%;">3754 Admitted in: Mount Pleasant West</div>`)[0];
+            popup_f35a46e0c109469290de160cf693c0e9.setContent(html_e2a8b092a00640fb81256d0c4f21aef9);
+        
+
+        circle_marker_7cb1a85d813a49309d069fa9a197008a.bindPopup(popup_f35a46e0c109469290de160cf693c0e9)
+        ;
+
+        
+    
+    
+            var circle_marker_6de8034759a84d2db41f89a42702feba = L.circleMarker(
+                [43.729199, -79.4032525],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.146529679253225, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_eb37d12b3c47486eb6a44c005e7469ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5def91e06b9841198025742521a677d5 = $(`<div id="html_5def91e06b9841198025742521a677d5" style="width: 100.0%; height: 100.0%;">2230 Admitted in: Lawrence Park North</div>`)[0];
+            popup_eb37d12b3c47486eb6a44c005e7469ce.setContent(html_5def91e06b9841198025742521a677d5);
+        
+
+        circle_marker_6de8034759a84d2db41f89a42702feba.bindPopup(popup_eb37d12b3c47486eb6a44c005e7469ce)
+        ;
+
+        
+    
+    
+            var circle_marker_f35ab646b8464076bfd95a6ab8728e70 = L.circleMarker(
+                [43.6883215, -79.4280805],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.569331612292683, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_25c9e0d5745c427db03f79e52619e3b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_993c5cabb0934888aba0fdfbe3270e68 = $(`<div id="html_993c5cabb0934888aba0fdfbe3270e68" style="width: 100.0%; height: 100.0%;">2072 Admitted in: Humewood-Cedarvale</div>`)[0];
+            popup_25c9e0d5745c427db03f79e52619e3b0.setContent(html_993c5cabb0934888aba0fdfbe3270e68);
+        
+
+        circle_marker_f35ab646b8464076bfd95a6ab8728e70.bindPopup(popup_25c9e0d5745c427db03f79e52619e3b0)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf4c880f26b4c55acc22c352aaa43f6 = L.circleMarker(
+                [43.6827255, -79.4380548],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.114816837900934, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_1348969467384373937856eca91b48b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10225431d2d74d89919292e9ee6652ab = $(`<div id="html_10225431d2d74d89919292e9ee6652ab" style="width: 100.0%; height: 100.0%;">3590 Admitted in: Oakwood Village</div>`)[0];
+            popup_1348969467384373937856eca91b48b3.setContent(html_10225431d2d74d89919292e9ee6652ab);
+        
+
+        circle_marker_fbf4c880f26b4c55acc22c352aaa43f6.bindPopup(popup_1348969467384373937856eca91b48b3)
+        ;
+
+        
+    
+    
+            var circle_marker_270b30e4fad44db7a3c8ef42f139093d = L.circleMarker(
+                [43.6901578, -79.4749985],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4441606969518785, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_7934c84290674eae92d95279631514b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdac0c62955044d1ad7f44a5d16bf87a = $(`<div id="html_bdac0c62955044d1ad7f44a5d16bf87a" style="width: 100.0%; height: 100.0%;">1764 Admitted in: Keelesdale-Eglinton West</div>`)[0];
+            popup_7934c84290674eae92d95279631514b0.setContent(html_bdac0c62955044d1ad7f44a5d16bf87a);
+        
+
+        circle_marker_270b30e4fad44db7a3c8ef42f139093d.bindPopup(popup_7934c84290674eae92d95279631514b0)
+        ;
+
+        
+    
+    
+            var circle_marker_d586827ee06f4415af75440b1f7cc8ad = L.circleMarker(
+                [43.7001608, -79.5162474],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.73123584403475, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_9211332e1ac44163baaebaf6bb5922d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee1529ce72447eeb5f7dc59f2656c2c = $(`<div id="html_eee1529ce72447eeb5f7dc59f2656c2c" style="width: 100.0%; height: 100.0%;">3485 Admitted in: Weston</div>`)[0];
+            popup_9211332e1ac44163baaebaf6bb5922d4.setContent(html_eee1529ce72447eeb5f7dc59f2656c2c);
+        
+
+        circle_marker_d586827ee06f4415af75440b1f7cc8ad.bindPopup(popup_9211332e1ac44163baaebaf6bb5922d4)
+        ;
+
+        
+    
+    
+            var circle_marker_3137d9ecf0284af2becc1536bdd5e3e8 = L.circleMarker(
+                [43.6869597, -79.4895513],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.416862951120821, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_8200cd02239143ef8f46f74a692a903b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2540c06557ce4d84b9c494011a7aa47b = $(`<div id="html_2540c06557ce4d84b9c494011a7aa47b" style="width: 100.0%; height: 100.0%;">2304 Admitted in: Mount Dennis</div>`)[0];
+            popup_8200cd02239143ef8f46f74a692a903b.setContent(html_2540c06557ce4d84b9c494011a7aa47b);
+        
+
+        circle_marker_3137d9ecf0284af2becc1536bdd5e3e8.bindPopup(popup_8200cd02239143ef8f46f74a692a903b)
+        ;
+
+        
+    
+    
+            var circle_marker_a71b430e59b64a81992a107f3450c128 = L.circleMarker(
+                [43.8161778, -79.3145378],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.105583060506639, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_fb5a25bee5ed4884a8412752e7602f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c5895dfb8ec4f8fa10e181a403d9368 = $(`<div id="html_9c5895dfb8ec4f8fa10e181a403d9368" style="width: 100.0%; height: 100.0%;">3040 Admitted in: Steeles</div>`)[0];
+            popup_fb5a25bee5ed4884a8412752e7602f8f.setContent(html_9c5895dfb8ec4f8fa10e181a403d9368);
+        
+
+        circle_marker_a71b430e59b64a81992a107f3450c128.bindPopup(popup_fb5a25bee5ed4884a8412752e7602f8f)
+        ;
+
+        
+    
+    
+            var circle_marker_22b8e66dddf84dbc91c5008c5520efa0 = L.circleMarker(
+                [43.799003, -79.3059669],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.285192903838592, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cb10f10483a74b8dbcce21503435926e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ac4c9400b35404c8d76d08f0c1303d2 = $(`<div id="html_6ac4c9400b35404c8d76d08f0c1303d2" style="width: 100.0%; height: 100.0%;">6374 Admitted in: L&#39;Amoreaux</div>`)[0];
+            popup_cb10f10483a74b8dbcce21503435926e.setContent(html_6ac4c9400b35404c8d76d08f0c1303d2);
+        
+
+        circle_marker_22b8e66dddf84dbc91c5008c5520efa0.bindPopup(popup_cb10f10483a74b8dbcce21503435926e)
+        ;
+
+        
+    
+    
+            var circle_marker_a970b10bd6564e2db48ffe5e80b28b20 = L.circleMarker(
+                [43.7792808, -79.3036989],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.16885217954026, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_bc61bfb4bf2e4fa690aa8564b33752b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cc55d96bafd4531b79575674ed8a6d0 = $(`<div id="html_2cc55d96bafd4531b79575674ed8a6d0" style="width: 100.0%; height: 100.0%;">4426 Admitted in: Tam O&#39;Shanter-Sullivan</div>`)[0];
+            popup_bc61bfb4bf2e4fa690aa8564b33752b3.setContent(html_2cc55d96bafd4531b79575674ed8a6d0);
+        
+
+        circle_marker_a970b10bd6564e2db48ffe5e80b28b20.bindPopup(popup_bc61bfb4bf2e4fa690aa8564b33752b3)
+        ;
+
+        
+    
+    
+            var circle_marker_2cacb14aa83840fb825ed817e53e1965 = L.circleMarker(
+                [43.6971738, -79.2748232],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.461664515365854, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_3dcdafbeaf774cf384edae039875e362 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a87865cc6243678c7ab7a313d20dfd = $(`<div id="html_70a87865cc6243678c7ab7a313d20dfd" style="width: 100.0%; height: 100.0%;">2590 Admitted in: Oakridge</div>`)[0];
+            popup_3dcdafbeaf774cf384edae039875e362.setContent(html_70a87865cc6243678c7ab7a313d20dfd);
+        
+
+        circle_marker_2cacb14aa83840fb825ed817e53e1965.bindPopup(popup_3dcdafbeaf774cf384edae039875e362)
+        ;
+
+        
+    
+    
+            var circle_marker_0c4a76e36b1e4bf0aa278522b1ebafe5 = L.circleMarker(
+                [43.7218363, -79.2362138],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.712768289246162, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_dc41175bbbe44eb89ed4f32803aab894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dc4718b711e497a8c3a3e67188e3bb1 = $(`<div id="html_7dc4718b711e497a8c3a3e67188e3bb1" style="width: 100.0%; height: 100.0%;">2385 Admitted in: Cliffcrest</div>`)[0];
+            popup_dc41175bbbe44eb89ed4f32803aab894.setContent(html_7dc4718b711e497a8c3a3e67188e3bb1);
+        
+
+        circle_marker_0c4a76e36b1e4bf0aa278522b1ebafe5.bindPopup(popup_dc41175bbbe44eb89ed4f32803aab894)
+        ;
+
+        
+    
+    
+            var circle_marker_d11bcf07e0c74e248abb9b0eb04b31ac = L.circleMarker(
+                [43.724878, -79.2539688],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.772182462781336, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_cda3d91205624b37962fb620531dbce3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_164eabb4707b40438bf23b2a3c042d3e = $(`<div id="html_164eabb4707b40438bf23b2a3c042d3e" style="width: 100.0%; height: 100.0%;">2675 Admitted in: Kennedy Park</div>`)[0];
+            popup_cda3d91205624b37962fb620531dbce3.setContent(html_164eabb4707b40438bf23b2a3c042d3e);
+        
+
+        circle_marker_d11bcf07e0c74e248abb9b0eb04b31ac.bindPopup(popup_cda3d91205624b37962fb620531dbce3)
+        ;
+
+        
+    
+    
+            var circle_marker_2aac2bdc17084524bdb5ab5c100fb1f3 = L.circleMarker(
+                [43.7359904, -79.2765146],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.600282510446276, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e15329207b8d403da72c369ccc53c77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e726183153ac4390b1e2c6ff76984d11 = $(`<div id="html_e726183153ac4390b1e2c6ff76984d11" style="width: 100.0%; height: 100.0%;">1533 Admitted in: Ionview</div>`)[0];
+            popup_e15329207b8d403da72c369ccc53c77c.setContent(html_e726183153ac4390b1e2c6ff76984d11);
+        
+
+        circle_marker_2aac2bdc17084524bdb5ab5c100fb1f3.bindPopup(popup_e15329207b8d403da72c369ccc53c77c)
+        ;
+
+        
+    
+    
+            var circle_marker_a76f1f3a44b447fabfb26abd0db43c57 = L.circleMarker(
+                [43.7528467, -79.282067],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.438983658231944, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_0fc47048f38e41d0bf787c65aa3dc83a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b16c770a16e349b2866b22729a8527ca = $(`<div id="html_b16c770a16e349b2866b22729a8527ca" style="width: 100.0%; height: 100.0%;">3405 Admitted in: Dorset Park</div>`)[0];
+            popup_0fc47048f38e41d0bf787c65aa3dc83a.setContent(html_b16c770a16e349b2866b22729a8527ca);
+        
+
+        circle_marker_a76f1f3a44b447fabfb26abd0db43c57.bindPopup(popup_0fc47048f38e41d0bf787c65aa3dc83a)
+        ;
+
+        
+    
+    
+            var circle_marker_c2d92ad012474bf98c4a5fd9e05d0b02 = L.circleMarker(
+                [43.7535196, -79.2553355],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.835451581814956, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_3bebd1e6111542478cfee6e8cd889cbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dfdf4dbe67440ba96d26dfb3f55a555 = $(`<div id="html_0dfdf4dbe67440ba96d26dfb3f55a555" style="width: 100.0%; height: 100.0%;">4061 Admitted in: Bendale</div>`)[0];
+            popup_3bebd1e6111542478cfee6e8cd889cbc.setContent(html_0dfdf4dbe67440ba96d26dfb3f55a555);
+        
+
+        circle_marker_c2d92ad012474bf98c4a5fd9e05d0b02.bindPopup(popup_3bebd1e6111542478cfee6e8cd889cbc)
+        ;
+
+        
+    
+    
+            var circle_marker_31642553e5c34f6bba4fa4bc6791946a = L.circleMarker(
+                [43.8080383, -79.2664391],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.167686649989736, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_c834f4580870415c986b71d659e2db97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28560082a54146efb67b492c781a8a1c = $(`<div id="html_28560082a54146efb67b492c781a8a1c" style="width: 100.0%; height: 100.0%;">3057 Admitted in: Agincourt North</div>`)[0];
+            popup_c834f4580870415c986b71d659e2db97.setContent(html_28560082a54146efb67b492c781a8a1c);
+        
+
+        circle_marker_31642553e5c34f6bba4fa4bc6791946a.bindPopup(popup_c834f4580870415c986b71d659e2db97)
+        ;
+
+        
+    
+    
+            var circle_marker_af409589664f4f5098489bc721c8f871 = L.circleMarker(
+                [43.8231743, -79.3017626],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.296510717653074, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_24f12e750e044b329d33599e4774c3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba020b2811bb463c9d9073728ced3d08 = $(`<div id="html_ba020b2811bb463c9d9073728ced3d08" style="width: 100.0%; height: 100.0%;">3366 Admitted in: Milliken</div>`)[0];
+            popup_24f12e750e044b329d33599e4774c3b2.setContent(html_ba020b2811bb463c9d9073728ced3d08);
+        
+
+        circle_marker_af409589664f4f5098489bc721c8f871.bindPopup(popup_24f12e750e044b329d33599e4774c3b2)
+        ;
+
+        
+    
+    
+            var circle_marker_37119bcf8c6c42419061c186c9578726 = L.circleMarker(
+                [43.8049304, -79.1658374],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.671821670499575, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5a07043442334893a3e1d2e3d74ba829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d4974bbc09247559ea640d24a1fc8ac = $(`<div id="html_2d4974bbc09247559ea640d24a1fc8ac" style="width: 100.0%; height: 100.0%;">3195 Admitted in: Rouge</div>`)[0];
+            popup_5a07043442334893a3e1d2e3d74ba829.setContent(html_2d4974bbc09247559ea640d24a1fc8ac);
+        
+
+        circle_marker_37119bcf8c6c42419061c186c9578726.bindPopup(popup_5a07043442334893a3e1d2e3d74ba829)
+        ;
+
+        
+    
+    
+            var circle_marker_17c3a7d17ed24cec9b4171842522ad6f = L.circleMarker(
+                [43.8091955, -79.2217008],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.862951120821922, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_1877369565284b26bbc6706badd9f2f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb544f65ccf54b2f8cc19e3720b6c8f1 = $(`<div id="html_fb544f65ccf54b2f8cc19e3720b6c8f1" style="width: 100.0%; height: 100.0%;">4616 Admitted in: Malvern</div>`)[0];
+            popup_1877369565284b26bbc6706badd9f2f1.setContent(html_fb544f65ccf54b2f8cc19e3720b6c8f1);
+        
+
+        circle_marker_17c3a7d17ed24cec9b4171842522ad6f.bindPopup(popup_1877369565284b26bbc6706badd9f2f1)
+        ;
+
+        
+    
+    
+            var circle_marker_5b95377b059142abbd2583ea04a5bf93 = L.circleMarker(
+                [43.7874914, -79.1507681],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.49530482946737, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_8c281418011048b2a83b2eea4b753619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_699fe883521b42af8562b74a26d390e9 = $(`<div id="html_699fe883521b42af8562b74a26d390e9" style="width: 100.0%; height: 100.0%;">1778 Admitted in: Centennial Scarborough</div>`)[0];
+            popup_8c281418011048b2a83b2eea4b753619.setContent(html_699fe883521b42af8562b74a26d390e9);
+        
+
+        circle_marker_5b95377b059142abbd2583ea04a5bf93.bindPopup(popup_8c281418011048b2a83b2eea4b753619)
+        ;
+
+        
+    
+    
+            var circle_marker_db3e2abf71e6418f97caf9c8d0e791f5 = L.circleMarker(
+                [43.7901172, -79.1733344],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.476075331480082, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_e79142c7859e47eca92bca170bb09299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba2a9ab0b3b4682bf7b3370aff82d0a = $(`<div id="html_8ba2a9ab0b3b4682bf7b3370aff82d0a" style="width: 100.0%; height: 100.0%;">1499 Admitted in: Highland Creek</div>`)[0];
+            popup_e79142c7859e47eca92bca170bb09299.setContent(html_8ba2a9ab0b3b4682bf7b3370aff82d0a);
+        
+
+        circle_marker_db3e2abf71e6418f97caf9c8d0e791f5.bindPopup(popup_e79142c7859e47eca92bca170bb09299)
+        ;
+
+        
+    
+    
+            var circle_marker_fbce3df9564c48b8becdb116d2e4874c = L.circleMarker(
+                [43.7826012, -79.2049579],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.087115505718052, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_a2bb7ab94bdc4ec388762d4c415f7569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_716f5018b3264afa9e27b2b827035753 = $(`<div id="html_716f5018b3264afa9e27b2b827035753" style="width: 100.0%; height: 100.0%;">1940 Admitted in: Morningside</div>`)[0];
+            popup_a2bb7ab94bdc4ec388762d4c415f7569.setContent(html_716f5018b3264afa9e27b2b827035753);
+        
+
+        circle_marker_fbce3df9564c48b8becdb116d2e4874c.bindPopup(popup_a2bb7ab94bdc4ec388762d4c415f7569)
+        ;
+
+        
+    
+    
+            var circle_marker_cfef5e92ee114070b99aaacb1a46a419 = L.circleMarker(
+                [43.7689144, -79.1872905],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.266523555874095, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_dd29d37447f2411a878328cee0ea0aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc0faeb4ade45e3930bf18e96017219 = $(`<div id="html_1bc0faeb4ade45e3930bf18e96017219" style="width: 100.0%; height: 100.0%;">4179 Admitted in: West Hill</div>`)[0];
+            popup_dd29d37447f2411a878328cee0ea0aa4.setContent(html_1bc0faeb4ade45e3930bf18e96017219);
+        
+
+        circle_marker_cfef5e92ee114070b99aaacb1a46a419.bindPopup(popup_dd29d37447f2411a878328cee0ea0aa4)
+        ;
+
+        
+    
+    
+            var circle_marker_f1748ffa2b89479d8d63ef696ce236a4 = L.circleMarker(
+                [43.7598243, -79.2252908],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.185033904732745, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_268b0ed1a4d6438e9ef9cd3784d5cb53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8ffdc140fdd4892947c5ae43b972d2d = $(`<div id="html_b8ffdc140fdd4892947c5ae43b972d2d" style="width: 100.0%; height: 100.0%;">7989 Admitted in: Woburn</div>`)[0];
+            popup_268b0ed1a4d6438e9ef9cd3784d5cb53.setContent(html_b8ffdc140fdd4892947c5ae43b972d2d);
+        
+
+        circle_marker_f1748ffa2b89479d8d63ef696ce236a4.bindPopup(popup_268b0ed1a4d6438e9ef9cd3784d5cb53)
+        ;
+
+        
+    
+    
+            var circle_marker_3ee51e1666624708a078db5b6d5ace14 = L.circleMarker(
+                [43.7394646, -79.2320997],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.542235659637536, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_789c7d9a8274486bb1289725ad9ef61d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490558ce7d854e1d85e0b38f8372878d = $(`<div id="html_490558ce7d854e1d85e0b38f8372878d" style="width: 100.0%; height: 100.0%;">3707 Admitted in: Eglinton East</div>`)[0];
+            popup_789c7d9a8274486bb1289725ad9ef61d.setContent(html_490558ce7d854e1d85e0b38f8372878d);
+        
+
+        circle_marker_3ee51e1666624708a078db5b6d5ace14.bindPopup(popup_789c7d9a8274486bb1289725ad9ef61d)
+        ;
+
+        
+    
+    
+            var circle_marker_274e675345e548a18180889ee6ed0a5b = L.circleMarker(
+                [43.7437422, -79.2116324],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.600484303622187, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_5603a45388d2493dad008f514033467d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42263c934d884499aabd7b058661f61b = $(`<div id="html_42263c934d884499aabd7b058661f61b" style="width: 100.0%; height: 100.0%;">2628 Admitted in: Scarborough Village</div>`)[0];
+            popup_5603a45388d2493dad008f514033467d.setContent(html_42263c934d884499aabd7b058661f61b);
+        
+
+        circle_marker_274e675345e548a18180889ee6ed0a5b.bindPopup(popup_5603a45388d2493dad008f514033467d)
+        ;
+
+        
+    
+    
+            var circle_marker_6e7222ad5adf4fa5a98c14b653073246 = L.circleMarker(
+                [43.7552251, -79.1982293],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.122683292568793, "stroke": true, "weight": 3}
+            ).addTo(map_fa3cf4e0e25b436a8ce885dc44459103);
+        
+    
+        var popup_92e1adbd411940b5aa8516b5c946f613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_714e4bf24204402f9b99ca0522789830 = $(`<div id="html_714e4bf24204402f9b99ca0522789830" style="width: 100.0%; height: 100.0%;">1676 Admitted in: Guildwood</div>`)[0];
+            popup_92e1adbd411940b5aa8516b5c946f613.setContent(html_714e4bf24204402f9b99ca0522789830);
+        
+
+        circle_marker_6e7222ad5adf4fa5a98c14b653073246.bindPopup(popup_92e1adbd411940b5aa8516b5c946f613)
+        ;
+
+        
+    
+</script>
